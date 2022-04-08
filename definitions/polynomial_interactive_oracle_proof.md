@@ -5,13 +5,21 @@
 
 ---
 
-Polynomial Interactive Oracle Proofs (PIOP, polyIOP or polynomial IOP) emerged from the development of SNARKs and were eventually formally defined in the [DARK paper](https://eprint.iacr.org/2019/1229.pdf) (2019). These are interactive oracle proofs where the prover must produce oracles for polynomials with a given degree bound.
+Polynomial Interactive Oracle Proofs (PIOP, polyIOP or polynomial IOP) emerged from the development of SNARKs and were later formally defined in the DARK paper {cite}`cryptoeprint:2019:1229`. These are interactive oracle proofs where the prover must produce oracles for polynomials with a given degree bound.
 
-```{figure} ../images/nitulescu-piop.png
----
-name: directive-fig
----
-Diagram from A. Nitiulescu, *zk-SNARKs: A Gentle Introduction,* [PDF available online](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf). Highly recommend reading for the technically inclined that are beginning in the zk space
+The following figure is taken from *zk-SNARKs: A Gentle Introduction* {cite}`Nitulescu2020zkSNARKsAG`[^1] and illustrates the prover-verifier interaction in a PIOP:
+
+```{image} ../images/nitulescu-piop.png
+
 ```
 
+```{note}
 This notion is equivalent to an [algebraic holographic proof](def:ahp).
+```
+
+## References
+```{bibliography}
+:filter: docname in docnames
+```
+
+[^1]: A great read for the technically-versed and curious reader trying to get a global overview of SNARKs in 2021/2022.

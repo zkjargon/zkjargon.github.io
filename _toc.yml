@@ -3,8 +3,19 @@ root: foreword
 parts:
 - caption: Definitions
   chapters:
-  - file: definitions/ahp
+  - file: definitions/algebraic_holographic_proof
+  - file: definitions/arithmetization
+  - file: definitions/circuit
+  - file: definitions/common_reference_string
+  - file: definitions/constraints
+  - file: definitions/fiat_shamir
   - file: definitions/fourier_transform
   - file: definitions/lagrange_interpolation
   - file: definitions/polynomial_commitment
   - file: definitions/polynomial_interactive_oracle_proof
+  - file: definitions/quadratic_arithmetic_program
+  - file: definitions/r1cs
+  - file: definitions/random_oracle
+  - file: definitions/roots_of_unity
+  - file: definitions/schwartz_zippel
+  - file: definitions/trusted_setup
