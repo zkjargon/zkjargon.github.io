@@ -7,7 +7,7 @@ The word “circuit” is used somewhat ambiguously, but most of the times we re
 
 ```{figure} ../images/arithmetic_circuit.png
 ---
-height: 400px
+scale: 70%
 name: arithmetic_circ
 ---
 An example of an arithmetic circuit

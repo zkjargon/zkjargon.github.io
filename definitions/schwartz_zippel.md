@@ -15,7 +15,7 @@ With that in mind, should we evaluate two polynomials of degree at most $d$ at a
 
 since case 2 is extremely unlikely we can assert with high probability that the two polynomials were identical.
 
-**Formalities - only for those who want them**: the lemma itself does not compare polynomials but instead is interested in the probability that a polynomial evaluates to 0. Notice that a non-zero polynomial of degree $d$ has at most $d$ roots (if it had more roots, it would be of higher degree!). Therefore let $p$ be a non-zero polynomial of degree $d$, $S$ be the evaluation domain of $p$, and $r$ an element of $S$ chosen uniformely at random, we can write:
+**Formalities - only for those who want them**: the lemma itself does not compare polynomials but instead is interested in the probability that a polynomial evaluates to 0. Notice that a non-zero polynomial of degree $d$ has at most $d$ roots (if it had more roots, it would be of higher degree!). Therefore let $p$ be a non-zero polynomial of degree $d$, $S$ be the evaluation domain of $p$, and $r$ an element of $S$ chosen uniformly at random, we can write:
 
 $$
 \text{Pr}\left[p(r) = 0 \right] \leq \frac{d}{|S|}
