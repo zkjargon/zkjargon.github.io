@@ -1,11 +1,10 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: foreword
 parts:
-  - caption: Definitions
-    chapters:
-    - file: definitions/ahp
-    # - file: notebooks
-    # - file: markdown-notebooks
+- caption: Definitions
+  chapters:
+  - file: definitions/ahp
+  - file: definitions/fourier_transform
+  - file: definitions/lagrange_interpolation
+  - file: definitions/polynomial_commitment
+  - file: definitions/polynomial_interactive_oracle_proof
