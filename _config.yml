@@ -4,6 +4,7 @@
 title: ZK Jargon Decoder
 author: Nicolas Mohnblatt
 # logo: logo.png
+copyright: "2022"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
