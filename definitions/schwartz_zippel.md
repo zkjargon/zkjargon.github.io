@@ -2,7 +2,10 @@
 > A little mathematical theorem that allows us to assert with high probability whether two polynomials are identical by evaluating both at the same randomly chosen input; this is very efficient!
 ---
 
-*(Warning! Math: polynomials, probabilities. In the spirit of this “jargon decoder”, we do not look at the lemma directly but instead give informal intuition for why it is useful in ZK arguments)*
+```{warning}
+*Math: polynomials, probabilities.
+In the spirit of this “jargon decoder”, we do not look at the lemma directly but instead give informal intuition for why it is useful in ZK arguments*
+```
 
 The **Schwartz-Zippel lemma is a central component to many arguments of knowledge** because it allows us to efficiently check whether two polynomials are identical.
 
