@@ -2,7 +2,7 @@
 # Arithmetization
 
 > *Ambiguous*. The process of turning a generic statement or question into a set of equations to be verified or solved - also refers to the output of that process.
-> 
+---
 
 Arithmetization is the process of turning a generic statement or question into a set of equation to be verified or solved. Consider the following statement: “I am twice older than my youngest sibling”. Can we write this mathematically? Let’s write $a_1, a_2, \dots, a_n$ the ages of the siblings and $x$ the age of the claimant. We can now rewrite the statement as: $x = 2*min(a_1, a_2, \dots, a_n)$
 
