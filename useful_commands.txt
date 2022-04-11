@@ -1,0 +1,8 @@
+build:
+jb build zk-jargon-decoder
+
+auto table of contents:
+jb toc from-project zk-jargon-decoder -f jb-book
+
+publish with github pages using ghp-import (requires to first build the project):
+ghp-import -n -p -f _build/html
