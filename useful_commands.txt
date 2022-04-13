@@ -6,3 +6,6 @@ jb toc from-project zk-jargon-decoder -f jb-book
 
 publish with github pages using ghp-import (requires to first build the project):
 ghp-import -n -p -f _build/html
+
+as above but forces to overwrite all files:
+ghp-import -n -p -o _build/html
