@@ -14,7 +14,7 @@ Consider two straight lines (degree 1 polynomials, $ax+b$): these are either ide
 With that in mind, should we evaluate two polynomials of degree at most $d$ at a single point in some evaluation domain $S$ and find that they agree we know that we are in one of two cases:
 
 - case 1: our polynomials are identical, all their coefficients are the same.
-- case 2: our polynomials are different and we are at one of the $d$ points where they agree. If our evaluation point was chosen at random in $S$, the probability of finding ourselves in this case is $\frac{\text{\# of points where polynomials agree}}{\text{\# of points we could have chosen from}}  = \frac{d}{|S|}$ (notation: $|S|$ denotes the *order* of $S$, i.e. the number of values in the set $S$). For a sufficiently large $S$ compared to $d$, this probability will approach 0.
+- case 2: our polynomials are different and we are at one of the $d$ points where they agree. If our evaluation point was chosen at random in $S$, the probability of finding ourselves in this case is $\frac{\text{# of points where polynomials agree}}{\text{# of points we could have chosen from}}  = \frac{d}{|S|}$ (notation: $|S|$ denotes the *order* of $S$, i.e. the number of values in the set $S$). For a sufficiently large $S$ compared to $d$, this probability will approach 0.
 
 since case 2 is extremely unlikely we can assert with high probability that the two polynomials were identical.
 
