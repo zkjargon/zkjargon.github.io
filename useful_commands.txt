@@ -1,5 +1,5 @@
-build:
-jb build zk-jargon-decoder
+remove previous build and build again:
+rm -r _build | jb build ../zk-jargon-decoder
 
 auto table of contents:
 jb toc from-project zk-jargon-decoder -f jb-book
