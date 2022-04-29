@@ -12,6 +12,7 @@ parts:
   - file: definitions/fourier_transform
   - file: definitions/instance
   - file: definitions/lagrange_interpolation
+  - file: definitions/nullifier
   - file: definitions/polynomial_commitment
   - file: definitions/polynomial_interactive_oracle_proof
   - file: definitions/preprocessing_snark
@@ -23,5 +24,7 @@ parts:
   - file: definitions/schwartz_zippel
   - file: definitions/snark
   - file: definitions/structured_reference_string
+  - file: definitions/threshold_encryption
   - file: definitions/trusted_setup
   - file: definitions/witness
+  - file: definitions/zero_knowledge_proof
