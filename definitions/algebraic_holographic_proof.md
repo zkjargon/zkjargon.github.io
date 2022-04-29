@@ -1,7 +1,7 @@
 (def:ahp)=
 # Algebraic Holographic Proof (AHP)
 
-> An algebraic holographic proof is a interactive oracle proof where the proving oracles are low degree polynomials and can be split into two categories: those that can be processed before the prover-verifier interactions and those that cannot. *Equivalent to [polynomial IOP](def:piop).*
+> An algebraic holographic proof is a interactive proof where the prover sends oracles which are low degree polynomials and can be split into two categories: those that can be processed before the prover-verifier interactions and those that cannot. *Equivalent to [polynomial IOP](def:piop).*
 
 ---
 

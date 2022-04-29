@@ -8,7 +8,7 @@ The nature of this project implies that our definitions will not be perfectly ac
 
 email: [nico@geometrydao.xyz](mailto:nico@geometrydao.xyz) // Twitter: [@nico_mnbl](https://twitter.com/nico_mnbl)
 
-This project is still in progress, participation and suggestions are always welcome!
+This project is still work in progress, participation and suggestions are always welcome!
 
 
 ## Table of Contents

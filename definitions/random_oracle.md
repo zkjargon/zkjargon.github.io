@@ -10,5 +10,5 @@ The random oracle model is **a tool** that we use to write security proofs for o
 - unrelated to the query: nothing about a random oracle’s response gives me information about the query.
 
 ```{note}
-When working in the random oracle model, we will often claim that cryptographic hash functions (SHA256, Keccak/SHA3, Poseidon) behave like random oracles. Does this claim always hold? This [ZKHack puzzle](https://www.zkhack.dev/puzzle1.html) explores the question (spoilers: no).
+When working in the random oracle model, we will often claim that cryptographic hash functions (SHA256, Keccak/SHA3, Poseidon) behave like random oracles. Does this claim always hold? This [ZKHack puzzle](https://www.zkhack.dev/puzzle1.html) explores the question. Spoilers: this sometimes fails if we are not careful.
 ```
