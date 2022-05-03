@@ -1,3 +1,4 @@
+(def:circuit)=
 # Circuit
 
 > *Ambiguous.* In ZK literature this usually refers to an arithmetic circuit: an ordered collection of additions and multiplications (and sometimes custom operations) that are applied to a set of inputs to yield an output.
