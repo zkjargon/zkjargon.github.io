@@ -7,16 +7,13 @@ In this article, we will define a number of notions relevant to proof systems an
 ## Statement, Instance and Witness
 Let's consider a Sudoku grid, a specific **instance** of a problem. Alice makes the following **statement**: "This grid has a solution". If it exists, this solution would be a **witness** to the fact that the statement is true. But maybe the grid is hard to solve and just looking at the instance (the grid) is not enough to be convinced that a witness (a solution) exists. What can Alice do to convince us that the witness exists?
 
-```{figure} ../images/inst_stat_wit.png
----
-scale: 38%
-name: inst_stat_wit
----
-An illustration of instance, statement and witness. Grid from [Wikipedia](https://en.wikipedia.org/wiki/Sudoku).
+```{image} ../images/inst_stat_wit.png
+:alt: inst_stat_wit
+:align: center
 ```
 
 ## Proof vs Argument
-To support her statement, Alice shows us that the Sudoku grid has been published in many well-known and respected newspapers. In most cases this would be enough to convince us that the statement is true: surely they wouldn't publish a "wrong" grid. However, if Alice were very powerful she could have been able to produce fake copies of the papers, or pay the news editors to include an unsolvable grid. Because there is still a small chance that Alice is cheating, we do not say that Alice produced an irrefutable **proof** but rather say that Alice has produced an **argument**.
+To support her statement, Alice shows us that the Sudoku grid has been published in many well-known and respected newspapers. In most cases this would be enough to convince us that the statement is true: surely they wouldn't publish a "wrong" grid. However, if Alice were very powerful she could have been able to produce modified copies of the papers, or pay the news editors to include an unsolvable grid. Because there is still a small chance that Alice is cheating, we do not say that Alice produced an irrefutable **proof** but rather say that Alice has produced an **argument**.
 
 More formally, a proof cannot be falsified by a computationally unbounded adversary. On the other hand an argument can be falsified by such an adversarial prover. In practice, the bound can be set so high that we estimate that no entity in the world would be able to reliably operate above such a bound. With that in mind, we often abuse the distinction above and use the word "proof" to describe the outputs of both a proof system and an argument system.
 
@@ -36,7 +33,7 @@ In practice we do not look at Sudokus but instead consider an [arithmetic circui
 
 We can write a proof for the statement about the circuit by expressing everything as polynomials and running a [polynomial interactive oracle proof](def:piop). This proof can then be made non-interactive by using the [Fiat-Shamir heuristic](def:fiat_shamir), and succinct by using a [polynomial commitment scheme](def:polycommit).
 
-Note that this description only reflects current popular strategies for SNARKs. Other strategies exist and some are yet to be developed.
+Note that this description only reflects current popular strategies for SNARKs as seen in Marlin or PlonK. Other strategies have been developed, such as those employed in building STARKs, and some are yet to be discovered.
 ```
 
 ---
