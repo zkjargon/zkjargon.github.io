@@ -11,7 +11,7 @@ The **Schwartz-Zippel lemma is a central component to many arguments of knowledg
 
 Consider two straight lines (degree 1 polynomials, $ax+b$): these are either identical or intersect at most once. Similarly, two parabolas (degree 2 polynomials, $ax^2+bx+c$) are either identical or will intersect at most twice. Degree 3 polynomial will have at most 3 intersections, etc... The Schwartz-Zippel lemma can be used to show that this pattern is true for polynomials of any degree $d$: their evaluations will only be equal to each other for at most $d$ inputs.
 
-With that in mind, should we evaluate two polynomials of degree at most $d$ at a single point in some evaluation domain $S$ and find that they agree we know that we are in one of two cases:
+With that in mind, imagine that we evaluate two polynomials of degree at most $d$ at a single point in some evaluation domain $S$ and find that they agree. We know that we are in one of two cases:
 
 - case 1: our polynomials are identical, all their coefficients are the same.
 - case 2: our polynomials are different and we are at one of the $d$ points where they agree. If our evaluation point was chosen at random in $S$, the probability of finding ourselves in this case is $\frac{\text{# of points where polynomials agree}}{\text{# of points we could have chosen from}}  = \frac{d}{|S|}$ (notation: $|S|$ denotes the *order* of $S$, i.e. the number of values in the set $S$). For a sufficiently large $S$ compared to $d$, this probability will approach 0.
