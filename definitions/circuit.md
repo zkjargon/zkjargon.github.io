@@ -14,5 +14,4 @@ name: arithmetic_circ
 An example of an arithmetic circuit
 ```
 
-
-Why are we so obsessed with arithmetic circuits? Finding a set of input values that produce a desired output is a hard problem. In fact it is one of the hardest problems in the NP class and any other problem in NP can be compiled into this circuit satisfiability problem.
+Why are we so obsessed with arithmetic circuits? Finding a set of input values that produce a desired output is a hard problem. This problem is known as the circuit satisfiability problem and has been heavily studied in complexity theory. One notable result is that any provable statement can be converted to the satisfiability problem (more formally, the circuit satisfiability problem is NP-complete). This comes in handy when we want to construct proof systems for generic statements.
