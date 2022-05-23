@@ -6,7 +6,7 @@ The ZK Jargon Decoder aims to be a **dictionary and reference guide** for common
 
 The nature of this project implies that our definitions will not be perfectly accurate: some technical details will be omitted, some subtleties will be ignored. However if you feel that any of these definitions overlook important aspects of the terms they clarify please get in touch by email or Twitter:
 
-email: [nico@geometrydao.xyz](mailto:nico@geometrydao.xyz) // Twitter: [@nico_mnbl](https://twitter.com/nico_mnbl)
+email: [nico@geometryresearch.xyz](mailto:nico@geometryresearch.xyz) // Twitter: [@nico_mnbl](https://twitter.com/nico_mnbl)
 
 This project is still work in progress, participation and suggestions are always welcome!
 
