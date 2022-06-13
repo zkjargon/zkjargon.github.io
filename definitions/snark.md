@@ -12,6 +12,7 @@ Let's consider a Sudoku grid, a specific **instance** of a problem. Alice makes 
 :align: center
 ```
 
+(parag:proofvsarg)=
 ## Proof vs Argument
 To support her statement, Alice shows us that the Sudoku grid has been published in many well-known and respected newspapers. In most cases this would be enough to convince us that the statement is true: surely they wouldn't publish a "wrong" grid. However, if Alice were very powerful she could have been able to produce modified copies of the papers, or pay the news editors to include an unsolvable grid. Because there is still a small chance that Alice is cheating, we do not say that Alice produced an irrefutable **proof** but rather say that Alice has produced an **argument**.
 

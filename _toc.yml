@@ -7,6 +7,7 @@ parts:
   - file: definitions/arithmetization
   - file: definitions/circuit
   - file: definitions/common_reference_string
+  - file: definitions/completeness
   - file: definitions/constraints
   - file: definitions/fiat_shamir
   - file: definitions/fourier_transform
@@ -23,6 +24,7 @@ parts:
   - file: definitions/roots_of_unity
   - file: definitions/schwartz_zippel
   - file: definitions/snark
+  - file: definitions/soundness
   - file: definitions/structured_reference_string
   - file: definitions/threshold_encryption
   - file: definitions/trusted_setup
