@@ -1,6 +1,6 @@
 (def:random_oracle)=
 # Random Oracle Model (ROM)
-> An approximation of the real world in which certain computations (like hashing or signing a message) are seen as truly random.
+> An approximation of the real world in which the outputs of certain computations (like hashing or signing a message) are seen as truly random.
 ---
 
 The random oracle model is **a tool** that we use to write security proofs for our cryptographic constructions - it is a representation of the world in which we claim that random oracles exist. A *random oracle* is a black box to which we *ask queries* (send values) and receive a *response*: a value chosen at random. The random oracle’s responses are

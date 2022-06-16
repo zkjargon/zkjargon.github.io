@@ -1,6 +1,7 @@
 (def:coefficient_form)=
 # Coefficient Form
 > *(Of a polynomial)*. Represent a polynomial as a list of the coefficients associated to each power of the indeterminate variable.
+---
 
 (header:coeffs_vs_evals)=
 ## Coefficient Form vs Evaluation Form

@@ -1,6 +1,7 @@
 (def:soundness)=
 # Soundness
 > *(Of a proof system)*. A proof system is said to be *sound* if the verifier rejects an invalid proof with high probability.
+---
 
 *Soundness* is a property of a proof system best understood as: "a malicious Prover should not be able to convince the Verifier of an invalid statement". By convention we say that a proof system is sound if an honest verifier will reject an invalid proof with probability greater than $\frac{2}{3}$. Or similarly to our [completeness](def:completeness) definition, if we denote $V'$ the random variable that represents the Verifier's output given an **invalid** proof, we can write the soundness property as:
 

@@ -1,6 +1,7 @@
 (def:roots_unity)=
 # Roots of Unity
 > The $n$-th root of unity is a number $\omega$ such that $\omega^n = 1$; we often call roots of unity the set $\left\{ 1, \omega, \omega^2, \dots, \omega^{n-1}\right\}$.
+---
 
 The $n$-th root of unity is a number $\omega$ such that $\omega^n = 1$. When we use the plural, $n$-th roots of unity, we refer to the set $\left\{ 1, \omega, \omega^2, \dots, \omega^{n-1}\right\}$.
 

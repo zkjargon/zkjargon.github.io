@@ -1,5 +1,6 @@
 # Vanishing Polynomial
 > The unique polynomial of degree $d$ that evaluates to $0$ at all points of a domain of size $d$.
+---
 
 The vanishing polynomial over a set $\mathbb{K}$, often denoted $z_\mathbb{K}$, is the polynomial which has a single root at each element of $\mathbb{K}$. It can be explicitly written as:
 

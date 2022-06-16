@@ -1,6 +1,7 @@
 (def:snark)=
 # SNARK
 > *Acronym: succinct non-interactive argument of knowledge.* An argument system in which a Prover can produce a short, single-message proof attesting that she knows some information that shows the truth of a statement.
+---
 
 In this article, we will define a number of notions relevant to proof systems and SNARKs by using the example of a [Sudoku grid](https://en.wikipedia.org/wiki/Sudoku). Look out for words in bold: these are common jargon words which get mapped to our simple example.
 
