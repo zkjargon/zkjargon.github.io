@@ -6,11 +6,13 @@ parts:
   - file: definitions/algebraic_holographic_proof
   - file: definitions/arithmetization
   - file: definitions/circuit
+  - file: definitions/coefficient_form
   - file: definitions/common_reference_string
   - file: definitions/completeness
   - file: definitions/constraints
+  - file: definitions/evaluation_form
+  - file: definitions/fast_fourier_transform
   - file: definitions/fiat_shamir
-  - file: definitions/fourier_transform
   - file: definitions/instance
   - file: definitions/lagrange_interpolation
   - file: definitions/nullifier
@@ -28,5 +30,6 @@ parts:
   - file: definitions/structured_reference_string
   - file: definitions/threshold_encryption
   - file: definitions/trusted_setup
+  - file: definitions/vanishing_polynomial
   - file: definitions/witness
   - file: definitions/zero_knowledge_proof
