@@ -5,11 +5,13 @@ parts:
   chapters:
   - file: definitions/algebraic_holographic_proof
   - file: definitions/arithmetization
+  - file: definitions/base_field
   - file: definitions/circuit
   - file: definitions/coefficient_form
   - file: definitions/common_reference_string
   - file: definitions/completeness
   - file: definitions/constraints
+  - file: definitions/elliptic_curve
   - file: definitions/evaluation_form
   - file: definitions/fast_fourier_transform
   - file: definitions/fiat_shamir
@@ -24,6 +26,7 @@ parts:
   - file: definitions/r1cs
   - file: definitions/random_oracle
   - file: definitions/roots_of_unity
+  - file: definitions/scalar_field
   - file: definitions/schwartz_zippel
   - file: definitions/snark
   - file: definitions/soundness
