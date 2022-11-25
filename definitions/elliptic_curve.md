@@ -18,4 +18,4 @@ $$
 A + A + A = 3A
 $$
 
-The number '$3$' above is referred to as a *scalar*. If we are in a cyclic group, then the scalars also define a finite fine: we call this field the **scalar field**. 
+The number '$3$' above is referred to as a *scalar*. If we are in a cyclic group, then the scalars also define a finite field: we call this field the **scalar field**. 
