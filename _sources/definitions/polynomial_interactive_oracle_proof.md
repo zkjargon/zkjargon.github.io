@@ -14,7 +14,7 @@ The following figure is taken from *zk-SNARKs: A Gentle Introduction* {cite}`Nit
 ```
 
 ```{note}
-This notion is equivalent to an [algebraic holographic proof](def:ahp).
+This notion is closely related to an [algebraic holographic proof](def:ahp).
 ```
 
 ## References
