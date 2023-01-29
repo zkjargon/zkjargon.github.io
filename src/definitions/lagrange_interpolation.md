@@ -2,7 +2,7 @@
 > A method to construct the unique polynomial of degree $d$ that passes through $d+1$ given points.
 ---
 
-*⚠️ Prerequisites: [Coefficient vs Evaluation Form](./coefficient_form.md#coefficient-form-vs-evaluation-form).*
+*⚠️ Prerequisites: [Coefficient vs Evaluation Form](./coefficient_form.md).*
 
 Lagrange interpolation is one way to perform polynomial interpolation (recall that this is the process of recovering a polynomial from a set of known evaluations, see prerequisites above).
 
