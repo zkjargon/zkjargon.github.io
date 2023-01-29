@@ -5,7 +5,7 @@
 The vanishing polynomial over a set $\mathbb{K}$, often denoted $z_\mathbb{K}$, is the polynomial which has a single root at each element of $\mathbb{K}$. It can be explicitly written as:
 
 $$
-z_\mathbb{K}(x) = \prod_{k \in \mathbb{K}} (x-k)
+z_\mathbb{K}(X) = \prod_{k \in \mathbb{K}} (X-k)
 $$
 
 
