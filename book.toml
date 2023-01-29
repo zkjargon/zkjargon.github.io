@@ -6,6 +6,7 @@ src = "src"
 title = "ZK Jargon Decoder"
 
 [preprocessor.katex]
+renderers = ["html"]
 
 [output.katex]
 
