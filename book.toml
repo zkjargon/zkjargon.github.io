@@ -1,0 +1,19 @@
+[book]
+authors = ["Nicolas Mohnblatt"]
+language = "en"
+multilingual = false
+src = "src"
+title = "ZK Jargon Decoder"
+
+[preprocessor.katex]
+
+[output.katex]
+
+[output.html]
+curly-quotes = true
+mathjax-support = true
+no-section-label = true
+git-repository-url = "https://github.com/nmohnblatt/zk-jargon-decoder"
+
+[output.html.print]
+page-break = false
