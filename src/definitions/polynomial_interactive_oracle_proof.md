@@ -6,7 +6,7 @@
 
 Polynomial Interactive Oracle Proofs (PIOP, polyIOP or polynomial IOP) emerged from the development of SNARKs and were later formally defined in the DARK paper [[BFS20]](https://ia.cr/2019/1229). These are interactive protocols between a prover and a verifier. With each message the prover produces an oracle and the verifier gets to query any oracles it has received from the prover. In a PIOP, the prover can only produce oracles that evaluate polynomials with degree lower than a given bound.
 
-The following figure is taken from *zk-SNARKs: A Gentle Introduction* [[Nit20]](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf) [^1] and illustrates the prover-verifier interaction in a PIOP:
+The following figure is taken from *zk-SNARKs: A Gentle Introduction* [[Nit20]](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf)[^1] and illustrates the prover-verifier interaction in a PIOP:
 
 ![PIOP protocol diagram from [Nit20]](../images/nitulescu-piop.png)
 
