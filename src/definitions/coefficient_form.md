@@ -2,11 +2,13 @@
 > *Of a polynomial*. Represent a polynomial as a list of the coefficients associated to each power of the indeterminate variable.
 ---
 
-## Coefficient Form vs Evaluation Form
 Let's look at an example polynomial $p$, defined as $p(X) = X^3 + 4X^2 + 5$. How can we describe this polynomial in a computer program?
 
-The first approach is to record a list of the coefficients in front of every power of the indeterminate $X$: `[5, 0, 4, 1]`. Here we ordered the coefficients from lowest to highest power; conveniently, the index of the elements of our array correspond to the power of $X$. As we recorded coefficients, this is known as the "coefficient form".
+One approach is to record a list of the coefficients in front of every power of the indeterminate $X$: `p_coeffs = [5, 0, 4, 1]`. Here we ordered the coefficients from lowest to highest power; conveniently, the index of the elements of our array correspond to the power of $X$. As we recorded coefficients, this is known as the "coefficient form".
 
-Another equivalent representation would be to provide evaluations of $p$ at a large enough number of known points. In fact, for a polynomial of degree $d$, we will always need at least $d+1$ points. In our case, we could evaluate $p$ at 4 points: $p(0) = 5$, $p(1) = 10$, $p(2) = 29$ and $p(3) = 68$. Again we could record this in an array as `[5, 10, 29, 68]`. This recording of evaluations is aptly named the "evaluation form".
+Another equivalent representation would be to provide evaluations of $p$ at a large enough number of known points (see [Evaluation Form](./evaluation_form.md)).
 
-There is no superior representation, each of these provide unique properties and can allow more efficient computation of specific operations. We can convert from coefficient form to evaluation form by evaluating the polynomial at $d+1$ points. The operation that converts from evaluation form back to coefficient form is known as polynomial **interpolation** ([Lagrange interpolation](./lagrange_interpolation.md) is one way to perform this operation).
+> **Coefficient Form vs Evaluation Form.**
+> There is no strictly superior representation. The coefficient form allows for a more lightweight representation of sparse polynomials (polynomials where many of the coefficients are $0$). Indeed, we only need to record the non-zero coefficients. On the other hand, some operations such as polynomial multiplication are much more expensive in coefficient form ($\mathcal{O}(n^2)$) than they are in evaluation form ($\mathcal{O}(n)$).
+>
+> We can convert from coefficient form to evaluation form by evaluating the polynomial at $d+1$ points. The operation that converts from evaluation form back to coefficient form is known as polynomial **interpolation** ([Lagrange interpolation](./lagrange_interpolation.md) is one way to perform this operation).
