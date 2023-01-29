@@ -1,5 +1,5 @@
 # Fast Fourier Transform (FFT)
-> An algorithm that allows us to efficiently "convert" between two equivalent representations of polynomials: either as a list of coefficients (coefficient form) or as a list of evaluations of the polynomial (evaluation form).
+> An algorithm that allows us to efficiently "convert" between two equivalent representations of polynomials: either as a list of coefficients ([coefficient form](./coefficient_form.md)) or as a list of evaluations of the polynomial ([evaluation form](./evaluation_form.md)).
 ---
 *COMING SOON*.
 

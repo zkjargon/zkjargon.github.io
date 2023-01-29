@@ -9,8 +9,3 @@ The nature of this project implies that our definitions will not be perfectly ac
 email: [nico@geometry.xyz](mailto:nico@geometry.xyz) // Twitter: [@nico_mnbl](https://twitter.com/nico_mnbl)
 
 This project is still work in progress, participation and suggestions are always welcome!
-
-
-## Table of Contents
-```{tableofcontents}
-```

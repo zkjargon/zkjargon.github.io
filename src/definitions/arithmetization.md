@@ -1,4 +1,3 @@
-(def:arithmetization)=
 # Arithmetization
 
 > *Ambiguous*. The process of turning a generic statement or question into a set of equations to be verified or solved - also refers to the output of that process.
