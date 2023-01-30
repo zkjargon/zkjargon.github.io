@@ -1,540 +1,208 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Common Reference String - ZK Jargon Decoder</title>
 
-<!DOCTYPE html>
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
-    <title>Common Reference String &#8212; ZK Jargon Decoder</title>
-    
-  <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-
-    
-  <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
-
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
-  <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
-
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
-    <script>let toggleHintShow = 'Click to show';</script>
-    <script>let toggleHintHide = 'Click to hide';</script>
-    <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Completeness" href="completeness.html" />
-    <link rel="prev" title="Coefficient Form" href="coefficient_form.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
-  </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
-
-    
-    <div class="container-fluid" id="banner"></div>
-
-    
-
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../index.html">
-      
-      
-      
-      <h1 class="site-logo" id="site-title">ZK Jargon Decoder</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
+        <!-- Custom HTML head -->
         
-        <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="../foreword.html">
-                    Foreword
-                </a>
-            </li>
-        </ul>
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Definitions
- </span>
-</p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="algebraic_holographic_proof.html">
-   Algebraic Holographic Proof (AHP)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="arithmetization.html">
-   Arithmetization
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="base_field.html">
-   Base Field
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="circuit.html">
-   Circuit
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="coefficient_form.html">
-   Coefficient Form
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Common Reference String
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="completeness.html">
-   Completeness
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="constraints.html">
-   Constraints
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="elliptic_curve.html">
-   Elliptic Curve
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="evaluation_form.html">
-   Evaluation Form
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="fast_fourier_transform.html">
-   Fast Fourier Transform (FFT)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="fiat_shamir.html">
-   Fiat-Shamir Heuristic
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="instance.html">
-   Instance
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="lagrange_interpolation.html">
-   Lagrange Interpolation
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="nullifier.html">
-   Nullifier
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="polynomial_commitment.html">
-   Polynomial Commitment Scheme
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="polynomial_interactive_oracle_proof.html">
-   Polynomial Interactive Oracle Proof (PIOP)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="preprocessing_snark.html">
-   Preprocessing SNARK
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="public-coin.html">
-   Public-coin
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="quadratic_arithmetic_program.html">
-   Quadratic Arithmetic Program (QAP)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="r1cs.html">
-   R1CS
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="random_oracle.html">
-   Random Oracle Model (ROM)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="roots_of_unity.html">
-   Roots of Unity
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="scalar_field.html">
-   Scalar Field
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="schwartz_zippel.html">
-   Schwartz-Zippel Lemma
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="snark.html">
-   SNARK
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="soundness.html">
-   Soundness
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="structured_reference_string.html">
-   Structured Reference String
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="threshold_encryption.html">
-   Threshold Encryption
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="trusted_setup.html">
-   Trusted Setup
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="vanishing_polynomial.html">
-   Vanishing Polynomial
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="witness.html">
-   Witness
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="zero_knowledge_proof.html">
-   Zero-knowledge Proof
-  </a>
- </li>
-</ul>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
 
-    </div>
-</nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../foreword.html">Foreword</a></li><li class="chapter-item expanded affix "><li class="part-title">Definitions</li><li class="chapter-item expanded "><a href="../definitions/algebraic_holographic_proof.html">Algebraic Holographic Proof (AHP)</a></li><li class="chapter-item expanded "><a href="../definitions/arithmetization.html">Arithmetization</a></li><li class="chapter-item expanded "><a href="../definitions/base_field.html">Base Field</a></li><li class="chapter-item expanded "><a href="../definitions/circuit.html">Circuit</a></li><li class="chapter-item expanded "><a href="../definitions/coefficient_form.html">Coefficient Form</a></li><li class="chapter-item expanded "><a href="../definitions/common_reference_string.html" class="active">Common Reference String</a></li><li class="chapter-item expanded "><a href="../definitions/completeness.html">Completeness</a></li><li class="chapter-item expanded "><a href="../definitions/constraints.html">Constraints</a></li><li class="chapter-item expanded "><a href="../definitions/elliptic_curve.html">Elliptic Curve</a></li><li class="chapter-item expanded "><a href="../definitions/evaluation_form.html">Evaluation Form</a></li><li class="chapter-item expanded "><a href="../definitions/fast_fourier_transform.html">Fast Fourier Transform</a></li><li class="chapter-item expanded "><a href="../definitions/fiat_shamir.html">Fiat-Shamir Transform</a></li><li class="chapter-item expanded "><a href="../definitions/instance.html">Instance</a></li><li class="chapter-item expanded "><a href="../definitions/lagrange_interpolation.html">Lagrange Interpolation</a></li><li class="chapter-item expanded "><a href="../definitions/nullifier.html">Nullifier</a></li><li class="chapter-item expanded "><a href="../definitions/polynomial_commitment.html">Polynomial Commitment Scheme</a></li><li class="chapter-item expanded "><a href="../definitions/polynomial_interactive_oracle_proof.html">Polynomial Interactive Oracle Proof</a></li><li class="chapter-item expanded "><a href="../definitions/preprocessing_snark.html">Preprocessing SNARK</a></li><li class="chapter-item expanded "><a href="../definitions/public-coin.html">Public-coin</a></li><li class="chapter-item expanded "><a href="../definitions/quadratic_arithmetic_program.html">Quadratic Arithmetic Program</a></li><li class="chapter-item expanded "><a href="../definitions/r1cs.html">R1CS</a></li><li class="chapter-item expanded "><a href="../definitions/random_oracle.html">Random Oracle</a></li><li class="chapter-item expanded "><a href="../definitions/roots_of_unity.html">Roots of Unity</a></li><li class="chapter-item expanded "><a href="../definitions/scalar_field.html">Scalar Field</a></li><li class="chapter-item expanded "><a href="../definitions/schwartz_zippel.html">Schwartz-Zippel Lemma</a></li><li class="chapter-item expanded "><a href="../definitions/snark.html">SNARK</a></li><li class="chapter-item expanded "><a href="../definitions/soundness.html">Soundness</a></li><li class="chapter-item expanded "><a href="../definitions/structured_reference_string.html">Structured Reference String</a></li><li class="chapter-item expanded "><a href="../definitions/threshold_encryption.html">Threshold Encryption</a></li><li class="chapter-item expanded "><a href="../definitions/trusted_setup.html">Trusted Setup</a></li><li class="chapter-item expanded "><a href="../definitions/vanishing_polynomial.html">Vanishing Polynomial</a></li><li class="chapter-item expanded "><a href="../definitions/witness.html">Witness</a></li><li class="chapter-item expanded "><a href="../definitions/zero_knowledge_proof.html">Zero-Knowledge Proof</a></li></ol>
             </div>
-            
-        </div>
-    </div>
-    <div id="rtd-footer-container"></div>
-</div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
 
+        <div id="page-wrapper" class="page-wrapper">
 
-          
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
 
+                    <h1 class="menu-title">ZK Jargon Decoder</h1>
 
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
-<div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/nmohnblatt/zk-jargon-decoder" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
 
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/nmohnblatt/zk-jargon-decoder"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="https://github.com/nmohnblatt/zk-jargon-decoder/issues/new?title=Issue%20on%20page%20%2Fdefinitions/common_reference_string.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="../_sources/definitions/common_reference_string.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.md</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
-    </div>
-</div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-</div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Common Reference String</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
                     </div>
                 </div>
-            </div>
-            <main id="main-content" role="main">
-                
-              <div>
-                
-  <section class="tex2jax_ignore mathjax_ignore" id="common-reference-string">
-<span id="def-crs"></span><h1>Common Reference String<a class="headerlink" href="#common-reference-string" title="Permalink to this headline">#</a></h1>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<h1 id="common-reference-string"><a class="header" href="#common-reference-string">Common Reference String</a></h1>
 <blockquote>
-<div><p>The collection of all public parameters required to run a protocol - usually in the context of <a class="reference internal" href="snark.html#def-snark"><span class="std std-ref">SNARKs</span></a> and <a class="reference internal" href="polynomial_commitment.html#def-polycommit"><span class="std std-ref">polynomial commitment schemes</span></a>.</p>
-</div></blockquote>
-<hr class="docutils" />
-<p>In <a class="reference internal" href="polynomial_commitment.html#def-polycommit"><span class="std std-ref">polynomial commitment schemes</span></a> and <a class="reference internal" href="snark.html#def-snark"><span class="std std-ref">SNARKs</span></a> - like may other cryptographic protocols - different parties need to agree on some common parameters. These often include what kind of mathematical objects they will be manipulating (integers, points on an elliptic curve, lattices, etc…), a prime number, a generator of a cyclic group. Once a <em>setup</em> has been run to determine all the necessary parameters, they are collected into a <em>string</em> and are published for future reference. This collection (string) is what we call a <strong>common reference string</strong>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>In some cases the common parameters are constructed using information that needs to remain secret for the protocol to be secure. In this case we refer to the setup as a <a class="reference internal" href="trusted_setup.html#def-trustedsetup"><span class="std std-ref">Trusted Setup</span></a> and the string of parameters as a <a class="reference internal" href="structured_reference_string.html#def-srs"><span class="std std-ref">Structured Reference String</span></a>.</p>
-</div>
-</section>
+<p>The collection of all public parameters required to run a protocol - usually in the context of <a href="./snark.html">SNARKs</a> and <a href="./polynomial_commitment.html">polynomial commitment schemes</a>.</p>
+</blockquote>
+<hr />
+<p>In <a href="./polynomial_commitment.html">polynomial commitment schemes</a> and <a href="./snark.html">SNARKs</a> - like may other cryptographic protocols - different parties need to agree on some common parameters. These often include what kind of mathematical objects they will be manipulating (integers, points on an elliptic curve, lattices, etc…), a prime number, a generator of a cyclic group. Once a <em>setup</em> has been run to determine all the necessary parameters, they are collected into a <em>string</em> and are published for future reference. This collection (string) is what we call a <strong>common reference string</strong>.</p>
+<blockquote>
+<p><strong>Trusted Setups.</strong> 
+In some cases the common parameters are constructed using information that needs to remain secret for the protocol to be secure. In this case we refer to the setup as a <a href="./trusted_setup.html">Trusted Setup</a> and the string of parameters as a <a href="def:srs">Structured Reference String</a>.</p>
+</blockquote>
 
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            kernelName: "python3",
-            path: "./definitions"
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
+                    </main>
 
-              </div>
-              
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="coefficient_form.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Coefficient Form</p>
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../definitions/coefficient_form.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../definitions/completeness.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../definitions/coefficient_form.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../definitions/completeness.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="completeness.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Completeness</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
-</div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
-  
-    By Nicolas Mohnblatt<br/>
-  
-      &copy; Copyright 2022.<br/>
-</p>
-        </footer>
-    </div>
-    
-</div>
 
 
-      </div>
-    </div>
-  
-  <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 
 
-  </body>
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
 </html>
