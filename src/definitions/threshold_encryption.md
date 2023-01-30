@@ -1,0 +1,2 @@
+# Threshold Encryption
+> A public-key encryption scheme in which the secret key is shared amongst $n$ parties: to decrypt a ciphertext, we require that a group of strictly more than $t$ participants collaborate; $t$ is called the threshold.
