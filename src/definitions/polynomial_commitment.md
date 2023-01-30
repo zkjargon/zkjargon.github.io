@@ -1,6 +1,7 @@
 # Polynomial Commitment Scheme
 
 > A two-phase protocol: in the first phase, a *Prover* commits to a polynomial $p$ by emitting a public **commitment**; in the second phase the *Verifier* chooses a value $x$, and the *Prover* produces a value $y$ and convinces the *Verifier* that $y=p(x)$.
+---
 
 ## Overview
 A polynomial commitment scheme is a two phase protocol: the first phase is known as the **commitment phase**, the second as the **evaluation phase**.
