@@ -8,7 +8,7 @@ Algebraic Holographic Proofs are first defined in the Marlin paper [[CHMMVW20]](
 - *algebraic*: an honest prover only produces oracles for low degree polynomials (just like in [polynomial IOPs](./polynomial_interactive_oracle_proof.md))
 - *holographic*: the verifier does not need to see the proof’s input (e.g. a circuit) but instead has oracle access to an encoding of it.
 
-We use AHPs, [polynomial commitment schemes](./polynomial_commitment.md) and the [Fiat-Shamir heuristic](./fiat_shamir.md) to construct **pre-processing SNARKs** such as Marlin and Plonk.
+We use AHPs, [polynomial commitment schemes](./polynomial_commitment.md) and the [Fiat-Shamir heuristic](./fiat_shamir.md) to construct **pre-processing SNARKs** such as Marlin and PLONK.
 
 >**AHP or Polynomial IOP?**
 >Algrebraic holographic proofs and polynomial interactive oracle proofs are almost equivalent notions. They were developed concurrently in 2019 by separate research groups: the former by the group behind Marlin [[CHMMVW20]](https://ia.cr/2019/1047) and the latter by the group behind DARK [[BFS20]](https://ia.cr/2019/1229). While they formalise very similar proof systems, polynomial IOPs are more general in that they do not require *holography* (as defined above).

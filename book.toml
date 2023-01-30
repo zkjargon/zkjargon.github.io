@@ -12,7 +12,6 @@ renderers = ["html"]
 
 [output.html]
 curly-quotes = true
-mathjax-support = true
 no-section-label = true
 git-repository-url = "https://github.com/nmohnblatt/zk-jargon-decoder"
 
