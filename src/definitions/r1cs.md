@@ -1,6 +1,8 @@
 # R1CS
-> *Acronym: Rank-1 Constraint System.* One way (amongst many others) to encode an arithmetic circuit into a set of arithmetic equations. *See [Arithmetization](./arithmetization.md).*
+> *Acronym: Rank-1 Constraint System.* A [circuit](./circuit.md) [arithmetization](./arithmetization.md) based on matrix equalities: each matrix row enforces a constraint over linear combinations of the circuit's wires.
 ---
+
+*⚠️ Prerequisites: [Arithmetization](./arithmetization.md), [Circuit](./circuit.md).*
 
 Rank-1 Constraint Systems (R1CS) are one way (amongst many others) to encode an arithmetic circuit. An R1CS circuit is defined by the following equation:
 $$A\vec{z} \circ B\vec{z} = C\vec{z}$$
