@@ -1,11 +1,11 @@
 # PLONKish Arithmetization
-> A group of [arithmetizations](./arithmetization.md) for [arithmetic circuits](./circuit.md) derived from the PLONK paper [[GWC19]](https://eprint.iacr.org/2019/953): their core ingredients are a gate equation and copy constraints that "wire" the gates together.
+> A group of [circuit](./circuit.md) [arithmetizations](./arithmetization.md) derived from the PLONK paper [[GWC19]](https://eprint.iacr.org/2019/953) -- their core ingredients are a gate equation and copy constraints that "wire" the gates together.
 ---
 
 *⚠️ Prerequisites: [Arithmetization](./arithmetization.md), [Circuit](./circuit.md).*
 
 ## PLONK Arithmetization
-The PLONK arithmetization was first proposed in the PLONK paper [[GWC19]](https://eprint.iacr.org/2019/953) as a means to arithmetize circuits where each gate has 2 inputs and 1 output.
+The PLONK arithmetization was first proposed in the PLONK paper [[GWC19]](https://eprint.iacr.org/2019/953) as a means to arithmetize circuits where each gate has 2 inputs and 1 output. Each gate is expressed using a "gate equation"; the wiring is represented as permutations.
 
 **(Gate Equation).** A single gate with inputs $a, b$ and output $c$ is defined by the equation:
 $$
@@ -21,6 +21,7 @@ The $q$ values are known as "**selectors**" and allow to specialize each gate in
 
 **(Copy Constraints).** Gates are connected together using copy constraints. Consider two gates for which we want to enforce that the output of the first gate is the input to the second gate. Let's label our wires: left input, right input and output of the first gate will be $1, 2, 3$, while left input, right input and output of the second gate will be $4, 5, 6$. To enforce that the value on wire $3$ is the same as the value on wire $4$, we show that these values are interchangeable; i.e. that they can be **permuted** without affecting the validity of the gate equations.
 
+A full PLONK circuit is defined by the matrix of all selector values and the copy permutations.
 
 ## PLONKish: Variants and Extensions
 The PLONK blueprint (gate equation & copy constraints) is extremely versatile and expressive, and has been declined into many variants. The term **PLONKish** was [coined by Daira Hopwood](https://twitter.com/feministPLT/status/1413815927704014850) to describe such variants. 
@@ -31,12 +32,12 @@ Additional features include:
 - **lookup tables** - the gate equation can also be extended to allow checking that some input value is a member of a table of values.
 
 Some commonly used names for these variants:
-- [**TurboPLONK**](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf) -> PLONK arithmetization + custom gates + larger fan-in/fan-out
-- **PlonkUp** [[PFMBM22]](https://eprint.iacr.org/2022/086) -> PLONK arithmetization + lookup tables using plookup.
-- **UltraPLONK** -> PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup arguments using plookup.
-- **Halo2 arithmetization** -> PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup arguments using the Halo2 lookup argument.
+- [**TurboPLONK**](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf) $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out
+- **PlonkUp** [[PFMBM22]](https://eprint.iacr.org/2022/086) $\rightarrow$ PLONK arithmetization + lookup tables using plookup.
+- **UltraPLONK** $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup arguments using plookup.
+- **halo2 arithmetization** [[Zcash]](https://zcash.github.io/halo2/concepts/arithmetization.html) $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup arguments using the Halo2 lookup argument.
 
-> **Additional Resources.** In this [ZKSummit talk](https://youtu.be/ty-LZf0YCK0), Zac Williamson, co-author of PLONK, covers the PLONK arithmetization as well as its TurboPLONK extension. The [Halo2 documentation](https://zcash.github.io/halo2/concepts/arithmetization.html) also provides a thorough explanation of the PLONKish arithmetization used in Halo2.
+> **Additional Resources.** In this [ZKSummit talk](https://youtu.be/ty-LZf0YCK0), Zac Williamson, co-author of PLONK, covers the PLONK arithmetization as well as its TurboPLONK extension. The [halo2 documentation](https://zcash.github.io/halo2/concepts/arithmetization.html) also provides a thorough explanation of the PLONKish arithmetization used in halo2.
 
 > **Circuits vs Machine Computation.** While the PLONK arithmetization was originally designed to capture arithmetic circuits, its PLONKish extensions are now general enough that they also capture machine computations.
 
@@ -44,3 +45,5 @@ Some commonly used names for these variants:
 [[GWC19]](https://eprint.iacr.org/2019/953) Gabizon, Ariel, Zachary J. Williamson, and Oana Ciobotaru. "PLONK: Permutations over Lagrange-bases for Oecumenical Non-interactive arguments of Knowledge." Cryptology ePrint Archive (2019).
 
 [[PFMBM22]](https://eprint.iacr.org/2022/086) Pearson, Luke, Joshua Fitzgerald, Héctor Masip, Marta Bellés-Muñoz, and Jose Luis Muñoz-Tapia. "Plonkup: Reconciling plonk with plookup." Cryptology ePrint Archive (2022).
+
+[[Zcash]](https://zcash.github.io/halo2/concepts/arithmetization.html) Zcash. "The halo2 Book".
