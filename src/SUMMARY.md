@@ -17,6 +17,8 @@
 - [Instance](./definitions/instance.md)
 - [Lagrange Interpolation](./definitions/lagrange_interpolation.md)
 - [Nullifier](./definitions/nullifier.md)
+- [Oracle](./definitions/oracle.md)
+- [PLONKish Arithmetization](./definitions/plonkish_arithmetization.md)
 - [Polynomial Commitment Scheme](./definitions/polynomial_commitment.md)
 - [Polynomial Interactive Oracle Proof](./definitions/polynomial_interactive_oracle_proof.md)
 - [Preprocessing SNARK](./definitions/preprocessing_snark.md)
