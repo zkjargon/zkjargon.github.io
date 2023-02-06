@@ -34,8 +34,8 @@ Additional features include:
 Some commonly used names for these variants:
 - [**TurboPLONK**](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf) $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out
 - **PlonkUp** [[PFMBM22]](https://eprint.iacr.org/2022/086) $\rightarrow$ PLONK arithmetization + lookup tables using plookup.
-- **UltraPLONK** $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup arguments using plookup.
-- **halo2 arithmetization** [[Zcash]](https://zcash.github.io/halo2/concepts/arithmetization.html) $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup arguments using the Halo2 lookup argument.
+- **UltraPLONK** $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup tables using plookup.
+- **halo2 arithmetization** [[Zcash]](https://zcash.github.io/halo2/concepts/arithmetization.html) $\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out + lookup tables using the Halo2 lookup argument.
 
 > **Additional Resources.** In this [ZKSummit talk](https://youtu.be/ty-LZf0YCK0), Zac Williamson, co-author of PLONK, covers the PLONK arithmetization as well as its TurboPLONK extension. The [halo2 documentation](https://zcash.github.io/halo2/concepts/arithmetization.html) also provides a thorough explanation of the PLONKish arithmetization used in halo2.
 
