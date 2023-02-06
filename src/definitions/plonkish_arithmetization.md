@@ -11,7 +11,7 @@ The PLONK arithmetization was first proposed in the PLONK paper [[GWC19]](https:
 $$
 (q_L)a + (q_R)b + (q_O)c + (q_M)ab + (q_C) = 0
 $$
-The $q$ values are known as "**selectors**" and allow to specialize each gate into enforcing a specific operations. The table below provides some examples:
+The $q$ values are known as "**selectors**" and allow to specialize each gate into enforcing a specific operation. The table below provides some examples:
 
 | Gate Type | Selector Values | Simplified Gate Equation |
 | --------- | --------------- | ------------------------ |
@@ -19,7 +19,7 @@ The $q$ values are known as "**selectors**" and allow to specialize each gate in
 |Multiplication| $q_L = 0$, $q_R = 0$, $q_O = -1$, $q_M = 1$, $q_C = 0$ | $ab -c = 0$|
 |Public Input is $x$| $q_L = 1$, $q_R = q_O = q_M = 0$, $q_C = -x$ | $a -x = 0$ |
 
-**(Copy Constraints).** Gates are connected together using copy constraints. Consider two gates for which we want to enforce that the output of the first gate is the input to the second gate. Let's label our wires: left input, right input and output of the first gate will be $1, 2, 3$, while left input, right input and output of the second gate will be $4, 5, 6$. To enforce that the value on wire $3$ is the same as the value on wire $4$, we show that these values are interchangeable; i.e. that they can be **permuted** without affecting the validity of the gate equations.
+**(Copy Constraints).** Gates are "connected" using copy constraints. Consider two gates for which we want to enforce that the output of the first gate is the left input to the second gate. Let's label our wires: left input, right input and output of the first gate will be $1, 2, 3$, while left input, right input and output of the second gate will be $4, 5, 6$. To enforce that the value on wire $3$ is the same as the value on wire $4$, we show that these values are interchangeable; i.e. that they can be **permuted** without affecting the validity of the gate equations.
 
 A full PLONK circuit is defined by the matrix of all selector values and the copy permutations.
 
