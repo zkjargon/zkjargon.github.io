@@ -10,4 +10,4 @@ To verify the original statement for Alice (8) and her siblings Bob (9) and Char
 A “good” arithmetization is one in which the final mathematical expressions can be evaluated with minimal effort (computation). While our example was trivial, the process of arithmetization becomes more complex for abstract statements such as: “I have correctly shuffled a deck of cards” or “I know a secret value $x$ such that running a public program $P$ with $x$ as input will output the public value $y$”.
 
 ---
-See also: [R1CS](./r1cs.md), [PLONK Arithmetization](./plonk_arithmetization.md)
+See also: [R1CS](./r1cs.md), [PLONK Arithmetization](./plonkish_arithmetization.md)
