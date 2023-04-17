@@ -3,4 +3,4 @@
 
 *⚠️ Prerequisites: [Finite fields](https://zcash.github.io/halo2/background/fields.html).*
 
-See [Elliptic Curve](def:elliptic_curve).
+See [Elliptic Curve](./elliptic_curve.md).
