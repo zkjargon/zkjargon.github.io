@@ -70,10 +70,12 @@
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -155,7 +157,7 @@
 <p>To verify the original statement for Alice (8) and her siblings Bob (9) and Charlie (4), we can just plug in the values to our equation. We evaluate each side and determine whether the equation holds: if it holds the statement was true, if it does not the statement was false. Simple as that!</p>
 <p>A “good” arithmetization is one in which the final mathematical expressions can be evaluated with minimal effort (computation). While our example was trivial, the process of arithmetization becomes more complex for abstract statements such as: “I have correctly shuffled a deck of cards” or “I know a secret value <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> such that running a public program <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span></span></span></span> with <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> as input will output the public value <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>”.</p>
 <hr />
-<p>See also: <a href="./r1cs.html">R1CS</a>, <a href="./plonk_arithmetization.html">PLONK Arithmetization</a></p>
+<p>See also: <a href="./r1cs.html">R1CS</a>, <a href="./plonkish_arithmetization.html">PLONK Arithmetization</a></p>
 
                     </main>
 

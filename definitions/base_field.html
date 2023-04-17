@@ -70,10 +70,12 @@
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -151,7 +153,7 @@
 <p><em>Elliptic Curve Cryptography</em>. The finite field from which coordinates <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span> of an elliptic curve point are chosen.</p>
 </blockquote>
 <p><em>⚠️ Prerequisites: <a href="https://zcash.github.io/halo2/background/fields.html">Finite fields</a>.</em></p>
-<p>See <a href="def:elliptic_curve">Elliptic Curve</a>.</p>
+<p>See <a href="./elliptic_curve.html">Elliptic Curve</a>.</p>
 
                     </main>
 
