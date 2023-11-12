@@ -7,11 +7,11 @@
 In mathematics, a statement is either *true* or *false*.
 But deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:
-- **Statement 1**: the number $55$ is even.
+- **Statement 1**: the number $54$ is even.
 - **Statement 2**: the number $25890323$ can be factorised.
 <!-- 5669 x 4567 = 25890323 -->
 
-We can quickly check that Statement 1 is false, but what about Statement 2?
+We can quickly check that Statement 1 is true, but what about Statement 2?
 
 To our knowledge, the best way to decide Statement 2 is just to try factoring $25890323$: if we succeed, the statement is true. However, this can be a lot of work!
 
