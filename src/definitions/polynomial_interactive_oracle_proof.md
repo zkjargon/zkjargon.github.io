@@ -11,7 +11,7 @@ The following figure is taken from *zk-SNARKs: A Gentle Introduction* [[Nit20]](
 ![PIOP protocol diagram from [Nit20]](../images/nitulescu-piop.png)
 
 >**AHP or Polynomial IOP?**
->Algrebraic holographic proofs and polynomial interactive oracle proofs are almost equivalent notions. They were developed concurrently in 2019 by separate research groups: the former by the group behind Marlin [[CHMMVW20]](https://ia.cr/2019/1047) and the latter by the group behind DARK [[BFS20]](https://ia.cr/2019/1229). While they formalise very similar proof systems, polynomial IOPs are more general in that they do not require *holography* (as defined above).
+>Algrebraic holographic proofs and polynomial interactive oracle proofs are almost equivalent notions. They were developed concurrently in 2019 by separate research groups: the former by the group behind Marlin [[CHMMVW20]](https://ia.cr/2019/1047) and the latter by the group behind DARK [[BFS20]](https://ia.cr/2019/1229). While they formalise very similar proof systems, polynomial IOPs are more general in that they do not require *holography* (as defined in the [AHP article](./algebraic_holographic_proof.md)).
 
 ## References
 [[BFS20]](https://ia.cr/2019/1229) Bünz, Benedikt, Ben Fisch, and Alan Szepieniec. "Transparent SNARKs from DARK compilers." In Advances in Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May 10–14, 2020, Proceedings, Part I 39, pp. 677-706. Springer International Publishing, 2020.
