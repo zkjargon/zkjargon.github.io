@@ -33,6 +33,9 @@ The first item, $x$, is called the *instance*; the second, $w$, is called the *w
 > **Example: factors.** 
 > One such relation is the "factors" relations, $\mathcal{R}_\text{factors}$.
 > An instance of this relation is an integer; a witness is a list of integers such that multiplying all the integers in the list equals the instance.
+> The instance $6$ has the witness $[2, 3]$.
+> The instance $16$ has multiple witnesses: including $[4, 4]$, $[2, 8]$ and $[2, 2, 4]$. 
+> 
 > We can now recast Statement 2 in terms of $\mathcal{R}_\text{factors}$:
 > - **Statement 2** (with jargon, part 1): does there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$?
 > 
