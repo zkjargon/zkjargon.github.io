@@ -9,12 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-  
+
       - name: Install mdbook and mdbook-katex
-        uses: actions-rs/cargo@v1
-        with:
-          command: install
-          args: mdbook mdbook-katex
+        run: cargo install mdbook mdbook-katex
           
       - name: Build html
         run: mdbook build
