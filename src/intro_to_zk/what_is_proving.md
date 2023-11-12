@@ -39,8 +39,10 @@ The first item, $x$, is called the *instance*; the second, $w$, is called the *w
 > As we saw above, finding such a witness ourselves is a lot of work.
 > However, given a candidate witness, we can quickly check that the instance $25890323$ does have a witness.
 
-Rather than always having to say "the instance $x_1$ has a witness $w_1$ such that $(x_1, w_1) \in \mathcal{R}$", we use the shorter form "the instance $x_1$ is **satisfiable**". We can also collect all of them in a set:
-- the **language** defined by a relation $\mathcal{R}$ is the set of all satisfiable instances for $\mathcal{R}$. We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
+Rather than always having to say "the instance $x_1$ has a witness $w_1$ such that $(x_1, w_1) \in \mathcal{R}$", we use the shorter form "the instance $x_1$ is **satisfiable**".
+We can also collect all the satisfiable instances in a set:
+- the **language** defined by a relation $\mathcal{R}$ is the set of all satisfiable instances for $\mathcal{R}$. 
+We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
 
 > **Example: factors (bis).**
 > Once again we can rephrase Statement 2:
