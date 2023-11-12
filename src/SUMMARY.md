@@ -3,6 +3,7 @@
 [Welcome](./foreword.md)
 # Introduction to ZK
 - [What does it mean to *prove*?](./intro_to_zk/what_is_proving.md)
+- [Proof Systems](./intro_to_zk/proof_systems.md)
 # Definitions
 - [Algebraic Holographic Proof (AHP)](./definitions/algebraic_holographic_proof.md)
 - [Arithmetization](./definitions/arithmetization.md)
