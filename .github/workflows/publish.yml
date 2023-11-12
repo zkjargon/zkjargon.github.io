@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install mdbook and mdbook-katex
-        run: cargo install mdbook mdbook-katex
+        run: cargo install mdbook mdbook-katex@0.3.4
           
       - name: Build html
         run: mdbook build
