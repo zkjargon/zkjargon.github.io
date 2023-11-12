@@ -1,5 +1,5 @@
 # Instance
-> Shared inputs to both the prover and verifier of a [SNARK](./snark.md).
+> *(Of a general purpose [SNARK](./snark.md))*. Shared inputs to both the prover and verifier of a [SNARK](./snark.md).
 ---
 
 Shared inputs to both the prover and verifier of a [SNARK](./snark.md). Sometimes used interchangeably with the term **statement** although these terms are not exactly the same[^1].
