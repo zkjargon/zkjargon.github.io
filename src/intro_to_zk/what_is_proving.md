@@ -13,7 +13,7 @@ Consider for example the following statements:
 
 We can quickly check that Statement 1 is false, but what about Statement 2?
 
-It turns out that the best way we know to decide Statement 2 is just to try factoring $25890323$: if we succeed, the statement is true. On the other hand, showing it is false requires trying all the possible factorisations and failing (!).
+To our knowledge, the best way to decide Statement 2 is just to try factoring $25890323$: if we succeed, the statement is true. However, this can be a lot of work!
 
 What if we are given additional information? Let's say we were magically handed (or by luck stumbled upon) the numbers $5669$ and $4567$.
 We can try to multiply them together and find that indeed $5569 \times 4567 = 25890323$.
