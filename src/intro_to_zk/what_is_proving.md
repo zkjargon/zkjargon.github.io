@@ -8,7 +8,7 @@ In mathematics, a statement is either *true* or *false*.
 But deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:
 - **Statement 1**: the number $55$ is even.
-- **Statement 2**: the number $25890323$ is not prime.
+- **Statement 2**: the number $25890323$ can be factorised.
 <!-- 5669 x 4567 = 25890323 -->
 
 We can quickly check that Statement 1 is false, but what about Statement 2?
@@ -34,13 +34,17 @@ The first item, $x$, is called the *instance*; the second, $w$, is called the *w
 > One such relation is the "factors" relations, $\mathcal{R}_\text{factors}$.
 > An instance of this relation is an integer; a witness is a list of integers such that multiplying all the integers in the list equals the instance.
 > We can now recast Statement 2 in terms of $\mathcal{R}_\text{factors}$:
-> - **Statement 2** (with jargon): does there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$?
+> - **Statement 2** (with jargon, part 1): does there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$?
 > 
 > As we saw above, finding such a witness ourselves is a lot of work.
 > However, given a candidate witness, we can quickly check that the instance $25890323$ does have a witness.
 
 Rather than always having to say "the instance $x_1$ has a witness $w_1$ such that $(x_1, w_1) \in \mathcal{R}$", we use the shorter form "the instance $x_1$ is **satisfiable**". We can also collect all of them in a set:
-- the **language** defined by a relation $\mathcal{R}$ is the set of all satisfiable instances for $\mathcal{R}$.
+- the **language** defined by a relation $\mathcal{R}$ is the set of all satisfiable instances for $\mathcal{R}$. We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
+
+> **Example: factors (bis).**
+> Once again we can rephrase Statement 2:
+> - **Statement 2** (with jargon, part 2): is $25890323$ in $\mathcal{L}(\mathcal{R}_\text{factors})$?
 
 > **More examples.**
 > As an exercise, try to cast Sudokus as a relation and identify the instance, witness and language.
