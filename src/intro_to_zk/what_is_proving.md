@@ -53,6 +53,7 @@ We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
 
 > **More examples.**
 > As an exercise, try to cast Sudokus as a relation and identify the instance, witness and language.
+> What about the relation $\mathcal{R}_f$, defined for some function $f$ as all pairs $(x, w)$ such that $x = f(w)$?
 
 **Answer #2 (same as before, in jargon): proving means giving evidence that an instance is indeed in the language defined by some relation $\mathcal{R}$.**
 
