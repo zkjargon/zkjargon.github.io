@@ -1,4 +1,4 @@
-# A Technical Introduction to ZK
+# Introduction to ZK Jargon
 
 ---
 

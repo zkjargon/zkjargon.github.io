@@ -1,7 +1,7 @@
 # Summary
 
 [Welcome](./foreword.md)
-# Introduction to ZK
+# Introduction to ZK Jargon
 - [What does it mean to *prove*?](./intro_to_zk/what_is_proving.md)
 - [Interactive proofs](./intro_to_zk/interactive_proofs.md)
 # Definitions
