@@ -70,7 +70,7 @@ We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
 **More examples.**
 As an exercise, try to cast a Sudoku as a relation and identify the instance, witness and language.
 What about the relation $\mathcal{R}_f$, defined for some function $f$ as all pairs $(x, w)$ such that $x = f(w)$?
-What happens when we pick $f$ to be a polynomial or a hash function?
+What happens when we pick $f$ to be *(i)* a polynomial or *(ii)* a hash function?
 
 ---
 
