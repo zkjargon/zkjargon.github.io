@@ -59,7 +59,8 @@ We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
 
 > **Example: factors (bis).**
 > As we have seen, $6$ and $16$ are in $\mathcal{L}(\mathcal{R}_\text{factors})$.
-> On the other hand, prime numbers such as $5$ or $7$ cannot be expressed as a product of integers are therefore not in $\mathcal{L}(\mathcal{R}_\text{factors})$.
+> On the other hand, prime numbers such as $5$ or $7$ cannot be expressed as a product of integers.
+> Therefore, they are not in $\mathcal{L}(\mathcal{R}_\text{factors})$.
 >
 > Once again we can rephrase Statement 2 in terms of the language defined by $\mathcal{R}_\text{factors}$:
 > - **Statement 2** (with jargon, part 2): $25890323$ is in $\mathcal{L}(\mathcal{R}_\text{factors})$.
@@ -69,6 +70,7 @@ We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
 **More examples.**
 As an exercise, try to cast a Sudoku as a relation and identify the instance, witness and language.
 What about the relation $\mathcal{R}_f$, defined for some function $f$ as all pairs $(x, w)$ such that $x = f(w)$?
+What happens when we pick $f$ to be a polynomial or a hash function?
 
 ---
 
