@@ -1,6 +1,10 @@
-# Introduction to ZK
+# A Technical Introduction to ZK
+
+---
 
 ## What does it mean to *prove*?
+
+This article provides a gentle introduction to the notions of **decision problems**, **relations**, **languages** and the **$\mathsf{NP}$ complexity class**. 
 
 ### Decision Problems
 
@@ -12,34 +16,38 @@ Consider for example the following statements:
 <!-- 5669 x 4567 = 25890323 -->
 
 We can quickly check that Statement 1 is true, but what about Statement 2?
-
-To our knowledge, the best way to decide Statement 2 is just to try factoring $25890323$: if we succeed, the statement is true.
-However, this can be a lot of work!
+To our knowledge, the best way to decide Statement 2 is just to try factoring $25890323$. 
+If we succeed, the statement is true, but we might be trying for a long time, with no guarantee of ever succeeding!
 
 What if we are given additional information?
 Let's say we were magically handed (or by luck stumbled upon) the numbers $5669$ and $4567$.
 We can try to multiply them together and find that indeed $5569 \times 4567 = 25890323$.
-We can now decide Statement 2!
+We can now decide Statement 2 ✅.
 
 Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the factorisations.
 In a way, this additional information was in fact a **proof** that Statement 2 is true.
 
-**Answer #1 (informal): proving means giving enough auxiliary information about a statement to help establish that it is true.**
+**Answer #1 (informal): proving means giving enough auxiliary information about a statement to decide that it is true.**
+
+We can also rephrase this answer in the form of a condition: a provable statement is one that can be easily decided *provided the right information*.
+In [complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), this corresponds to the [class $\mathsf{NP}$](https://en.wikipedia.org/wiki/NP_(complexity)).
 
 ### Relations and Languages
 
-The discussion above is formalised by the idea of relations and languages:
+The discussion above is formalised by the notions of relations and languages:
 - A **relation** $\mathcal{R}$ is a set of ordered pairs $(x, w)$.
-The first item, $x$, is called the *instance*; the second, $w$, is called the *witness*.
+When talking about $\mathsf{NP}$ relations (provable statements) we refer to the first item, $x$, as the **instance**, and the second, $w$, as the **witness**.
 
 > **Example: factors.** 
-> One such relation is the "factors" relations, $\mathcal{R}_\text{factors}$.
-> An instance of this relation is an integer; a witness is a list of integers such that multiplying all the integers in the list equals the instance.
-> The instance $6$ has the witness $[2, 3]$.
+> Let's define a relation that we will call $\mathcal{R}_\text{factors}$.
+> An instance of this relation is an integer, and a witness is an unordered list of integers greater than 1.
+> We will say that the pair $(x, w)$ is in $\mathcal{R}_\text{factors}$ if and only if $w$ contains more than one element and the product of all the elements in $w$ is equal to $x$.
+>
+> For example, the instance $6$ has the witness $[2, 3]$.
 > The instance $16$ has multiple witnesses: including $[4, 4]$, $[2, 8]$ and $[2, 2, 4]$. 
 > 
 > We can now recast Statement 2 in terms of $\mathcal{R}_\text{factors}$:
-> - **Statement 2** (with jargon, part 1): does there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$?
+> - **Statement 2** (with jargon, part 1): there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$.
 > 
 > As we saw above, finding such a witness ourselves is a lot of work.
 > However, given a candidate witness, we can quickly check that the instance $25890323$ does have a witness.
@@ -50,21 +58,26 @@ We can also collect all the satisfiable instances in a set:
 We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
 
 > **Example: factors (bis).**
-> Once again we can rephrase Statement 2:
-> - **Statement 2** (with jargon, part 2): is $25890323$ in $\mathcal{L}(\mathcal{R}_\text{factors})$?
-
-> **More examples.**
-> As an exercise, try to cast Sudokus as a relation and identify the instance, witness and language.
-> What about the relation $\mathcal{R}_f$, defined for some function $f$ as all pairs $(x, w)$ such that $x = f(w)$?
+> As we have seen, $6$ and $16$ are in $\mathcal{L}(\mathcal{R}_\text{factors})$.
+> On the other hand, prime numbers such as $5$ or $7$ cannot be expressed as a product of integers are therefore not in $\mathcal{L}(\mathcal{R}_\text{factors})$.
+>
+> Once again we can rephrase Statement 2 in terms of the language defined by $\mathcal{R}_\text{factors}$:
+> - **Statement 2** (with jargon, part 2): $25890323$ is in $\mathcal{L}(\mathcal{R}_\text{factors})$.
 
 **Answer #2 (same as before, in jargon): proving means giving evidence that an instance is indeed in the language defined by some relation $\mathcal{R}$.**
 
-### Proof Systems
+**More examples.**
+As an exercise, try to cast a Sudoku as a relation and identify the instance, witness and language.
+What about the relation $\mathcal{R}_f$, defined for some function $f$ as all pairs $(x, w)$ such that $x = f(w)$?
+
+---
+
+### Up next: interactive proofs
 
 So far we have only considered the trivial proof system: sending the witness.
 
 In some cases, this will not be desirable.
 Sometimes the witness is private and should remain so.
-Other times, the witness is just too big to be sent or for the verifier to download.
-These cases motivate the need for more elaborate proof systems.
+Other times, the witness is just too big to be sent or for the verifier to process.
+These cases motivate the need for more elaborate (and powerful) proof systems.
 We discuss these systems more formally in the next article.
