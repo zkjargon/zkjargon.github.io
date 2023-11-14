@@ -72,7 +72,7 @@ What about the relation $\mathcal{R}_f$, defined for some function $f$ as all pa
 
 ---
 
-### Up next: interactive proofs
+## Up next: interactive proofs
 
 So far we have only considered the trivial proof system: sending the witness.
 
