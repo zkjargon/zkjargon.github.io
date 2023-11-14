@@ -4,7 +4,7 @@
 
 ## What does it mean to *prove*?
 
-This article provides a gentle introduction to the notions of **decision problems**, **relations**, **languages** and the **$\mathsf{NP}$ complexity class**. 
+This article aims to be a gentle introduction to the notions of **decision problems**, **relations**, **languages** and the **$\mathsf{NP}$ complexity class**. 
 
 ### Decision Problems
 
