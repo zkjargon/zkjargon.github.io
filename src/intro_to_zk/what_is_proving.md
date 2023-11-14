@@ -32,7 +32,7 @@ In a way, this additional information was in fact a **proof** that Statement 2 i
 We can also rephrase this answer in the form of a condition: a provable statement is one that can be easily decided *provided the right information*.
 In [complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), this corresponds to the [class $\mathsf{NP}$](https://en.wikipedia.org/wiki/NP_(complexity)).
 
-### Relations and Languages
+### Relations
 
 The discussion above is formalised by the notions of relations and languages:
 - A **relation** $\mathcal{R}$ is a set of ordered pairs $(x, w)$.
@@ -50,12 +50,16 @@ When talking about $\mathsf{NP}$ relations (provable statements) we refer to the
 > - **Statement 2** (with jargon, part 1): there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$.
 > 
 > As we saw above, finding such a witness ourselves is a lot of work.
-> However, given a candidate witness, we can quickly check that the instance $25890323$ does have a witness.
+> However, given a candidate witness $\tilde{w}$, we can quickly check that the pair $(25890323, \tilde{w})$ is in $\mathcal{R}_\text{factors}$.
+
+### Languages
 
 Rather than always having to say "the instance $x_1$ has a witness $w_1$ such that $(x_1, w_1) \in \mathcal{R}$", we use the shorter form "the instance $x_1$ is **satisfiable**".
-We can also collect all the satisfiable instances in a set:
+Note that the relation which $x_1$ satisfies isn't explicitly stated and must be made clear from the context.
+
+We can collect all the satisfiable instances of a relation in a set:
 - the **language** defined by a relation $\mathcal{R}$ is the set of all satisfiable instances for $\mathcal{R}$. 
-We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$
+We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$.
 
 > **Example: factors (bis).**
 > As we have seen, $6$ and $16$ are in $\mathcal{L}(\mathcal{R}_\text{factors})$.
