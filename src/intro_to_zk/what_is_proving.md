@@ -21,7 +21,7 @@ If we succeed, the statement is true, but we might be trying for a long time, wi
 
 What if we are given additional information?
 Let's say we were magically handed (or by luck stumbled upon) the numbers $5669$ and $4567$.
-We can try to multiply them together and find that indeed $5569 \times 4567 = 25890323$.
+We can try to multiply them together and find that indeed $5669 \times 4567 = 25890323$.
 We can now decide Statement 2 ✅.
 
 Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the factorisations.
