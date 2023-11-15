@@ -36,7 +36,7 @@ In [complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_th
 
 The discussion above is formalised by the notions of relations and languages:
 - A **relation** $\mathcal{R}$ is a set of ordered pairs $(x, w)$.
-When talking about $\mathsf{NP}$ relations (provable statements) we refer to the first item, $x$, as the **instance**, and the second, $w$, as the **witness**.
+When talking about $\mathsf{NP}$ relations (provable statements) we refer to the first item, $x$, as an **instance**, and the second, $w$, as a **witness**.
 
 > **Example: factors.** 
 > Let's define a relation that we will call $\mathcal{R}_\text{factors}$.
