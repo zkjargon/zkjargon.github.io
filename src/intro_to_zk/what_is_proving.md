@@ -27,7 +27,7 @@ We can now decide Statement 2 ✅.
 Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the factorisations.
 In a way, this additional information was in fact a **proof** that Statement 2 is true.
 
-**Answer #1 (informal): proving means giving enough auxiliary information about a statement to decide that it is true.**
+**Answer #1 (informal): proving means giving auxiliary information about a statement to decide that it is true.**
 
 We can also rephrase this answer in the form of a condition: a provable statement is one that can be easily decided *provided the right information*.
 In [complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), this corresponds to the [class $\mathsf{NP}$](https://en.wikipedia.org/wiki/NP_(complexity)).
@@ -61,7 +61,7 @@ We can collect all the satisfiable instances of a relation in a set:
 - the **language** defined by a relation $\mathcal{R}$ is the set of all satisfiable instances for $\mathcal{R}$. 
 We often write $\mathcal{L}(\mathcal{R})$ or $\mathcal{L}_\mathcal{R}$.
 
-> **Example: factors (bis).**
+> **Example: factors.**
 > As we have seen, $6$ and $16$ are in $\mathcal{L}(\mathcal{R}_\text{factors})$.
 > On the other hand, prime numbers such as $5$ or $7$ cannot be expressed as a product of integers.
 > Therefore, they are not in $\mathcal{L}(\mathcal{R}_\text{factors})$.
