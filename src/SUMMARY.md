@@ -1,6 +1,9 @@
 # Summary
 
-[Foreword](./foreword.md)
+[Welcome](./foreword.md)
+# Introduction to ZK Jargon
+- [What does it mean to *prove*?](./intro_to_zk/what_is_proving.md)
+- [Probabilistic and Interactive proofs](./intro_to_zk/interactive_proofs.md)
 # Definitions
 - [Algebraic Holographic Proof (AHP)](./definitions/algebraic_holographic_proof.md)
 - [Arithmetization](./definitions/arithmetization.md)
@@ -16,6 +19,7 @@
 - [Fiat-Shamir Transform](./definitions/fiat_shamir.md)
 - [Instance](./definitions/instance.md)
 - [Lagrange Interpolation](./definitions/lagrange_interpolation.md)
+- [Language](./definitions/language.md)
 - [Nullifier](./definitions/nullifier.md)
 - [Oracle](./definitions/oracle.md)
 - [PLONKish Arithmetization](./definitions/plonkish_arithmetization.md)
@@ -26,6 +30,7 @@
 - [Quadratic Arithmetic Program](./definitions/quadratic_arithmetic_program.md)
 - [R1CS](./definitions/r1cs.md)
 - [Random Oracle](./definitions/random_oracle.md)
+- [Relation](./definitions/relation.md)
 - [Roots of Unity](./definitions/roots_of_unity.md)
 - [Scalar Field](./definitions/scalar_field.md)
 - [Schwartz-Zippel Lemma](./definitions/schwartz_zippel.md)
