@@ -10,7 +10,7 @@ We follow a running example and rephrase it each time we cover a new term.
 ### Decision Problems
 
 In mathematics, a statement is either *true* or *false*.
-But deciding whether a statement is true or false is not always easy.
+However, deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:
 - **Statement 1**: the number $54$ is even.
 - **Statement 2**: the number $25890323$ can be factorised.
