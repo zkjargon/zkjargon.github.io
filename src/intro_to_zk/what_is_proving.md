@@ -4,7 +4,8 @@
 
 ## What does it mean to *prove*?
 
-This article aims to be a gentle introduction to the notions of **decision problems**, **relations**, **languages** and the **$\mathsf{NP}$ complexity class**. 
+This article aims to be a gentle introduction to the notions of **decision problems**, **relations**, **languages** and the **$\mathsf{NP}$ complexity class**.
+We follow a running example and rephrase it each time we cover a new term. 
 
 ### Decision Problems
 
@@ -24,7 +25,7 @@ Let's say we were magically handed (or by luck stumbled upon) the numbers $5669$
 We can try to multiply them together and find that indeed $5669 \times 4567 = 25890323$.
 We can now decide Statement 2 ✅.
 
-Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the factorisations.
+Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the potential factorisations.
 In a way, this additional information was in fact a **proof** that Statement 2 is true.
 
 **Answer #1 (informal): proving means giving auxiliary information about a statement to decide that it is true.**
@@ -78,11 +79,11 @@ What happens when we pick $f$ to be *(i)* a polynomial or *(ii)* a hash function
 
 ---
 
-## Up next: interactive proofs
+## Up next: probabilistic and interactive proofs
 
 So far we have only considered the trivial proof system: sending the witness.
 
-In some cases, this will not be desirable.
+In some cases, this is not desirable.
 Sometimes the witness is private and should remain so.
 Other times, the witness is just too big to be sent or for the verifier to process.
 These cases motivate the need for more elaborate (and powerful) proof systems.
