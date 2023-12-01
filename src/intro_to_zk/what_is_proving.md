@@ -13,7 +13,7 @@ In mathematics, a statement is either *true* or *false*.
 However, deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:
 - **Statement 1**: the number $54$ is even.
-- **Statement 2**: the number $25890323$ can be factorised.
+- **Statement 2**: the number $25890323$ can be factored.
 <!-- 5669 x 4567 = 25890323 -->
 
 We can quickly check that Statement 1 is true, but what about Statement 2?
@@ -25,7 +25,7 @@ Let's say we were magically handed (or by luck stumbled upon) the numbers $5669$
 We can try to multiply them together and find that indeed $5669 \times 4567 = 25890323$.
 We can now decide Statement 2 ✅.
 
-Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the potential factorisations.
+Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the potential factorizations.
 In a way, this additional information was in fact a **proof** that Statement 2 is true.
 
 **Answer #1 (informal): proving means giving auxiliary information about a statement to decide that it is true.**
