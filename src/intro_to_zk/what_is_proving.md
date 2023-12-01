@@ -51,7 +51,7 @@ When talking about $\mathsf{NP}$ relations (provable statements) we refer to the
 > - **Statement 2** (with jargon, part 1): there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$.
 > 
 > As we saw above, finding such a witness ourselves is a lot of work.
-> However, given a candidate witness $\tilde{w}$, we can quickly check that the pair $(25890323, \tilde{w})$ is in $\mathcal{R}_\text{factors}$.
+> However, given the candidate witness $[5669, 4567]$, we can quickly check that the pair $(25890323, [5669, 4567])$ is in $\mathcal{R}_\text{factors}$.
 
 ### Languages
 
