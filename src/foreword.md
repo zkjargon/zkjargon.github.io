@@ -12,4 +12,4 @@ This project is still work in progress, participation and suggestions are always
 
 ## License
 
-ZK Jargon Decoder © 2022 by ZK Jargon Decoder contributors is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
+ZK Jargon Decoder © 2022 by ZK Jargon Decoder contributors is licensed under CC BY-SA 4.0. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
