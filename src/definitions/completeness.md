@@ -1,22 +1,14 @@
 # Completeness
-> *Of a proof system*. A proof system is said to be *complete* if the verifier accepts a valid proof with high probability. 
+> *Of a proof system*. A proof system is *complete* if, for every TRUE statement, the Prover can always produce an accepting proof. 
 ---
 
-At the final stage of a proof system, the Verifier outputs whether or not it has accepted the proof. We usually denote accept with a $1$ and reject with a $0$. However, the Verifier may not always be a deterministic algorithm: in some protocols, the Verifier's response might depend on some randomly chosen values.
+*Completeness* is a property of a proof system best understood as: "an honest Prover should always be able to convince an honest Verifier of a valid statement".
 
-In practice we are interested in systems for which the Verifier will accept a valid proof. This notion is formalised in the *completeness* property. Let $V$ be the random variable that represents the Verifier's output given a valid proof, we say that a system is complete if the verifier accepts with a probability greater than $\frac{2}{3}$. You will often find completeness expressed as following inequality:
-
+Given a [relation](../intro_to_zk/what_is_proving.md#relations) $\mathcal{R}$ and the associated [language](../intro_to_zk/what_is_proving.md#languages) $\mathcal{L}_\mathcal{R}$, the mathematical expression for completeness looks often like the equation below: 
 $$
-\text{Pr}\left[V = 1 \right] \geq 1 - \delta_c
+\forall x \in \mathcal{L}_\mathcal{R}, \; \Pr\left[ \langle P, V \rangle(x) = 1 \right] = 1
 $$
+where $P$ and $V$ are the honest Prover and Verifier respectively, and $\langle P, V \rangle(x)$ denotes the bit output by $V$ at the end of the interaction with $P$ for the instance $x$.
 
-where $\delta_c$ is known as the *completeness error* and $\delta_c \leq \frac{1}{3}$. See [[Tha22]](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html) for further reading and a discussion of the choice of $\frac{1}{3}$ for the completeness error.
-
-> **Perfect Completeness.**
-> A proof system is said to have perfect completeness if the Verifier always accepts a valid proof, i.e. 
-> 
-> $$ \text{Pr}\left[V = 1 \right] = 1 $$
-
-
-## References
-[[Tha22]](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html) Justin Thaler. Proofs, Arguments, and Zero-knowledge (Draft). 2022. [https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html)
+> **Perfect completeness vs Completeness.**  
+> The definition above imposes that the honest prover *always* convince the honest verifier (i.e. the probability is 1). We call this property *perfect completeness*. Sometimes this is not necessary, nor is it achievable. In those cases, we can relax the success probability to be greater than $1 - \delta$, where $\delta$ is something small.
