@@ -2,23 +2,23 @@
 
 ---
 
-## What does it mean to *prove*?
+## Part 1: What does it mean to *prove*?
 
 This article aims to be a gentle introduction to the notions of **decision problems**, **relations**, **languages** and the **$\mathsf{NP}$ complexity class**.
 We follow a running example and rephrase it each time we cover a new term. 
 
 ### Decision Problems
 
-In mathematics, a statement is either *true* or *false*.
+In mathematics, a statement is either `TRUE` or `FALSE`.
 However, deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:
 - **Statement 1**: the number $54$ is even.
 - **Statement 2**: the number $25890323$ can be factored.
 <!-- 5669 x 4567 = 25890323 -->
 
-We can quickly check that Statement 1 is true, but what about Statement 2?
+We can quickly check that Statement 1 is `TRUE`, but what about Statement 2?
 To our knowledge, the best way to decide Statement 2 is just to try factoring $25890323$. 
-If we succeed, the statement is true, but we might be trying for a long time, with no guarantee of ever succeeding!
+If we succeed, the statement is `TRUE`, but we might be trying for a long time, with no guarantee of ever succeeding!
 
 What if we are given additional information?
 Let's say we were magically handed (or by luck stumbled upon) the numbers $5669$ and $4567$.
@@ -26,7 +26,7 @@ We can try to multiply them together and find that indeed $5669 \times 4567 = 25
 We can now decide Statement 2 ✅.
 
 Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the potential factorizations.
-In a way, this additional information was in fact a **proof** that Statement 2 is true.
+In a way, this additional information was in fact a **proof** that Statement 2 is `TRUE`.
 
 **Answer #1 (informal): proving means giving auxiliary information about a statement to decide that it is true.**
 
