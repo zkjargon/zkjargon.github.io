@@ -2,7 +2,7 @@
 
 The ZK Jargon Decoder is an informal glossary for common jargon found in the zero-knowledge literature.
 
-An updated version of the book is available online at <https://nmohnblatt.github.io/zk-jargon-decoder/foreword.html>.
+An updated version of the book is available online at <https://zkjargon.github.io>.
 
 You can also run the book locally by following the instructions below:
 
