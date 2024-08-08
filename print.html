@@ -189,11 +189,11 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="introduction-to-zk-jargon"><a class="header" href="#introduction-to-zk-jargon">Introduction to ZK Jargon</a></h1>
 <hr />
-<h2 id="what-does-it-mean-to-prove"><a class="header" href="#what-does-it-mean-to-prove">What does it mean to <em>prove</em>?</a></h2>
+<h2 id="part-1-what-does-it-mean-to-prove"><a class="header" href="#part-1-what-does-it-mean-to-prove">Part 1: What does it mean to <em>prove</em>?</a></h2>
 <p>This article aims to be a gentle introduction to the notions of <strong>decision problems</strong>, <strong>relations</strong>, <strong>languages</strong> and the <strong><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathsf">NP</span></span></span></span></span> complexity class</strong>.
 We follow a running example and rephrase it each time we cover a new term.</p>
 <h3 id="decision-problems"><a class="header" href="#decision-problems">Decision Problems</a></h3>
-<p>In mathematics, a statement is either <em>true</em> or <em>false</em>.
+<p>In mathematics, a statement is either <code>TRUE</code> or <code>FALSE</code>.
 However, deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:</p>
 <ul>
@@ -201,15 +201,15 @@ Consider for example the following statements:</p>
 <li><strong>Statement 2</strong>: the number <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25890323</span></span></span></span> can be factored.</li>
 </ul>
 <!-- 5669 x 4567 = 25890323 -->
-<p>We can quickly check that Statement 1 is true, but what about Statement 2?
+<p>We can quickly check that Statement 1 is <code>TRUE</code>, but what about Statement 2?
 To our knowledge, the best way to decide Statement 2 is just to try factoring <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25890323</span></span></span></span>.
-If we succeed, the statement is true, but we might be trying for a long time, with no guarantee of ever succeeding!</p>
+If we succeed, the statement is <code>TRUE</code>, but we might be trying for a long time, with no guarantee of ever succeeding!</p>
 <p>What if we are given additional information?
 Let’s say we were magically handed (or by luck stumbled upon) the numbers <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5669</span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4567</span></span></span></span>.
 We can try to multiply them together and find that indeed <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">5669</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4567</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25890323</span></span></span></span>.
 We can now decide Statement 2 ✅.</p>
 <p>Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the potential factorizations.
-In a way, this additional information was in fact a <strong>proof</strong> that Statement 2 is true.</p>
+In a way, this additional information was in fact a <strong>proof</strong> that Statement 2 is <code>TRUE</code>.</p>
 <p><strong>Answer #1 (informal): proving means giving auxiliary information about a statement to decide that it is true.</strong></p>
 <p>We can also rephrase this answer in the form of a condition: a provable statement is one that can be easily decided <em>provided the right information</em>.
 In <a href="https://en.wikipedia.org/wiki/Computational_complexity_theory">complexity theory</a>, this corresponds to the <a href="https://en.wikipedia.org/wiki/NP_(complexity)">class <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathsf">NP</span></span></span></span></span></a>.</p>
@@ -267,8 +267,52 @@ We discuss these systems more formally in the next article.</p>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="introduction-to-zk-jargon-1"><a class="header" href="#introduction-to-zk-jargon-1">Introduction to ZK Jargon</a></h1>
 <hr />
-<h2 id="probabilistic-and-interactive-proofs"><a class="header" href="#probabilistic-and-interactive-proofs">Probabilistic and Interactive Proofs</a></h2>
-<p><em>COMING SOON.</em></p>
+<h2 id="part-2-probabilistic-and-interactive-proofs"><a class="header" href="#part-2-probabilistic-and-interactive-proofs">Part 2: Probabilistic and Interactive Proofs</a></h2>
+<p>In the <a href="intro_to_zk/./what_is_proving.html">previous article</a>, we covered what “proving” means, established some necessary vocabulary and finally discussed the trivial proof system: sending the <a href="intro_to_zk/./what_is_proving.html#relations">witness</a>.
+As discussed, this is not always desirable.
+Sometimes the witness is private and should remain so.
+Other times, the witness is just too big to be sent or for the Verifier to process.</p>
+<p>In this article, we look at two techniques to build more elaborate proof systems:</p>
+<ul>
+<li>the first is to allow the Verifier to “ask multiple questions”, i.e. to <strong>interact with the Prover</strong>;</li>
+<li>the second is to allow the Verifier to <strong>not read the whole proof</strong>.</li>
+</ul>
+<p>Naturally, if the proof is shorter than the witness or it is some randomized version of it, the Verifier might sometimes accept proofs for <code>FALSE</code> statements.
+This is acceptable (!), as long as it only happens with a small probability.
+We call this probability the <strong>soundness error</strong> (see <a href="intro_to_zk/../definitions/soundness.html">Soundness</a>).</p>
+<h3 id="1-asking-multiple-questions"><a class="header" href="#1-asking-multiple-questions">1. Asking multiple questions</a></h3>
+<p>The first technique can be understood as “asking multiple questions”.
+Rather than sending the witness as a single message, the Prover and Verifier can <strong>interact</strong> over multiple rounds.
+This forces the Prover to stay consistent: once something is said, it cannot be unsaid; and any contradiction between the Prover’s messages can be used against him.</p>
+<p>Proof systems that use this paradigm are known as <strong>interactive proofs (IP)</strong>.</p>
+<p><img src="intro_to_zk/../images/cartoon_ip.png" alt="Interactive proof" /></p>
+<p>In practice, we much prefer non-interactive proofs.
+Luckily, if an IP is such that the Verifier’s messages are all sampled at random from a uniform distribution, <strong>there are techniques to transform the IP into a non-interactive proof</strong> (e.g., the <a href="intro_to_zk/../definitions/fiat_shamir.html">Fiat-Shamir Transform</a>).</p>
+<h3 id="2-not-reading-the-full-proof"><a class="header" href="#2-not-reading-the-full-proof">2. Not reading the full proof</a></h3>
+<p>The second technique is to not read the full proof.
+Instead, the Verifier will <strong>query the proof</strong> at location of her choice.
+The locations are usually chosen at random after the Prover sent his message.</p>
+<p>Proof systems that use this paradigm are known as <strong>probabilistically checkable proofs (PCP)</strong>.</p>
+<p><img src="intro_to_zk/../images/cartoon_pcp.png" alt="Probabilistic proof" /></p>
+<p>Note that for PCPs to make sense, we need a way for the Prover to send his message, without requiring the Verifier to read it in full.
+When working on theoretical systems, we allow the Prover to send an <a href="intro_to_zk/../definitions/oracle.html">oracle</a> for his proof.
+In this context, an oracle is a black-box that stores the proof string and can be queried at any index.
+<strong>To turn these into real-world systems, we implement the oracle with a commitment scheme.</strong></p>
+<h3 id="3-combining-both"><a class="header" href="#3-combining-both">3. Combining both</a></h3>
+<p>Of course, we can combine the two above techniques.
+The resulting proof systems are known as <strong>interactive oracle proofs (IOP)</strong>.</p>
+<p><img src="intro_to_zk/../images/cartoon_iop.png" alt="Interactive oracle proof" /></p>
+<p>Interestingly, IOPs are not more powerful than PCPs.
+Everything that can be proven by an IOP can also be proven by a PCP.
+However, they yield more efficient protocols in practice.</p>
+<h2 id="how-is-this-related-to-my-snarks"><a class="header" href="#how-is-this-related-to-my-snarks">How is this related to my SNARKs?</a></h2>
+<p>Our favorite recipe to build a SNARK is as follows: <strong>we start with an IOP, replace the theoretical oracles with commitments, and then remove interaction by using the Fiat-Shamir transform</strong>.
+The SNARK “proof” is a collection of commitments to the Prover’s messages, the values of the IOP messages at the locations queried by the Verifier, and some extra information to convince the Verifier that the values do correspond to the committed strings.</p>
+<p>For a formal treatment of these techniques, please see the <em>excellent</em> free online book <a href="https://snargsbook.org"><em>Building Cryptographic Proofs from Hash Functions</em></a> by Chiesa and Yogev.</p>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<p>See ’’Bibliographic Notes“ in Chiesa and Yogev’s <a href="https://snargsbook.org"><em>Building Cryptographic Proofs from Hash Functions</em></a>.</p>
+<hr />
+<p><em>Cartoons created in <a href="https://plus.excalidraw.com">Excalidraw</a> by Nicolas Mohnblatt, using the Stick Figures collection by <a href="https://github.com/youritjang">Youri Tjang</a> and the Speech Bubbles collection by <a href="https://www.grepper.com/app/profile.php?id=44392">Oscar Capraro</a>.</em></p>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="algebraic-holographic-proof-ahp"><a class="header" href="#algebraic-holographic-proof-ahp">Algebraic Holographic Proof (AHP)</a></h1>
 <blockquote>
@@ -285,7 +329,7 @@ We discuss these systems more formally in the next article.</p>
 <p><strong>AHP or Polynomial IOP?</strong>
 Algrebraic holographic proofs and polynomial interactive oracle proofs are almost equivalent notions. They were developed concurrently in 2019 by separate research groups: the former by the group behind Marlin <a href="https://ia.cr/2019/1047">[CHMMVW20]</a> and the latter by the group behind DARK <a href="https://ia.cr/2019/1229">[BFS20]</a>. While they formalise very similar proof systems, polynomial IOPs are more general in that they do not require <em>holography</em> (as defined above).</p>
 </blockquote>
-<h2 id="references"><a class="header" href="#references">References</a></h2>
+<h2 id="references-1"><a class="header" href="#references-1">References</a></h2>
 <p><a href="https://ia.cr/2019/1229">[BFS20]</a> Bünz, Benedikt, Ben Fisch, and Alan Szepieniec. “Transparent SNARKs from DARK compilers.” In Advances in Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May 10–14, 2020, Proceedings, Part I 39, pp. 677-706. Springer International Publishing, 2020.</p>
 <p><a href="https://ia.cr/2019/1047">[CHMMVW20]</a> Chiesa, Alessandro, Yuncong Hu, Mary Maller, Pratyush Mishra, Noah Vesely, and Nicholas Ward. “Marlin: Preprocessing zkSNARKs with universal and updatable SRS.” In Advances in Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May 10–14, 2020, Proceedings, Part I 39, pp. 738-768. Springer International Publishing, 2020.</p>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -497,7 +541,7 @@ The <span class="katex"><span class="katex-html" aria-hidden="true"><span class=
 <blockquote>
 <p><strong>Circuits vs Machine Computation.</strong> While the PLONK arithmetization was originally designed to capture arithmetic circuits, its PLONKish extensions are now general enough that they also capture machine computations.</p>
 </blockquote>
-<h2 id="references-1"><a class="header" href="#references-1">References</a></h2>
+<h2 id="references-2"><a class="header" href="#references-2">References</a></h2>
 <p><a href="https://eprint.iacr.org/2019/953">[GWC19]</a> Gabizon, Ariel, Zachary J. Williamson, and Oana Ciobotaru. “PLONK: Permutations over Lagrange-bases for Oecumenical Non-interactive arguments of Knowledge.” Cryptology ePrint Archive (2019).</p>
 <p><a href="https://eprint.iacr.org/2022/086">[PFMBM22]</a> Pearson, Luke, Joshua Fitzgerald, Héctor Masip, Marta Bellés-Muñoz, and Jose Luis Muñoz-Tapia. “Plonkup: Reconciling plonk with plookup.” Cryptology ePrint Archive (2022).</p>
 <p><a href="https://zcash.github.io/halo2/concepts/arithmetization.html">[Zcash]</a> Zcash. “The halo2 Book”.</p>
@@ -534,7 +578,7 @@ KZG (or Kate) commitments, IPA (inner-product argument), FRI (Fast Reed-Solomon 
 <p><strong>AHP or Polynomial IOP?</strong>
 Algrebraic holographic proofs and polynomial interactive oracle proofs are almost equivalent notions. They were developed concurrently in 2019 by separate research groups: the former by the group behind Marlin <a href="https://ia.cr/2019/1047">[CHMMVW20]</a> and the latter by the group behind DARK <a href="https://ia.cr/2019/1229">[BFS20]</a>. While they formalise very similar proof systems, polynomial IOPs are more general in that they do not require <em>holography</em> (as defined in the <a href="definitions/./algebraic_holographic_proof.html">AHP article</a>).</p>
 </blockquote>
-<h2 id="references-2"><a class="header" href="#references-2">References</a></h2>
+<h2 id="references-3"><a class="header" href="#references-3">References</a></h2>
 <p><a href="https://ia.cr/2019/1229">[BFS20]</a> Bünz, Benedikt, Ben Fisch, and Alan Szepieniec. “Transparent SNARKs from DARK compilers.” In Advances in Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May 10–14, 2020, Proceedings, Part I 39, pp. 677-706. Springer International Publishing, 2020.</p>
 <p><a href="https://ia.cr/2019/1047">[CHMMVW20]</a> Chiesa, Alessandro, Yuncong Hu, Mary Maller, Pratyush Mishra, Noah Vesely, and Nicholas Ward. “Marlin: Preprocessing zkSNARKs with universal and updatable SRS.” In Advances in Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May 10–14, 2020, Proceedings, Part I 39, pp. 738-768. Springer International Publishing, 2020.</p>
 <p><a href="https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf">[Nit20]</a> Anca Nitulescu. zk-SNARKs: a Gentle Introduction. 2020. <a href="https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf">https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf</a>.</p>

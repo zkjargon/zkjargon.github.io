@@ -179,11 +179,11 @@
                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="introduction-to-zk-jargon"><a class="header" href="#introduction-to-zk-jargon">Introduction to ZK Jargon</a></h1>
 <hr />
-<h2 id="what-does-it-mean-to-prove"><a class="header" href="#what-does-it-mean-to-prove">What does it mean to <em>prove</em>?</a></h2>
+<h2 id="part-1-what-does-it-mean-to-prove"><a class="header" href="#part-1-what-does-it-mean-to-prove">Part 1: What does it mean to <em>prove</em>?</a></h2>
 <p>This article aims to be a gentle introduction to the notions of <strong>decision problems</strong>, <strong>relations</strong>, <strong>languages</strong> and the <strong><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathsf">NP</span></span></span></span></span> complexity class</strong>.
 We follow a running example and rephrase it each time we cover a new term.</p>
 <h3 id="decision-problems"><a class="header" href="#decision-problems">Decision Problems</a></h3>
-<p>In mathematics, a statement is either <em>true</em> or <em>false</em>.
+<p>In mathematics, a statement is either <code>TRUE</code> or <code>FALSE</code>.
 However, deciding whether a statement is true or false is not always easy.
 Consider for example the following statements:</p>
 <ul>
@@ -191,15 +191,15 @@ Consider for example the following statements:</p>
 <li><strong>Statement 2</strong>: the number <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25890323</span></span></span></span> can be factored.</li>
 </ul>
 <!-- 5669 x 4567 = 25890323 -->
-<p>We can quickly check that Statement 1 is true, but what about Statement 2?
+<p>We can quickly check that Statement 1 is <code>TRUE</code>, but what about Statement 2?
 To our knowledge, the best way to decide Statement 2 is just to try factoring <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25890323</span></span></span></span>.
-If we succeed, the statement is true, but we might be trying for a long time, with no guarantee of ever succeeding!</p>
+If we succeed, the statement is <code>TRUE</code>, but we might be trying for a long time, with no guarantee of ever succeeding!</p>
 <p>What if we are given additional information?
 Let’s say we were magically handed (or by luck stumbled upon) the numbers <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5669</span></span></span></span> and <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4567</span></span></span></span>.
 We can try to multiply them together and find that indeed <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">5669</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4567</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">25890323</span></span></span></span>.
 We can now decide Statement 2 ✅.</p>
 <p>Notice that with the additional information, we only needed to perform one multiplication; much less work than trying out all the potential factorizations.
-In a way, this additional information was in fact a <strong>proof</strong> that Statement 2 is true.</p>
+In a way, this additional information was in fact a <strong>proof</strong> that Statement 2 is <code>TRUE</code>.</p>
 <p><strong>Answer #1 (informal): proving means giving auxiliary information about a statement to decide that it is true.</strong></p>
 <p>We can also rephrase this answer in the form of a condition: a provable statement is one that can be easily decided <em>provided the right information</em>.
 In <a href="https://en.wikipedia.org/wiki/Computational_complexity_theory">complexity theory</a>, this corresponds to the <a href="https://en.wikipedia.org/wiki/NP_(complexity)">class <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathsf">NP</span></span></span></span></span></a>.</p>

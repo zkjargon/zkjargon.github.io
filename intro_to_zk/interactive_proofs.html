@@ -179,8 +179,52 @@
                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <h1 id="introduction-to-zk-jargon"><a class="header" href="#introduction-to-zk-jargon">Introduction to ZK Jargon</a></h1>
 <hr />
-<h2 id="probabilistic-and-interactive-proofs"><a class="header" href="#probabilistic-and-interactive-proofs">Probabilistic and Interactive Proofs</a></h2>
-<p><em>COMING SOON.</em></p>
+<h2 id="part-2-probabilistic-and-interactive-proofs"><a class="header" href="#part-2-probabilistic-and-interactive-proofs">Part 2: Probabilistic and Interactive Proofs</a></h2>
+<p>In the <a href="./what_is_proving.html">previous article</a>, we covered what “proving” means, established some necessary vocabulary and finally discussed the trivial proof system: sending the <a href="./what_is_proving.html#relations">witness</a>.
+As discussed, this is not always desirable.
+Sometimes the witness is private and should remain so.
+Other times, the witness is just too big to be sent or for the Verifier to process.</p>
+<p>In this article, we look at two techniques to build more elaborate proof systems:</p>
+<ul>
+<li>the first is to allow the Verifier to “ask multiple questions”, i.e. to <strong>interact with the Prover</strong>;</li>
+<li>the second is to allow the Verifier to <strong>not read the whole proof</strong>.</li>
+</ul>
+<p>Naturally, if the proof is shorter than the witness or it is some randomized version of it, the Verifier might sometimes accept proofs for <code>FALSE</code> statements.
+This is acceptable (!), as long as it only happens with a small probability.
+We call this probability the <strong>soundness error</strong> (see <a href="../definitions/soundness.html">Soundness</a>).</p>
+<h3 id="1-asking-multiple-questions"><a class="header" href="#1-asking-multiple-questions">1. Asking multiple questions</a></h3>
+<p>The first technique can be understood as “asking multiple questions”.
+Rather than sending the witness as a single message, the Prover and Verifier can <strong>interact</strong> over multiple rounds.
+This forces the Prover to stay consistent: once something is said, it cannot be unsaid; and any contradiction between the Prover’s messages can be used against him.</p>
+<p>Proof systems that use this paradigm are known as <strong>interactive proofs (IP)</strong>.</p>
+<p><img src="../images/cartoon_ip.png" alt="Interactive proof" /></p>
+<p>In practice, we much prefer non-interactive proofs.
+Luckily, if an IP is such that the Verifier’s messages are all sampled at random from a uniform distribution, <strong>there are techniques to transform the IP into a non-interactive proof</strong> (e.g., the <a href="../definitions/fiat_shamir.html">Fiat-Shamir Transform</a>).</p>
+<h3 id="2-not-reading-the-full-proof"><a class="header" href="#2-not-reading-the-full-proof">2. Not reading the full proof</a></h3>
+<p>The second technique is to not read the full proof.
+Instead, the Verifier will <strong>query the proof</strong> at location of her choice.
+The locations are usually chosen at random after the Prover sent his message.</p>
+<p>Proof systems that use this paradigm are known as <strong>probabilistically checkable proofs (PCP)</strong>.</p>
+<p><img src="../images/cartoon_pcp.png" alt="Probabilistic proof" /></p>
+<p>Note that for PCPs to make sense, we need a way for the Prover to send his message, without requiring the Verifier to read it in full.
+When working on theoretical systems, we allow the Prover to send an <a href="../definitions/oracle.html">oracle</a> for his proof.
+In this context, an oracle is a black-box that stores the proof string and can be queried at any index.
+<strong>To turn these into real-world systems, we implement the oracle with a commitment scheme.</strong></p>
+<h3 id="3-combining-both"><a class="header" href="#3-combining-both">3. Combining both</a></h3>
+<p>Of course, we can combine the two above techniques.
+The resulting proof systems are known as <strong>interactive oracle proofs (IOP)</strong>.</p>
+<p><img src="../images/cartoon_iop.png" alt="Interactive oracle proof" /></p>
+<p>Interestingly, IOPs are not more powerful than PCPs.
+Everything that can be proven by an IOP can also be proven by a PCP.
+However, they yield more efficient protocols in practice.</p>
+<h2 id="how-is-this-related-to-my-snarks"><a class="header" href="#how-is-this-related-to-my-snarks">How is this related to my SNARKs?</a></h2>
+<p>Our favorite recipe to build a SNARK is as follows: <strong>we start with an IOP, replace the theoretical oracles with commitments, and then remove interaction by using the Fiat-Shamir transform</strong>.
+The SNARK “proof” is a collection of commitments to the Prover’s messages, the values of the IOP messages at the locations queried by the Verifier, and some extra information to convince the Verifier that the values do correspond to the committed strings.</p>
+<p>For a formal treatment of these techniques, please see the <em>excellent</em> free online book <a href="https://snargsbook.org"><em>Building Cryptographic Proofs from Hash Functions</em></a> by Chiesa and Yogev.</p>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<p>See ’’Bibliographic Notes“ in Chiesa and Yogev’s <a href="https://snargsbook.org"><em>Building Cryptographic Proofs from Hash Functions</em></a>.</p>
+<hr />
+<p><em>Cartoons created in <a href="https://plus.excalidraw.com">Excalidraw</a> by Nicolas Mohnblatt, using the Stick Figures collection by <a href="https://github.com/youritjang">Youri Tjang</a> and the Speech Bubbles collection by <a href="https://www.grepper.com/app/profile.php?id=44392">Oscar Capraro</a>.</em></p>
 
                     </main>
 
