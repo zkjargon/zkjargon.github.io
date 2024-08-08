@@ -48,8 +48,6 @@ In this context, an oracle is a black-box that stores the proof string and can b
 Of course, we can combine the two above techniques.
 The resulting proof systems are known as **interactive oracle proofs (IOP)**.
 
-> They are also known as probabilistically checkable interactive proofs (PCIP), although it seems that IOP is the preferred terminology.
-
 ![Interactive oracle proof](../images/cartoon_iop.png)
 
 Interestingly, IOPs are not more powerful than PCPs.
