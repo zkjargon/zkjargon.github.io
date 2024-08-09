@@ -6,9 +6,9 @@
 
 Given a [relation](../intro_to_zk/what_is_proving.md#relations) $\mathcal{R}$ and the associated [language](../intro_to_zk/what_is_proving.md#languages) $\mathcal{L}_\mathcal{R}$, the mathematical expression for completeness looks often like the equation below: 
 $$
-\forall x \notin \mathcal{L}_\mathcal{R}, \; \Pr\left[ \langle \tilde P, V \rangle(x) = 1 \right] \leq \varepsilon
+\forall x \notin \mathcal{L}_\mathcal{R}, \; \Pr\left[ \langle \tilde{P}, V \rangle(x) = 1 \right] \leq \varepsilon
 $$
-where $\tilde P$ is any malicious prover, $V$ is the honest Verifier, $\langle \tilde P, V \rangle(x)$ denotes the bit output by $V$ at the end of the interaction with $\tilde P$ for the instance $x$ and $\varepsilon$ is a small number. We call $\varepsilon$ the *soundness error*.
+where $\tilde{P}$ is any malicious prover, $V$ is the honest Verifier, $\langle \tilde{P}, V \rangle(x)$ denotes the bit output by $V$ at the end of the interaction with $\tilde{P}$ for the instance $x$ and $\varepsilon$ is a small number. We call $\varepsilon$ the *soundness error*.
 
 > **Statistical vs Computational Soundness.**
 > The notion of soundness described above is known as *statistical soundness* or *information-theoretic soundness*. It considers all possible adversaries, including those with unlimited resources. In most real-world applications, we are only concerned with *bounded adversaries*: we usually limit ourselves to adversaries running probabilistic polynomial-time algorithms. This adversarial model is formalised by the notion of an argument (rather than a proof, see our discussion [here](./snark.md#proof-vs-argument)) and that of *computational soundness*.
