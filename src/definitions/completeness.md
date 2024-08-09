@@ -1,5 +1,5 @@
 # Completeness
-> *Of a proof system*. A proof system is *complete* if, for every TRUE statement, the Prover can always produce an accepting proof. 
+> *Of a proof system*. A proof system is *complete* if, for every `TRUE` statement, the Prover can always produce an accepting proof. 
 ---
 
 *Completeness* is a property of a proof system best understood as: "an honest Prover should always be able to convince an honest Verifier of a valid statement".

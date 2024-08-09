@@ -1,5 +1,5 @@
 # Soundness
-> *Of a proof system*. A proof system is *sound* if, for every FALSE statement, the Prover can (almost) never produce an accepting proof. 
+> *Of a proof system*. A proof system is *sound* if, for every `FALSE` statement, the Prover can (almost) never produce an accepting proof. 
 ---
 
 *Soundness* is a property of a proof system best understood as: "a malicious Prover should not be able to convince the Verifier of an invalid statement".
