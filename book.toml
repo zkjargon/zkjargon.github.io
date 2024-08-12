@@ -1,12 +1,15 @@
 [book]
 authors = ["Nicolas Mohnblatt"]
 language = "en"
-multilingual = false
+multilingual = true
 src = "src"
 title = "ZK Jargon Decoder"
 
 [preprocessor.katex]
 renderers = ["html"]
+
+[preprocessor.gettext]
+after = ["links"]
 
 [output.katex]
 
@@ -17,3 +20,6 @@ git-repository-url = "https://github.com/nmohnblatt/zk-jargon-decoder"
 
 [output.html.print]
 page-break = false
+
+[build]
+extra-watch-dirs = ["po"]

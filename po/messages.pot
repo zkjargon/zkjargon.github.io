@@ -1,0 +1,2120 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ZK Jargon Decoder\n"
+"POT-Creation-Date: 2024-08-12T11:36:27+09:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr ""
+
+#: src/SUMMARY.md:3
+msgid "Welcome"
+msgstr ""
+
+#: src/SUMMARY.md:4 src/intro_to_zk/what_is_proving.md:1
+#: src/intro_to_zk/interactive_proofs.md:1
+msgid "Introduction to ZK Jargon"
+msgstr ""
+
+#: src/SUMMARY.md:5
+msgid "What does it mean to _prove_?"
+msgstr ""
+
+#: src/SUMMARY.md:6
+msgid "Probabilistic and Interactive proofs"
+msgstr ""
+
+#: src/SUMMARY.md:7
+msgid "Definitions"
+msgstr ""
+
+#: src/SUMMARY.md:8 src/definitions/algebraic_holographic_proof.md:1
+msgid "Algebraic Holographic Proof (AHP)"
+msgstr ""
+
+#: src/SUMMARY.md:9 src/definitions/arithmetization.md:1
+msgid "Arithmetization"
+msgstr ""
+
+#: src/SUMMARY.md:10 src/definitions/base_field.md:1
+msgid "Base Field"
+msgstr ""
+
+#: src/SUMMARY.md:11 src/definitions/circuit.md:1
+msgid "Circuit"
+msgstr ""
+
+#: src/SUMMARY.md:12 src/definitions/coefficient_form.md:1
+msgid "Coefficient Form"
+msgstr ""
+
+#: src/SUMMARY.md:13 src/definitions/common_reference_string.md:1
+msgid "Common Reference String"
+msgstr ""
+
+#: src/SUMMARY.md:14 src/definitions/completeness.md:1
+msgid "Completeness"
+msgstr ""
+
+#: src/SUMMARY.md:15 src/definitions/constraints.md:1
+msgid "Constraints"
+msgstr ""
+
+#: src/SUMMARY.md:16 src/definitions/elliptic_curve.md:1
+msgid "Elliptic Curve"
+msgstr ""
+
+#: src/SUMMARY.md:17 src/definitions/evaluation_form.md:1
+msgid "Evaluation Form"
+msgstr ""
+
+#: src/SUMMARY.md:18
+msgid "Fast Fourier Transform"
+msgstr ""
+
+#: src/SUMMARY.md:19
+msgid "Fiat-Shamir Transform"
+msgstr ""
+
+#: src/SUMMARY.md:20 src/definitions/instance.md:1
+msgid "Instance"
+msgstr ""
+
+#: src/SUMMARY.md:21 src/definitions/lagrange_interpolation.md:1
+msgid "Lagrange Interpolation"
+msgstr ""
+
+#: src/SUMMARY.md:22 src/definitions/language.md:1
+msgid "Language"
+msgstr ""
+
+#: src/SUMMARY.md:23 src/definitions/nullifier.md:1
+msgid "Nullifier"
+msgstr ""
+
+#: src/SUMMARY.md:24 src/definitions/oracle.md:1
+msgid "Oracle"
+msgstr ""
+
+#: src/SUMMARY.md:25 src/definitions/plonkish_arithmetization.md:1
+msgid "PLONKish Arithmetization"
+msgstr ""
+
+#: src/SUMMARY.md:26 src/definitions/polynomial_commitment.md:1
+msgid "Polynomial Commitment Scheme"
+msgstr ""
+
+#: src/SUMMARY.md:27
+msgid "Polynomial Interactive Oracle Proof"
+msgstr ""
+
+#: src/SUMMARY.md:28 src/definitions/preprocessing_snark.md:1
+msgid "Preprocessing SNARK"
+msgstr ""
+
+#: src/SUMMARY.md:29 src/definitions/public-coin.md:1
+msgid "Public-coin"
+msgstr ""
+
+#: src/SUMMARY.md:30
+msgid "Quadratic Arithmetic Program"
+msgstr ""
+
+#: src/SUMMARY.md:31 src/definitions/r1cs.md:1
+msgid "R1CS"
+msgstr ""
+
+#: src/SUMMARY.md:32
+msgid "Random Oracle"
+msgstr ""
+
+#: src/SUMMARY.md:33 src/definitions/relation.md:1
+msgid "Relation"
+msgstr ""
+
+#: src/SUMMARY.md:34 src/definitions/roots_of_unity.md:1
+msgid "Roots of Unity"
+msgstr ""
+
+#: src/SUMMARY.md:35 src/definitions/scalar_field.md:1
+msgid "Scalar Field"
+msgstr ""
+
+#: src/SUMMARY.md:36 src/definitions/schwartz_zippel.md:1
+msgid "Schwartz-Zippel Lemma"
+msgstr ""
+
+#: src/SUMMARY.md:37 src/definitions/snark.md:1
+msgid "SNARK"
+msgstr ""
+
+#: src/SUMMARY.md:38 src/definitions/soundness.md:1
+msgid "Soundness"
+msgstr ""
+
+#: src/SUMMARY.md:39 src/definitions/structured_reference_string.md:1
+msgid "Structured Reference String"
+msgstr ""
+
+#: src/SUMMARY.md:40 src/definitions/threshold_encryption.md:1
+msgid "Threshold Encryption"
+msgstr ""
+
+#: src/SUMMARY.md:41 src/definitions/trusted_setup.md:1
+msgid "Trusted Setup"
+msgstr ""
+
+#: src/SUMMARY.md:42 src/definitions/vanishing_polynomial.md:1
+msgid "Vanishing Polynomial"
+msgstr ""
+
+#: src/SUMMARY.md:43 src/definitions/witness.md:1
+msgid "Witness"
+msgstr ""
+
+#: src/SUMMARY.md:44
+msgid "Zero-Knowledge Proof"
+msgstr ""
+
+#: src/foreword.md:1
+msgid "Foreword"
+msgstr ""
+
+#: src/foreword.md:3
+msgid "Welcome to the ZK Jargon Decoder 🕵️"
+msgstr ""
+
+#: src/foreword.md:5
+msgid ""
+"The ZK Jargon Decoder aims to be a **dictionary and reference guide** for "
+"common jargon found in **cryptography and the zero-knowledge literature**. "
+"It is collection of **informal and practical** definitions. Each term should "
+"have a one-liner for quick reference and a more detailed explanation if "
+"needed."
+msgstr ""
+
+#: src/foreword.md:7
+msgid ""
+"The nature of this project implies that our definitions will not be "
+"perfectly accurate: some technical details will be omitted, some subtleties "
+"will be ignored. However if you feel that any of these definitions overlook "
+"important aspects of the terms they clarify please get in touch by email or "
+"Twitter:"
+msgstr ""
+
+#: src/foreword.md:9
+msgid ""
+"email: [nico@geometry.dev](mailto:nico@geometry.dev) // Twitter: "
+"[@nico_mnbl](https://twitter.com/nico_mnbl)"
+msgstr ""
+
+#: src/foreword.md:11
+msgid ""
+"This project is still work in progress, participation and suggestions are "
+"always welcome!"
+msgstr ""
+
+#: src/foreword.md:13
+msgid "License"
+msgstr ""
+
+#: src/foreword.md:15
+msgid ""
+"ZK Jargon Decoder © 2022 by ZK Jargon Decoder contributors is licensed under "
+"CC BY-SA 4.0. To view a copy of this license, visit "
+"[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:5
+msgid "Part 1: What does it mean to _prove_?"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:7
+msgid ""
+"This article aims to be a gentle introduction to the notions of **decision "
+"problems**, **relations**, **languages** and the **$\\mathsf{NP}$ complexity "
+"class**. We follow a running example and rephrase it each time we cover a "
+"new term."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:10
+msgid "Decision Problems"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:12
+msgid ""
+"In mathematics, a statement is either `TRUE` or `FALSE`. However, deciding "
+"whether a statement is true or false is not always easy. Consider for "
+"example the following statements:"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:15
+msgid "**Statement 1**: the number $54$ is even."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:16
+msgid "**Statement 2**: the number $25890323$ can be factored."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:19
+msgid ""
+"We can quickly check that Statement 1 is `TRUE`, but what about Statement 2? "
+"To our knowledge, the best way to decide Statement 2 is just to try "
+"factoring $25890323$. If we succeed, the statement is `TRUE`, but we might "
+"be trying for a long time, with no guarantee of ever succeeding!"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:23
+msgid ""
+"What if we are given additional information? Let's say we were magically "
+"handed (or by luck stumbled upon) the numbers $5669$ and $4567$. We can try "
+"to multiply them together and find that indeed $5669 \\times 4567 = "
+"25890323$. We can now decide Statement 2 ✅."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:28
+msgid ""
+"Notice that with the additional information, we only needed to perform one "
+"multiplication; much less work than trying out all the potential "
+"factorizations. In a way, this additional information was in fact a "
+"**proof** that Statement 2 is `TRUE`."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:31
+msgid ""
+"**Answer #1 (informal): proving means giving auxiliary information about a "
+"statement to decide that it is true.**"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:33
+msgid ""
+"We can also rephrase this answer in the form of a condition: a provable "
+"statement is one that can be easily decided _provided the right "
+"information_. In [complexity "
+"theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), this "
+"corresponds to the [class "
+"$\\mathsf{NP}$](https://en.wikipedia.org/wiki/NP_(complexity))."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:36
+msgid "Relations"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:38
+msgid ""
+"The discussion above is formalised by the notions of relations and languages:"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:39
+msgid ""
+"A **relation** $\\mathcal{R}$ is a set of ordered pairs $(x, w)$. When "
+"talking about $\\mathsf{NP}$ relations (provable statements) we refer to the "
+"first item, $x$, as an **instance**, and the second, $w$, as a **witness**."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:42
+msgid ""
+"**Example: factors.** Let's define a relation that we will call "
+"$\\mathcal{R}_\\\\text{factors}$. An instance of this relation is an "
+"integer, and a witness is an unordered list of integers greater than 1. We "
+"will say that the pair $(x, w)$ is in $\\mathcal{R}_\\\\text{factors}$ if "
+"and only if $w$ contains more than one element and the product of all the "
+"elements in $w$ is equal to $x$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:47
+msgid ""
+"For example, the instance $6$ has the witness $\\[2, 3\\]$. The instance "
+"$16$ has multiple witnesses: including $\\[4, 4\\]$, $\\[2, 8\\]$ and $\\[2, "
+"2, 4\\]$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:50
+msgid ""
+"We can now recast Statement 2 in terms of $\\mathcal{R}\\_\\\\text{factors}$:"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:51
+msgid ""
+"**Statement 2** (with jargon, part 1): there exist a witness $w$ such that "
+"$(25890323, w)$ is in $\\mathcal{R}\\_\\\\text{factors}$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:53
+msgid ""
+"As we saw above, finding such a witness ourselves is a lot of work. However, "
+"given the candidate witness $\\[5669, 4567\\]$, we can quickly check that "
+"the pair $(25890323, \\[5669, 4567\\])$ is in "
+"$\\mathcal{R}\\_\\\\text{factors}$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:56
+msgid "Languages"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:58
+msgid ""
+"Rather than always having to say \"the instance $x_1$ has a witness $w_1$ "
+"such that $(x_1, w_1) \\in \\mathcal{R}$\", we use the shorter form \"the "
+"instance $x_1$ is **satisfiable**\". Note that the relation which $x_1$ "
+"satisfies isn't explicitly stated and must be made clear from the context."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:61
+msgid "We can collect all the satisfiable instances of a relation in a set:"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:62
+msgid ""
+"the **language** defined by a relation $\\mathcal{R}$ is the set of all "
+"satisfiable instances for $\\mathcal{R}$. We often write "
+"$\\mathcal{L}(\\mathcal{R})$ or $\\mathcal{L}\\_\\\\mathcal{R}$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:65
+msgid ""
+"**Example: factors.** As we have seen, $6$ and $16$ are in "
+"$\\mathcal{L}(\\mathcal{R}_\\\\text{factors})$. On the other hand, prime "
+"numbers such as $5$ or $7$ cannot be expressed as a product of integers. "
+"Therefore, they are not in $\\mathcal{L}(\\mathcal{R}_\\\\text{factors})$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:70
+msgid ""
+"Once again we can rephrase Statement 2 in terms of the language defined by "
+"$\\mathcal{R}\\_\\\\text{factors}$:"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:71
+msgid ""
+"**Statement 2** (with jargon, part 2): $25890323$ is in "
+"$\\mathcal{L}(\\mathcal{R}\\_\\\\text{factors})$."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:73
+msgid ""
+"**Answer #2 (same as before, in jargon): proving means giving evidence that "
+"an instance is indeed in the language defined by some relation "
+"$\\mathcal{R}$.**"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:75
+msgid ""
+"**More examples.** As an exercise, try to cast a Sudoku as a relation and "
+"identify the instance, witness and language. What about the relation "
+"$\\mathcal{R}\\_f$, defined for some function $f$ as all pairs $(x, w)$ such "
+"that $x = f(w)$? What happens when we pick $f$ to be _(i)_ a polynomial or "
+"_(ii)_ a hash function?"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:82
+msgid "Up next: probabilistic and interactive proofs"
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:84
+msgid ""
+"So far we have only considered the trivial proof system: sending the witness."
+msgstr ""
+
+#: src/intro_to_zk/what_is_proving.md:86
+msgid ""
+"In some cases, this is not desirable. Sometimes the witness is private and "
+"should remain so. Other times, the witness is just too big to be sent or for "
+"the verifier to process. These cases motivate the need for more elaborate "
+"(and powerful) proof systems. We discuss these systems more formally in the "
+"next article."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:5
+msgid "Part 2: Probabilistic and Interactive Proofs"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:7
+msgid ""
+"In the [previous article](./what_is_proving.md), we covered what \"proving\" "
+"means, established some necessary vocabulary and finally discussed the "
+"trivial proof system: sending the [witness](./what_is_proving.md#relations). "
+"As discussed, this is not always desirable. Sometimes the witness is private "
+"and should remain so. Other times, the witness is just too big to be sent or "
+"for the Verifier to process."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:12
+msgid ""
+"In this article, we look at two techniques to build more elaborate proof "
+"systems:"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:13
+msgid ""
+"the first is to allow the Verifier to \"ask multiple questions\", i.e. to "
+"**interact with the Prover**;"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:14
+msgid "the second is to allow the Verifier to **not read the whole proof**."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:16
+msgid ""
+"Naturally, if the proof is shorter than the witness or it is some randomized "
+"version of it, the Verifier might sometimes accept proofs for `FALSE` "
+"statements. This is acceptable (!), as long as it only happens with a small "
+"probability. We call this probability the **soundness error** (see "
+"[Soundness](../definitions/soundness.md))."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:21
+msgid "1. Asking multiple questions"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:22
+msgid ""
+"The first technique can be understood as \"asking multiple questions\". "
+"Rather than sending the witness as a single message, the Prover and Verifier "
+"can **interact** over multiple rounds. This forces the Prover to stay "
+"consistent: once something is said, it cannot be unsaid; and any "
+"contradiction between the Prover's messages can be used against him."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:26
+msgid ""
+"Proof systems that use this paradigm are known as **interactive proofs "
+"(IP)**."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:28
+msgid "![Interactive proof](../images/cartoon_ip.png)"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:30
+msgid ""
+"In practice, we much prefer non-interactive proofs. Luckily, if an IP is "
+"such that the Verifier's messages are all sampled at random from a uniform "
+"distribution, **there are techniques to transform the IP into a "
+"non-interactive proof** (e.g., the [Fiat-Shamir "
+"Transform](../definitions/fiat_shamir.md))."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:33
+msgid "2. Not reading the full proof"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:34
+msgid ""
+"The second technique is to not read the full proof. Instead, the Verifier "
+"will **query the proof** at location of her choice. The locations are "
+"usually chosen at random after the Prover sent his message."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:38
+msgid ""
+"Proof systems that use this paradigm are known as **probabilistically "
+"checkable proofs (PCP)**."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:40
+msgid "![Probabilistic proof](../images/cartoon_pcp.png)"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:42
+msgid ""
+"Note that for PCPs to make sense, we need a way for the Prover to send his "
+"message, without requiring the Verifier to read it in full. When working on "
+"theoretical systems, we allow the Prover to send an "
+"[oracle](../definitions/oracle.md) for his proof. In this context, an oracle "
+"is a black-box that stores the proof string and can be queried at any index. "
+"**To turn these into real-world systems, we implement the oracle with a "
+"commitment scheme.**"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:47
+msgid "3. Combining both"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:48
+msgid ""
+"Of course, we can combine the two above techniques. The resulting proof "
+"systems are known as **interactive oracle proofs (IOP)**."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:51
+msgid "![Interactive oracle proof](../images/cartoon_iop.png)"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:53
+msgid ""
+"Interestingly, IOPs are not more powerful than PCPs. Everything that can be "
+"proven by an IOP can also be proven by a PCP. However, they yield more "
+"efficient protocols in practice."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:57
+msgid "How is this related to my SNARKs?"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:58
+msgid ""
+"Our favorite recipe to build a SNARK is as follows: **we start with an IOP, "
+"replace the theoretical oracles with commitments, and then remove "
+"interaction by using the Fiat-Shamir transform**. The SNARK \"proof\" is a "
+"collection of commitments to the Prover's messages, the values of the IOP "
+"messages at the locations queried by the Verifier, and some extra "
+"information to convince the Verifier that the values do correspond to the "
+"committed strings."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:61
+msgid ""
+"For a formal treatment of these techniques, please see the _excellent_ free "
+"online book [_Building Cryptographic Proofs from Hash "
+"Functions_](https://snargsbook.org) by Chiesa and Yogev."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:63
+#: src/definitions/algebraic_holographic_proof.md:16
+#: src/definitions/plonkish_arithmetization.md:44
+#: src/definitions/polynomial_interactive_oracle_proof.md:16
+msgid "References"
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:64
+msgid ""
+"See ''Bibliographic Notes\" in Chiesa and Yogev's [_Building Cryptographic "
+"Proofs from Hash Functions_](https://snargsbook.org)."
+msgstr ""
+
+#: src/intro_to_zk/interactive_proofs.md:67
+msgid ""
+"_Cartoons created in [Excalidraw](https://plus.excalidraw.com) by Nicolas "
+"Mohnblatt, using the Stick Figures collection by [Youri "
+"Tjang](https://github.com/youritjang) and the Speech Bubbles collection by "
+"[Oscar Capraro](https://www.grepper.com/app/profile.php?id=44392)._"
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:3
+msgid ""
+"An algebraic holographic proof is a interactive proof where the prover sends "
+"oracles which are low degree polynomials and can be split into two "
+"categories: those that can be processed before the prover-verifier "
+"interactions and those that cannot. _Closely related to [polynomial "
+"IOP](./polynomial_interactive_oracle_proof.md)._"
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:7
+msgid ""
+"Algebraic Holographic Proofs are first defined in the Marlin paper "
+"[\\[CHMMVW20\\]](https://ia.cr/2019/1047) as a means to separate the "
+"information theoretic aspects of SNARKs from the cryptographic aspects. It "
+"is an interactive oracle proof with extra properties:"
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:8
+msgid ""
+"_algebraic_: an honest prover only produces oracles for low degree "
+"polynomials (just like in [polynomial "
+"IOPs](./polynomial_interactive_oracle_proof.md))"
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:9
+msgid ""
+"_holographic_: the verifier does not need to see the proof’s input (e.g. a "
+"circuit) but instead has oracle access to an encoding of it."
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:11
+msgid ""
+"We use AHPs, [polynomial commitment schemes](./polynomial_commitment.md) and "
+"the [Fiat-Shamir heuristic](./fiat_shamir.md) to construct **pre-processing "
+"SNARKs** such as Marlin and PLONK."
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:13
+msgid ""
+"**AHP or Polynomial IOP?** Algrebraic holographic proofs and polynomial "
+"interactive oracle proofs are almost equivalent notions. They were developed "
+"concurrently in 2019 by separate research groups: the former by the group "
+"behind Marlin [\\[CHMMVW20\\]](https://ia.cr/2019/1047) and the latter by "
+"the group behind DARK [\\[BFS20\\]](https://ia.cr/2019/1229). While they "
+"formalise very similar proof systems, polynomial IOPs are more general in "
+"that they do not require _holography_ (as defined above)."
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:17
+#: src/definitions/polynomial_interactive_oracle_proof.md:17
+msgid ""
+"[\\[BFS20\\]](https://ia.cr/2019/1229) Bünz, Benedikt, Ben Fisch, and Alan "
+"Szepieniec. \"Transparent SNARKs from DARK compilers.\" In Advances in "
+"Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the "
+"Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May "
+"10–14, 2020, Proceedings, Part I 39, pp. 677-706. Springer International "
+"Publishing, 2020."
+msgstr ""
+
+#: src/definitions/algebraic_holographic_proof.md:19
+#: src/definitions/polynomial_interactive_oracle_proof.md:19
+msgid ""
+"[\\[CHMMVW20\\]](https://ia.cr/2019/1047) Chiesa, Alessandro, Yuncong Hu, "
+"Mary Maller, Pratyush Mishra, Noah Vesely, and Nicholas Ward. \"Marlin: "
+"Preprocessing zkSNARKs with universal and updatable SRS.\" In Advances in "
+"Cryptology–EUROCRYPT 2020: 39th Annual International Conference on the "
+"Theory and Applications of Cryptographic Techniques, Zagreb, Croatia, May "
+"10–14, 2020, Proceedings, Part I 39, pp. 738-768. Springer International "
+"Publishing, 2020."
+msgstr ""
+
+#: src/definitions/arithmetization.md:3
+msgid ""
+"_Ambiguous_. The process of turning a generic statement or question into a "
+"set of equations to be verified or solved - also refers to the output of "
+"that process."
+msgstr ""
+
+#: src/definitions/arithmetization.md:6
+msgid ""
+"Arithmetization is the process of turning a generic statement or question "
+"into a set of equation to be verified or solved. Consider the following "
+"statement: “I am twice older than my youngest sibling”. Can we write this "
+"mathematically? Let’s write $a_1, a_2, \\dots, a_n$ the ages of the siblings "
+"and $x$ the age of the claimant. We can now rewrite the statement as: $x = "
+"2\\*min(a_1, a_2, \\dots, a_n)$"
+msgstr ""
+
+#: src/definitions/arithmetization.md:8
+msgid ""
+"To verify the original statement for Alice (8) and her siblings Bob (9) and "
+"Charlie (4), we can just plug in the values to our equation. We evaluate "
+"each side and determine whether the equation holds: if it holds the "
+"statement was true, if it does not the statement was false. Simple as that!"
+msgstr ""
+
+#: src/definitions/arithmetization.md:10
+msgid ""
+"A “good” arithmetization is one in which the final mathematical expressions "
+"can be evaluated with minimal effort (computation). While our example was "
+"trivial, the process of arithmetization becomes more complex for abstract "
+"statements such as: “I have correctly shuffled a deck of cards” or “I know a "
+"secret value $x$ such that running a public program $P$ with $x$ as input "
+"will output the public value $y$”."
+msgstr ""
+
+#: src/definitions/arithmetization.md:13
+msgid ""
+"See also: [R1CS](./r1cs.md), [PLONK "
+"Arithmetization](./plonkish_arithmetization.md)"
+msgstr ""
+
+#: src/definitions/base_field.md:2
+msgid ""
+"_Elliptic Curve Cryptography_. The finite field from which coordinates $(x, "
+"y)$ of an elliptic curve point are chosen."
+msgstr ""
+
+#: src/definitions/base_field.md:4 src/definitions/elliptic_curve.md:4
+#: src/definitions/scalar_field.md:5
+msgid ""
+"_⚠️ Prerequisites: [Finite "
+"fields](https://zcash.github.io/halo2/background/fields.html)._"
+msgstr ""
+
+#: src/definitions/base_field.md:6 src/definitions/scalar_field.md:7
+msgid "See [Elliptic Curve](./elliptic_curve.md)."
+msgstr ""
+
+#: src/definitions/circuit.md:3
+msgid ""
+"In ZK literature this usually refers to an arithmetic circuit: an ordered "
+"collection of additions and multiplications (and sometimes custom "
+"operations) that are applied to a set of inputs to yield an output."
+msgstr ""
+
+#: src/definitions/circuit.md:6
+msgid ""
+"The word “circuit” is used somewhat ambiguously, but most of the times we "
+"refer to an **arithmetic circuit**. An arithmetic circuit is an ordered "
+"collection of operations (e.g. addition, multiplication) represented by "
+"**gates**. These gates are connected by **wires**. Given an arithmetic "
+"circuit, we can apply an **input signal**, allow it to propagate through the "
+"wires and gates and observe the output. Below is an example of an arithmetic "
+"circuit that expects 3 inputs $x_0$, $x_1$ and $x_2$, and computes: $$y = "
+"5x_0 + 3(x_1 + x_2)$$"
+msgstr ""
+
+#: src/definitions/circuit.md:13
+msgid ""
+"Why are we so obsessed with arithmetic circuits? Finding a set of input "
+"values that produce a desired output is a hard problem. This problem is "
+"known as the **circuit satisfiability problem** and has been heavily studied "
+"in complexity theory. One notable result is that any provable statement can "
+"be converted to the satisfiability problem (more formally, the circuit "
+"satisfiability problem is NP-complete). This comes in handy when we want to "
+"construct proof systems for generic statements."
+msgstr ""
+
+#: src/definitions/coefficient_form.md:2
+msgid ""
+"_Of a polynomial_. Represent a polynomial as a list of the coefficients "
+"associated to each power of the indeterminate variable."
+msgstr ""
+
+#: src/definitions/coefficient_form.md:5 src/definitions/evaluation_form.md:5
+msgid ""
+"Let's look at an example polynomial $p$, defined as $p(X) = X^3 + 4X^2 + 5$. "
+"How can we describe this polynomial in a computer program?"
+msgstr ""
+
+#: src/definitions/coefficient_form.md:7
+msgid ""
+"One approach is to record a list of the coefficients in front of every power "
+"of the indeterminate $X$: `p_coeffs = [5, 0, 4, 1]`. Here we ordered the "
+"coefficients from lowest to highest power; conveniently, the index of the "
+"elements of our array correspond to the power of $X$. As we recorded "
+"coefficients, this is known as the \"coefficient form\"."
+msgstr ""
+
+#: src/definitions/coefficient_form.md:9
+msgid ""
+"Another equivalent representation would be to provide evaluations of $p$ at "
+"a large enough number of known points (see [Evaluation "
+"Form](./evaluation_form.md))."
+msgstr ""
+
+#: src/definitions/coefficient_form.md:11
+msgid "**Coefficient Form vs Evaluation Form.**"
+msgstr ""
+
+#: src/definitions/coefficient_form.md:13
+msgid ""
+"There is no strictly superior representation. The coefficient form allows "
+"for a more lightweight representation of sparse polynomials (polynomials "
+"where many of the coefficients are $0$). Indeed, we only need to record the "
+"non-zero coefficients. On the other hand, some operations such as polynomial "
+"multiplication are much more expensive in coefficient form "
+"($\\mathcal{O}(n^2)$) than they are in evaluation form ($\\mathcal{O}(n)$)."
+msgstr ""
+
+#: src/definitions/coefficient_form.md:15 src/definitions/evaluation_form.md:14
+msgid ""
+"We can convert from coefficient form to evaluation form by evaluating the "
+"polynomial at $d+1$ points. The operation that converts from evaluation form "
+"back to coefficient form is known as polynomial **interpolation** ([Lagrange "
+"interpolation](./lagrange_interpolation.md) is one way to perform this "
+"operation)."
+msgstr ""
+
+#: src/definitions/common_reference_string.md:2
+msgid ""
+"The collection of all public parameters required to run a protocol - usually "
+"in the context of [SNARKs](./snark.md) and [polynomial commitment "
+"schemes](./polynomial_commitment.md)."
+msgstr ""
+
+#: src/definitions/common_reference_string.md:5
+msgid ""
+"In [polynomial commitment schemes](./polynomial_commitment.md) and "
+"[SNARKs](./snark.md) - like may other cryptographic protocols - different "
+"parties need to agree on some common parameters. These often include what "
+"kind of mathematical objects they will be manipulating (integers, points on "
+"an elliptic curve, lattices, etc...), a prime number, a generator of a "
+"cyclic group. Once a _setup_ has been run to determine all the necessary "
+"parameters, they are collected into a _string_ and are published for future "
+"reference. This collection (string) is what we call a **common reference "
+"string**."
+msgstr ""
+
+#: src/definitions/common_reference_string.md:7
+msgid ""
+"**Trusted Setups.** In some cases the common parameters are constructed "
+"using information that needs to remain secret for the protocol to be secure. "
+"In this case we refer to the setup as a [Trusted Setup](./trusted_setup.md) "
+"and the string of parameters as a [Structured Reference "
+"String](./structured_reference_string.md)."
+msgstr ""
+
+#: src/definitions/completeness.md:2
+msgid ""
+"_Of a proof system_. A proof system is _complete_ if, for every TRUE "
+"statement, the Prover can always produce an accepting proof."
+msgstr ""
+
+#: src/definitions/completeness.md:5
+msgid ""
+"_Completeness_ is a property of a proof system best understood as: \"an "
+"honest Prover should always be able to convince an honest Verifier of a "
+"valid statement\"."
+msgstr ""
+
+#: src/definitions/completeness.md:7
+msgid ""
+"Given a [relation](../intro_to_zk/what_is_proving.md#relations) "
+"$\\mathcal{R}$ and the associated "
+"[language](../intro_to_zk/what_is_proving.md#languages) "
+"$\\mathcal{L}_\\\\mathcal{R}$, the mathematical expression for completeness "
+"looks often like the equation below: $$ \\\\forall x \\in "
+"\\mathcal{L}_\\\\mathcal{R}, ; \\Pr\\left\\[ \\langle P, V \\rangle(x) = 1 "
+"\\right\\] = 1 $$ where $P$ and $V$ are the honest Prover and Verifier "
+"respectively, and $\\langle P, V \\rangle(x)$ denotes the bit output by $V$ "
+"at the end of the interaction with $P$ for the instance $x$."
+msgstr ""
+
+#: src/definitions/completeness.md:13
+msgid ""
+"**Perfect completeness vs Completeness.**  \n"
+"The definition above imposes that the honest prover _always_ convince the "
+"honest verifier (i.e. the probability is 1). We call this property _perfect "
+"completeness_. Sometimes this is not necessary, nor is it achievable. In "
+"those cases, we can relax the success probability to be greater than $1 - "
+"\\delta$, where $\\delta$ is something small."
+msgstr ""
+
+#: src/definitions/constraints.md:2
+msgid ""
+"_In arithmetized circuits_. A constraint is an equation that relates gate "
+"inputs to gate outputs."
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:2
+msgid ""
+"A set of coordinate pairs $(x,y)$ that satisfy the equation $y^2 = x^3 + ax "
+"+ b $."
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:6
+msgid ""
+"An elliptic curve is defined as the set of all coordinate pairs $(x, y)$ "
+"such that:"
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:8
+msgid "$$ y^2 = x^3 + ax + b $$"
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:10
+msgid ""
+"In elliptic curve cryptography, we pick $x$ and $y$ to be elements of a "
+"_finite field_. We refer to this field as the **base field**."
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:12
+msgid ""
+"We then define a **group operation** which we call \"point addition\" and "
+"usually denote with the '$+$' symbol. Repeated applications of the group "
+"operations can be counted like below:"
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:14
+msgid "$$ A + A + A = 3A $$"
+msgstr ""
+
+#: src/definitions/elliptic_curve.md:18
+msgid ""
+"The number '$3$' above is referred to as a _scalar_. If we are in a cyclic "
+"group, then the scalars also define a finite field: we call this field the "
+"**scalar field**."
+msgstr ""
+
+#: src/definitions/evaluation_form.md:2
+msgid ""
+"_Of a polynomial_. Represent a polynomial as a list of evaluations of the "
+"polynomial at given points."
+msgstr ""
+
+#: src/definitions/evaluation_form.md:7
+msgid ""
+"One approach is to provide evaluations of $p$ at a large enough number of "
+"known points. In fact, for a polynomial of degree $d$, we will always need "
+"at least $d+1$ points. In our case, we could evaluate $p$ at 4 points: $p(0) "
+"= 5$, $p(1) = 10$, $p(2) = 29$ and $p(3) = 68$. We could record this in an "
+"array as `p_evals = [5, 10, 29, 68]`. This recording of evaluations is aptly "
+"named the \"evaluation form\"."
+msgstr ""
+
+#: src/definitions/evaluation_form.md:9
+msgid ""
+"Another equivalent representation would be to provide a list of the "
+"coefficients in front of every power of the indeterminate $X$ (see "
+"[Coefficient Form](./coefficient_form.md))."
+msgstr ""
+
+#: src/definitions/evaluation_form.md:11
+msgid ""
+"**Coefficient Form vs Evaluation Form.** There is no strictly superior "
+"representation. The coefficient form allows for a more lightweight "
+"representation of sparse polynomials (polynomials where many of the "
+"coefficients are $0$). Indeed, we only need to record the non-zero "
+"coefficients. On the other hand, some operations such as polynomial "
+"multiplication are much more expensive in coefficient form "
+"($\\mathcal{O}(n^2)$) than they are in evaluation form ($\\mathcal{O}(n)$)."
+msgstr ""
+
+#: src/definitions/fast_fourier_transform.md:1
+msgid "Fast Fourier Transform (FFT)"
+msgstr ""
+
+#: src/definitions/fast_fourier_transform.md:2
+msgid ""
+"An algorithm that allows us to efficiently \"convert\" between two "
+"equivalent representations of polynomials: either as a list of coefficients "
+"([coefficient form](./coefficient_form.md)) or as a list of evaluations of "
+"the polynomial ([evaluation form](./evaluation_form.md))."
+msgstr ""
+
+#: src/definitions/fast_fourier_transform.md:4
+msgid "_COMING SOON_."
+msgstr ""
+
+#: src/definitions/fiat_shamir.md:1
+msgid "Fiat-Shamir Heuristic"
+msgstr ""
+
+#: src/definitions/fiat_shamir.md:3
+msgid ""
+"Turn a [public-coin](./public-coin.md) interactive protocol into a "
+"non-interactive protocol (in the [random oracle model](./random_oracle.md))."
+msgstr ""
+
+#: src/definitions/fiat_shamir.md:6
+msgid ""
+"**A Cautionary Tale.** Implementing the Fiat-Shamir heuristic is often a "
+"cause for security-critical bugs as described in this Trail of Bits [blog "
+"post](https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/)."
+msgstr ""
+
+#: src/definitions/instance.md:2
+msgid ""
+"_(Of a general purpose [SNARK](./snark.md))_. The public inputs/outputs of a "
+"[circuit](./circuit.md)."
+msgstr ""
+
+#: src/definitions/instance.md:5
+msgid ""
+"In a general purpose [SNARK](./snark.md), we call the **instance** the "
+"collection of public values, whether they are inputs, or desired outputs of "
+"some computation."
+msgstr ""
+
+#: src/definitions/instance.md:7
+msgid ""
+"\"Instance\" is sometimes used interchangeably with the term \"statement\" "
+"although these terms are not exactly the same[^1]."
+msgstr ""
+
+#: src/definitions/instance.md:9
+msgid ""
+"The terms instance, witness and statement come from complexity theory and "
+"the study of relations. Read more in our [introductory "
+"article](../intro_to_zk/what_is_proving.md)"
+msgstr ""
+
+#: src/definitions/lagrange_interpolation.md:2
+msgid ""
+"A method to construct the unique polynomial of degree $d$ that passes "
+"through $d+1$ given points."
+msgstr ""
+
+#: src/definitions/lagrange_interpolation.md:5
+msgid ""
+"_⚠️ Prerequisites: [Coefficient vs Evaluation Form](./coefficient_form.md)._"
+msgstr ""
+
+#: src/definitions/lagrange_interpolation.md:7
+msgid ""
+"Lagrange interpolation is one way to perform polynomial interpolation "
+"(recall that this is the process of recovering a polynomial from a set of "
+"known evaluations, see prerequisites above)."
+msgstr ""
+
+#: src/definitions/lagrange_interpolation.md:9
+msgid ""
+"Let's say we've been given then following point-evaluation pairs $(x_1, "
+"y_1)$, $(x_2, y_2)$, $(x_3, y_3)$ and $(x_4, y_4)$. Since we have 4 pairs, "
+"we will be able to interpolate the unique polynomial $f$ of degree 4 such "
+"that $f(x_i) = y_i$ for all $i$."
+msgstr ""
+
+#: src/definitions/lagrange_interpolation.md:11
+msgid ""
+"The strategy is the following: for each $x_i$, we create a polynomial $L_i$ "
+"which evaluates to 0 at all the points we were given except $x_i$, where it "
+"evaluates to 1. We can then express the polynomial $f$ as: $$f(X) = "
+"\\sum\\_{i=1}^4 y_iL_i(X)$$"
+msgstr ""
+
+#: src/definitions/lagrange_interpolation.md:15
+msgid ""
+"The set of all $L_i$ polynomials is known as the **Lagrange basis** for the "
+"evaluation domain (here, the set of all $x_i$ values)."
+msgstr ""
+
+#: src/definitions/language.md:3 src/definitions/relation.md:5
+msgid ""
+"See the introductory article on [What does it mean to "
+"_prove_?](../intro_to_zk/what_is_proving.md)."
+msgstr ""
+
+#: src/definitions/nullifier.md:2
+msgid ""
+"A private value which, once revealed, invalidates (or \"nullifies\") some "
+"associated object."
+msgstr ""
+
+#: src/definitions/nullifier.md:5
+msgid ""
+"The term \"nullifier\" is somewhat loosely defined and appears more in "
+"system specs than in academic papers. In general it refers to a private "
+"value which, once revealed, invalidates some associated object."
+msgstr ""
+
+#: src/definitions/nullifier.md:7
+msgid "Example: Nullifiers to Prevent Double-Spending"
+msgstr ""
+
+#: src/definitions/nullifier.md:8
+msgid ""
+"A notorious example system that uses nullifiers is [Tornado "
+"Cash](https://tornadocash.sh):"
+msgstr ""
+
+#: src/definitions/nullifier.md:9
+msgid ""
+"Users deposit funds into the smart contract and associate a unique, secret "
+"nullifier value to their deposit."
+msgstr ""
+
+#: src/definitions/nullifier.md:10
+msgid ""
+"Later one may withdraw from the contract by revealing the nullifier "
+"associated with the original deposit. A zero-knowledge proof attests to the "
+"fact that the nullifier is associated with one of the contract's deposits "
+"but does not reveal which one."
+msgstr ""
+
+#: src/definitions/nullifier.md:11
+msgid ""
+"Upon successful verification of the nullifier and proof, the smart contract "
+"allows the withdrawal."
+msgstr ""
+
+#: src/definitions/nullifier.md:13
+msgid ""
+"The smart contract keeps track of all the nullifiers it has seen: if the "
+"same nullifier is presented a second time, it must be the case that the "
+"funds have already been released and that this user is attempting to cheat "
+"by withdrawing more funds than they deposited!"
+msgstr ""
+
+#: src/definitions/oracle.md:2
+msgid ""
+"_Computing_. An oracle is a black box that efficiently performs a "
+"computation: e.g. a **random oracle** produces random values, a **polynomial "
+"oracle** evaluates a polynomial $p$ at any requested input point."
+msgstr ""
+
+#: src/definitions/oracle.md:5
+msgid ""
+"An oracle is a **black box** that solves a specific computational problem in "
+"constant time. Oracles are used in the theoretical study of computing and "
+"complexity theory."
+msgstr ""
+
+#: src/definitions/oracle.md:7
+msgid ""
+"By interacting with an oracle, one can learn the output of the oracle's "
+"computation but learns nothing about its inner workings."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:2
+msgid ""
+"A group of [circuit](./circuit.md) [arithmetizations](./arithmetization.md) "
+"derived from the PLONK paper [\\[GWC19\\]](https://eprint.iacr.org/2019/953) "
+"-- their core ingredients are a gate equation and copy constraints that "
+"\"wire\" the gates together."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:5 src/definitions/r1cs.md:5
+msgid ""
+"_⚠️ Prerequisites: [Arithmetization](./arithmetization.md), "
+"[Circuit](./circuit.md)._"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:7
+msgid "PLONK Arithmetization"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:8
+msgid ""
+"The PLONK arithmetization was first proposed in the PLONK paper "
+"[\\[GWC19\\]](https://eprint.iacr.org/2019/953) as a means to arithmetize "
+"circuits where each gate has 2 inputs and 1 output. Each gate is expressed "
+"using a \"gate equation\"; the wiring is represented as permutations."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:10
+msgid ""
+"**(Gate Equation).** A single gate with inputs $a, b$ and output $c$ is "
+"defined by the equation: $$ (q_L)a + (q_R)b + (q_O)c + (q_M)ab + (q_C) = 0 "
+"$$ The $q$ values are known as \"**selectors**\" and allow to specialize "
+"each gate into enforcing a specific operation. The table below provides some "
+"examples:"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:16
+msgid "Gate Type"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:16
+msgid "Selector Values"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:16
+msgid "Simplified Gate Equation"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:18
+msgid "Addition"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:18
+msgid "$q_L = 1$, $q_R = 1$, $q_O = -1$, $q_M = 0$, $q_C = 0$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:18
+msgid "$a + b -c = 0$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:19
+msgid "Multiplication"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:19
+msgid "$q_L = 0$, $q_R = 0$, $q_O = -1$, $q_M = 1$, $q_C = 0$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:19
+msgid "$ab -c = 0$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:20
+msgid "Public Input is $x$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:20
+msgid "$q_L = 1$, $q_R = q_O = q_M = 0$, $q_C = -x$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:20
+msgid "$a -x = 0$"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:22
+msgid ""
+"**(Copy Constraints).** Gates are \"connected\" using copy constraints. "
+"Consider two gates for which we want to enforce that the output of the first "
+"gate is the left input to the second gate. Let's label our wires: left "
+"input, right input and output of the first gate will be $1, 2, 3$, while "
+"left input, right input and output of the second gate will be $4, 5, 6$. To "
+"enforce that the value on wire $3$ is the same as the value on wire $4$, we "
+"show that these values are interchangeable; i.e. that they can be "
+"**permuted** without affecting the validity of the gate equations."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:24
+msgid ""
+"A full PLONK circuit is defined by the matrix of all selector values and the "
+"copy permutations."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:26
+msgid "PLONKish: Variants and Extensions"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:27
+msgid ""
+"The PLONK blueprint (gate equation & copy constraints) is extremely "
+"versatile and expressive, and has been declined into many variants. The term "
+"**PLONKish** was [coined by Daira "
+"Hopwood](https://twitter.com/feministPLT/status/1413815927704014850) to "
+"describe such variants."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:29
+msgid "Additional features include:"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:30
+msgid ""
+"**custom gates** - we can add custom functions to the gate equation. To do "
+"so we create a new selector $q_G$ and multiply it by some function $g$ of "
+"the wire values $a, b, c$. The new gate equation becomes: $(q_L)a + (q_R)b + "
+"(q_O)c + (q_M)ab + (q_C) + (q_G)g(a, b, c) = 0$."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:31
+msgid ""
+"**larger fan-in and fan-out** - the PLONK arithmetization can be extended to "
+"support more than 2 inputs and 1 output for each gate."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:32
+msgid ""
+"**lookup tables** - the gate equation can also be extended to allow checking "
+"that some input value is a member of a table of values."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:34
+msgid "Some commonly used names for these variants:"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:35
+msgid ""
+"[**TurboPLONK**](https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf) "
+"$\\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out"
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:36
+msgid ""
+"**PlonkUp** [\\[PFMBM22\\]](https://eprint.iacr.org/2022/086) $\\rightarrow$ "
+"PLONK arithmetization + lookup tables using plookup."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:37
+msgid ""
+"**UltraPLONK** $\\rightarrow$ PLONK arithmetization + custom gates + larger "
+"fan-in/fan-out + lookup tables using plookup."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:38
+msgid ""
+"**halo2 arithmetization** "
+"[\\[Zcash\\]](https://zcash.github.io/halo2/concepts/arithmetization.html) "
+"$\\rightarrow$ PLONK arithmetization + custom gates + larger fan-in/fan-out "
+"+ lookup tables using the Halo2 lookup argument."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:40
+msgid ""
+"**Additional Resources.** In this [ZKSummit "
+"talk](https://youtu.be/ty-LZf0YCK0), Zac Williamson, co-author of PLONK, "
+"covers the PLONK arithmetization as well as its TurboPLONK extension. The "
+"[halo2 "
+"documentation](https://zcash.github.io/halo2/concepts/arithmetization.html) "
+"also provides a thorough explanation of the PLONKish arithmetization used in "
+"halo2."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:42
+msgid ""
+"**Circuits vs Machine Computation.** While the PLONK arithmetization was "
+"originally designed to capture arithmetic circuits, its PLONKish extensions "
+"are now general enough that they also capture machine computations."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:45
+msgid ""
+"[\\[GWC19\\]](https://eprint.iacr.org/2019/953) Gabizon, Ariel, Zachary J. "
+"Williamson, and Oana Ciobotaru. \"PLONK: Permutations over Lagrange-bases "
+"for Oecumenical Non-interactive arguments of Knowledge.\" Cryptology ePrint "
+"Archive (2019)."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:47
+msgid ""
+"[\\[PFMBM22\\]](https://eprint.iacr.org/2022/086) Pearson, Luke, Joshua "
+"Fitzgerald, Héctor Masip, Marta Bellés-Muñoz, and Jose Luis Muñoz-Tapia. "
+"\"Plonkup: Reconciling plonk with plookup.\" Cryptology ePrint Archive "
+"(2022)."
+msgstr ""
+
+#: src/definitions/plonkish_arithmetization.md:49
+msgid ""
+"[\\[Zcash\\]](https://zcash.github.io/halo2/concepts/arithmetization.html) "
+"Zcash. \"The halo2 Book\"."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:3
+msgid ""
+"A two-phase protocol: in the first phase, a _Prover_ commits to a polynomial "
+"$p$ by emitting a public **commitment**; in the second phase the _Verifier_ "
+"chooses a value $x$, and the _Prover_ produces a value $y$ and convinces the "
+"_Verifier_ that $y=p(x)$."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:6
+msgid "Overview"
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:7
+msgid ""
+"A polynomial commitment scheme is a two phase protocol: the first phase is "
+"known as the **commitment phase**, the second as the **evaluation phase**."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:9
+msgid ""
+"In the commitment phase, a _Prover_ generates a commitment to some "
+"polynomial $p(X)$. The type of this commitment object varies depending on "
+"the polynomial commitment scheme being used (e.g. a single elliptic curve "
+"point for KZG commitments or a vector of elliptic points in IPA commitments)."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:11
+msgid ""
+"The evaluation phase is often an interactive protocol between the _Prover_ "
+"and a _Verifier_. The _Verifier_ chooses a point $x$ at which it wants to "
+"learn the evaluation of $p$. The prover can then produce a value $y$ and an "
+"\"**opening proof**\". Finally, the _Prover_ and _Verifier_ use the "
+"commitment, claimed evaluation $y$ and the opening proof as inputs to a "
+"(sometimes interactive) protocol to convince the _Verifier_ that $y = p(x)$."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:13
+msgid "Properties"
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:14
+msgid "We are interested in polynomial commitment schemes that are"
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:15
+msgid ""
+"**binding**: a prover cannot produce false opening proofs for a committed "
+"polynomial."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:16
+msgid ""
+"(optionally) **hiding**: the commitment reveals nothing about the polynomial."
+msgstr ""
+
+#: src/definitions/polynomial_commitment.md:18
+msgid ""
+"**Some Popular Schemes.** KZG (or Kate) commitments, IPA (inner-product "
+"argument), FRI (Fast Reed-Solomon Interactive Oracle Proof of Proximity)."
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:1
+msgid "Polynomial Interactive Oracle Proof (PIOP)"
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:3
+msgid ""
+"An interactive proof system in which the prover computes polynomials and the "
+"verifier can query these polynomials at evaluation points of her choice."
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:7
+msgid ""
+"Polynomial Interactive Oracle Proofs (PIOP, polyIOP or polynomial IOP) "
+"emerged from the development of SNARKs and were later formally defined in "
+"the DARK paper [\\[BFS20\\]](https://ia.cr/2019/1229). These are interactive "
+"protocols between a prover and a verifier. With each message the prover "
+"produces an oracle and the verifier gets to query any oracles it has "
+"received from the prover. In a PIOP, the prover can only produce oracles "
+"that evaluate polynomials with degree lower than a given bound."
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:9
+msgid ""
+"The following figure is taken from _zk-SNARKs: A Gentle Introduction_ "
+"[\\[Nit20\\]](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf)[^1] "
+"and illustrates the prover-verifier interaction in a PIOP:"
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:11
+msgid "![PIOP protocol diagram from \\[Nit20\\]](../images/nitulescu-piop.png)"
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:13
+msgid ""
+"**AHP or Polynomial IOP?** Algrebraic holographic proofs and polynomial "
+"interactive oracle proofs are almost equivalent notions. They were developed "
+"concurrently in 2019 by separate research groups: the former by the group "
+"behind Marlin [\\[CHMMVW20\\]](https://ia.cr/2019/1047) and the latter by "
+"the group behind DARK [\\[BFS20\\]](https://ia.cr/2019/1229). While they "
+"formalise very similar proof systems, polynomial IOPs are more general in "
+"that they do not require _holography_ (as defined in the [AHP "
+"article](./algebraic_holographic_proof.md))."
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:21
+msgid ""
+"[\\[Nit20\\]](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf) Anca "
+"Nitulescu. zk-SNARKs: a Gentle Introduction. 2020. "
+"[https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf)."
+msgstr ""
+
+#: src/definitions/polynomial_interactive_oracle_proof.md:23
+msgid ""
+"A great read for the technically-versed and curious reader trying to get a "
+"global overview of SNARKs in 2021/2022."
+msgstr ""
+
+#: src/definitions/preprocessing_snark.md:2
+msgid ""
+"A [SNARK](./snark.md) in which the circuit - or any equivalent description "
+"of the computation - is encoded into a proving key and verifying key that "
+"are produced ahead of time and independently from any proof."
+msgstr ""
+
+#: src/definitions/public-coin.md:3
+msgid ""
+"A public-coin algorithm is an algorithm in which all random values are "
+"derived publicly - i.e. without the need for private information or "
+"evaluation methods."
+msgstr ""
+
+#: src/definitions/quadratic_arithmetic_program.md:1
+msgid "Quadratic Arithmetic Program (QAP)"
+msgstr ""
+
+#: src/definitions/quadratic_arithmetic_program.md:2
+msgid ""
+"One way (amongst many others) to encode an arithmetic circuit into a set of "
+"arithmetic equations. _See [Arithmetization](./arithmetization.md)._"
+msgstr ""
+
+#: src/definitions/r1cs.md:2
+msgid ""
+"_Acronym: Rank-1 Constraint System._ A [circuit](./circuit.md) "
+"[arithmetization](./arithmetization.md) based on matrix equalities: each "
+"matrix row enforces a constraint over linear combinations of the circuit's "
+"wires."
+msgstr ""
+
+#: src/definitions/r1cs.md:7
+msgid ""
+"Rank-1 Constraint Systems (R1CS) are one way (amongst many others) to encode "
+"an arithmetic circuit. An R1CS circuit is defined by the following equation: "
+"$$A\\vec{z} \\circ B\\vec{z} = C\\vec{z}$$ where $A$, $B$ and $C$ are square "
+"matrices of identical sizes, $\\vec{z}$ is a vector and '$\\circ$' denotes "
+"the element-wise product."
+msgstr ""
+
+#: src/definitions/r1cs.md:11
+msgid ""
+"The matrices $A$, $B$ and $C$ are fixed and define the circuit. To satisfy "
+"the R1CS circuit, a prover must find a vector $\\vec{z}$ for which the "
+"equality above is true. We can also include public inputs by changing the "
+"game slightly: we choose a vector $\\vec{x}$ of public inputs and require "
+"that the prover finds a vector $\\vec{w}$ such that the vector $\\vec{z} = "
+"(\\vec{x}||\\vec{w})$ satisfies the R1CS equality[^1]. We call $\\vec{x}$ "
+"the instance vector and $\\vec{w}$ the witness vector."
+msgstr ""
+
+#: src/definitions/r1cs.md:13
+msgid ""
+"**R1CS in Action.** You can see R1CS in action in [Module 6 of the ZK "
+"Whiteboard Sessions](https://youtu.be/1oLzrbTBlbc?t=476) from 7:56 to 12:00. "
+"There, Mary Maller shows how to populate R1CS matrices to enforce that a "
+"value $w$ decomposes into three bits $b_0, b_1, b_2$ by enforcing the "
+"following equalities: $$ \\begin{align\\*} w &= b_0 + 2b_1 + 4b_2 \\quad "
+"&\\text{(decomposition)}\\\\ 0 &= b_i \\cdot b_i - b_i \\quad &\\text{($b_i$ "
+"is $0$ or $1$)} \\end{align\\*}$$ Note that she is working with a different "
+"yet equivalent matrix equation: $A\\vec{z} \\circ B\\vec{z} - C\\vec{z} = 0$"
+msgstr ""
+
+#: src/definitions/r1cs.md:18
+msgid "[^1] Here '$||$' denotes the concatenation operation."
+msgstr ""
+
+#: src/definitions/random_oracle.md:1
+msgid "Random Oracle Model (ROM)"
+msgstr ""
+
+#: src/definitions/random_oracle.md:2
+msgid ""
+"An approximation of the real world in which the outputs of certain "
+"computations (like hashing or signing a message) are seen as truly random."
+msgstr ""
+
+#: src/definitions/random_oracle.md:5
+msgid ""
+"The random oracle model is **a tool** that we use to write security proofs "
+"for our cryptographic constructions - it is a representation of the world in "
+"which we claim that random oracles exist. A _random oracle_ is a black box "
+"to which we _ask queries_ (send values) and receive a _response_: a value "
+"chosen at random. The random oracle’s responses are"
+msgstr ""
+
+#: src/definitions/random_oracle.md:7
+msgid ""
+"consistent: if I give it a query that it has already seen, the random oracle "
+"will give me the same response it gave previously."
+msgstr ""
+
+#: src/definitions/random_oracle.md:8
+msgid ""
+"unpredictable: the responses follow a uniform distribution over the oracle’s "
+"output domain (this could be integers, strings of 10 characters, points on a "
+"curve, _etc_...)."
+msgstr ""
+
+#: src/definitions/random_oracle.md:9
+msgid ""
+"unrelated to the query: nothing about a random oracle’s response gives me "
+"information about the query."
+msgstr ""
+
+#: src/definitions/random_oracle.md:11
+msgid ""
+"**Hash Functions as Random Oracles.** When implementing protocols that are "
+"secure in the ROM, we will often claim that cryptographic hash functions "
+"(SHA256, Keccak/SHA3, Poseidon) behave like random oracles. This claim "
+"usually holds, however we cannot use _any_ hash function. The [first ZKHack "
+"puzzle](https://www.zkhack.dev/puzzle1.html) explores the dangers of using a "
+"poorly-selected hash."
+msgstr ""
+
+#: src/definitions/relation.md:2
+msgid ""
+"A relation is a set of pairs $(x,y)$; the condition that makes a pair part "
+"of a relation may be arbitrarily defined (\"the set of numbers that I think "
+"go well together\") or follow some rule (\"$x$ is greater than $y$\")."
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:2
+msgid ""
+"The $n$-th root of unity is a number $\\omega$ such that $\\omega^n = 1$; we "
+"often call roots of unity the set $\\left{ 1, \\omega, \\omega^2, \\dots, "
+"\\omega^{n-1}\\right}$."
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:5
+msgid ""
+"The $n$-th root of unity is a number $\\omega$ such that $\\omega^n = 1$. "
+"When we use the plural, $n$-th roots of unity, we refer to the set $\\left{ "
+"1, \\omega, \\omega^2, \\dots, \\omega^{n-1}\\right}$."
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:7
+msgid "Example in the complex numbers"
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:8
+msgid ""
+"If we were working in a regular (read: not finite) field, the roots of unity "
+"would be complex numbers. For example you might already be familiar with the "
+"complex number $i$ which is in fact the 4-th root of unity in the set of "
+"complex numbers (you can check this by computing $i^4$). The associated set "
+"would be $\\left{ 1, i, -1, -i\\right}$."
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:10
+msgid "Example in a finite field"
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:11
+msgid ""
+"In a finite field, the definition of \"roots of unity\" directly maps to "
+"that of a multiplicative subgroup of order $n$. For example let's consider "
+"the field $\\mathbb{F}\\_7$ with prime characteristic $7$. The elements of "
+"this field are $0$, $1$, $2$, $3$, $4$, $5$ and $6$. Let's look at the "
+"powers of $2$:"
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:13
+msgid ""
+"$$ 2^1 \\equiv 2 ; (\\text{mod} , 7) \\\\ 2^2 \\equiv 4 ; (\\text{mod} , 7) "
+"\\\\ 2^3 \\equiv 1 ; (\\text{mod} , 7) $$"
+msgstr ""
+
+#: src/definitions/roots_of_unity.md:19
+msgid ""
+"So $2$ is the $3$-rd root of unity with the corresponding subgroup of order "
+"3 being $\\left{ 1, 2, 4 \\right}$."
+msgstr ""
+
+#: src/definitions/scalar_field.md:3
+msgid ""
+"_Elliptic Curve Cryptography_. The finite field defined by counting the "
+"number of repeated applications of the group operation (i.e. point addition)."
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:2
+msgid ""
+"A little mathematical theorem that allows us to assert with high probability "
+"whether two polynomials are identical by evaluating both at the same "
+"randomly chosen input; this is very efficient!"
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:6
+msgid ""
+"⚠️ _Math: polynomials, probabilities. In the spirit of this “jargon "
+"decoder”, we do not look at the lemma directly but instead give informal "
+"intuition for why it is useful in ZK arguments_"
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:8
+msgid ""
+"The **Schwartz-Zippel lemma is a central component to many arguments of "
+"knowledge** because it allows us to efficiently check whether two "
+"polynomials are identical."
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:10
+msgid ""
+"Consider two straight lines (degree 1 polynomials, $aX+b$): these are either "
+"identical or intersect at most once. Similarly, two parabolas (degree 2 "
+"polynomials, $aX^2+bX+c$) are either identical or will intersect at most "
+"twice. Degree 3 polynomial will have at most 3 intersections, etc... The "
+"Schwartz-Zippel lemma can be used to show that this pattern is true for "
+"polynomials of any degree $d$: their evaluations will only be equal to each "
+"other for at most $d$ inputs."
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:12
+msgid ""
+"With that in mind, imagine that we evaluate two polynomials of degree at "
+"most $d$ at a single point in some evaluation domain $S$ and find that they "
+"agree. We know that we are in one of two cases:"
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:14
+msgid ""
+"case 1: our polynomials are identical, all their coefficients are the same."
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:15
+msgid ""
+"case 2: our polynomials are different and we are at one of the $d$ points "
+"where they agree. If our evaluation point was chosen at random in $S$, the "
+"probability of finding ourselves in this case is $\\frac{\\text{\\# of "
+"points where polynomials agree}}{\\text{\\# of points we could have chosen "
+"from}}  = \\frac{d}{|S|}$ (notation: $|S|$ denotes the _order_ of $S$, i.e. "
+"the number of values in the set $S$). For a sufficiently large $S$ compared "
+"to $d$, this probability will approach 0."
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:17
+msgid ""
+"since case 2 is extremely unlikely we can assert with high probability that "
+"the two polynomials were identical."
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:19
+msgid ""
+"**Formalities - only for those who want them**: the lemma itself does not "
+"compare polynomials but instead is interested in the probability that a "
+"polynomial evaluates to 0. Notice that a non-zero polynomial of degree $d$ "
+"has at most $d$ roots (if it had more roots, it would be of higher degree!). "
+"Therefore let $p$ be a non-zero polynomial of degree $d$, $S$ be the "
+"evaluation domain of $p$, and $r$ an element of $S$ chosen uniformly at "
+"random, we can write:"
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:21
+msgid "$$ \\\\text{Pr}\\left\\[p(r) = 0 \\right\\] \\leq \\frac{d}{|S|} $$"
+msgstr ""
+
+#: src/definitions/schwartz_zippel.md:25
+msgid ""
+"When $d \\<\\< |S|$, this probability is negligible. Therefore if for a "
+"value $r$ uniformly chosen at random we find that $q(r)=0$, it is "
+"overwhelmingly likely that $q$ is the zero polynomial. To check whether two "
+"polynomials $f$ and $g$ are identical, we can check whether the polynomial "
+"$h(X) = f(X) -g(X)$ is the zero polynomial."
+msgstr ""
+
+#: src/definitions/snark.md:2
+msgid ""
+"_Acronym: succinct non-interactive argument of knowledge._ An argument "
+"system in which a Prover can produce a short, single-message proof attesting "
+"that she knows some information that shows the truth of a statement."
+msgstr ""
+
+#: src/definitions/snark.md:5
+msgid ""
+"In this article, we will define a number of notions relevant to proof "
+"systems and SNARKs by using the example of a [Sudoku "
+"grid](https://en.wikipedia.org/wiki/Sudoku). Look out for words in bold: "
+"these are common jargon words which get mapped to our simple example."
+msgstr ""
+
+#: src/definitions/snark.md:7
+msgid "Statement, Instance and Witness"
+msgstr ""
+
+#: src/definitions/snark.md:8
+msgid ""
+"Let's consider a Sudoku grid, a specific **instance** of a problem. Alice "
+"makes the following **statement**: \"This grid has a solution\". If it "
+"exists, this solution would be a **witness** to the fact that the statement "
+"is true. But maybe the grid is hard to solve and just looking at the "
+"instance (the grid) is not enough to be convinced that a witness (a "
+"solution) exists. What can Alice do to convince us that the witness exists?"
+msgstr ""
+
+#: src/definitions/snark.md:10
+msgid "![](../images/inst_stat_wit.png)"
+msgstr ""
+
+#: src/definitions/snark.md:12
+msgid "Proof vs Argument"
+msgstr ""
+
+#: src/definitions/snark.md:13
+msgid ""
+"To support her statement, Alice shows us that the Sudoku grid has been "
+"published in many well-known and respected newspapers. In most cases this "
+"would be enough to convince us that the statement is true: surely they "
+"wouldn't publish a \"wrong\" grid. However, if Alice were very powerful she "
+"could have been able to produce modified copies of the papers, or pay the "
+"news editors to include an unsolvable grid. Because there is still a small "
+"chance that Alice is cheating, we do not say that Alice produced an "
+"irrefutable **proof** but rather say that Alice has produced an **argument**."
+msgstr ""
+
+#: src/definitions/snark.md:15
+msgid ""
+"More formally, a proof cannot be falsified by a computationally unbounded "
+"adversary. On the other hand an argument can be falsified by such an "
+"adversarial prover. In practice, the bound can be set so high that we "
+"estimate that no entity in the world would be able to reliably operate above "
+"such a bound. With that in mind, we often abuse the distinction above and "
+"use the word \"proof\" to describe the outputs of both a proof system and an "
+"argument system."
+msgstr ""
+
+#: src/definitions/snark.md:17
+msgid "Arguments of Knowledge"
+msgstr ""
+
+#: src/definitions/snark.md:18
+msgid ""
+"Notice that in her argument, Alice showed the existence of the witness but "
+"may not know the witness herself. What if her statement was \"I know the "
+"solution to this grid\"? Here, Alice would have to produce an **argument of "
+"knowledge**, one by which she can convince us that she _knows_ the solution "
+"to the Sudoku. The most naive approach to demonstrate knowledge would simply "
+"be for Alice to show us the witness. Since it is impossible to show us the "
+"solution without knowing it, this would constitute  a **proof of "
+"knowledge**. While this proof of knowledge is **non-interactive**, it is not "
+"**succinct**: the message that Alice sent is of the same size as the "
+"witness. Can we do any better?"
+msgstr ""
+
+#: src/definitions/snark.md:20
+msgid "SNARKs"
+msgstr ""
+
+#: src/definitions/snark.md:21
+msgid ""
+"We finally get to the notion of a **SNARK**: a succinct non-interactive "
+"argument of knowledge. We have already learnt from the above that an "
+"argument of knowledge allows a bounded prover to show that she knows the "
+"witness that supports a statement. The additional properties of a SNARK are:"
+msgstr ""
+
+#: src/definitions/snark.md:22
+msgid ""
+"succinctness: the proof is substantially shorter than the statement or the "
+"witness."
+msgstr ""
+
+#: src/definitions/snark.md:23
+msgid "non-interactive: the proof is contained in a single message."
+msgstr ""
+
+#: src/definitions/snark.md:25
+msgid ""
+"A SNARK can optionally implement the **zero-knowledge** property: such a "
+"SNARK reveals no information about the witness other than what can be "
+"implied by evaluating the truth of the statement. We call such a SNARK a "
+"**zkSNARK** (zero-knowledge SNARK). In our case, Alice could convince us "
+"that she knows the solution to the Sudoku without giving us any hints as to "
+"what the solution is!"
+msgstr ""
+
+#: src/definitions/snark.md:28
+msgid ""
+"**SNARKs in Practice \\[Advanced\\].** In practice we do not look at Sudokus "
+"but instead consider an [arithmetic circuit](./circuit.md). The circuit and "
+"any public inputs are the instance (just like the Sudoku 9x9 grid and the "
+"numbers that already populate it), the statement is the claim that the "
+"circuit can evaluate to a desired value, and the witness is all the "
+"prover-chosen inputs and intermediate values in the circuit. A famous result "
+"of complexity theory shows that any provable statement can be converted into "
+"this form (namely that the [circuit satisfiability "
+"problem](https://en.wikipedia.org/wiki/Circuit_satisfiability_problem) is "
+"NP-complete)."
+msgstr ""
+
+#: src/definitions/snark.md:31
+msgid ""
+"We can write a proof for the statement about the circuit by expressing "
+"everything as polynomials and running a [polynomial interactive oracle "
+"proof](./polynomial_interactive_oracle_proof.md). This proof can then be "
+"made non-interactive by using the [Fiat-Shamir heuristic](./fiat_shamir.md), "
+"and succinct by using a [polynomial commitment "
+"scheme](./polynomial_commitment.md)."
+msgstr ""
+
+#: src/definitions/snark.md:35
+msgid ""
+"See also: [instance](./instance.md), [witness](./witness.md), [common "
+"reference string](./common_reference_string.md), [structure reference "
+"string](./structured_reference_string.md), [trusted "
+"setup](./trusted_setup.md), [preprocessing SNARK](./preprocessing_snark.md)"
+msgstr ""
+
+#: src/definitions/soundness.md:2
+msgid ""
+"_Of a proof system_. A proof system is _sound_ if, for every FALSE "
+"statement, the Prover can (almost) never produce an accepting proof."
+msgstr ""
+
+#: src/definitions/soundness.md:5
+msgid ""
+"_Soundness_ is a property of a proof system best understood as: \"a "
+"malicious Prover should not be able to convince the Verifier of an invalid "
+"statement\"."
+msgstr ""
+
+#: src/definitions/soundness.md:7
+msgid ""
+"Given a [relation](../intro_to_zk/what_is_proving.md#relations) "
+"$\\mathcal{R}$ and the associated "
+"[language](../intro_to_zk/what_is_proving.md#languages) "
+"$\\mathcal{L}_\\\\mathcal{R}$, the mathematical expression for completeness "
+"looks often like the equation below: $$ \\\\forall x \\n"
+"otin \\mathcal{L}_\\\\mathcal{R}, ; \\Pr\\left\\[ \\langle \\tilde P, V "
+"\\rangle(x) = 1 \\right\\] \\leq \\varepsilon $$ where $\\tilde P$ is any "
+"malicious prover, $V$ is the honest Verifier, $\\langle \\tilde P, V "
+"\\rangle(x)$ denotes the bit output by $V$ at the end of the interaction "
+"with $\\tilde P$ for the instance $x$ and $\\varepsilon$ is a small number. "
+"We call $\\varepsilon$ the _soundness error_."
+msgstr ""
+
+#: src/definitions/soundness.md:13
+msgid ""
+"**Statistical vs Computational Soundness.** The notion of soundness "
+"described above is known as _statistical soundness_ or "
+"_information-theoretic soundness_. It considers all possible adversaries, "
+"including those with unlimited resources. In most real-world applications, "
+"we are only concerned with _bounded adversaries_: we usually limit ourselves "
+"to adversaries running probabilistic polynomial-time algorithms. This "
+"adversarial model is formalised by the notion of an argument (rather than a "
+"proof, see our discussion [here](./snark.md#proof-vs-argument)) and that of "
+"_computational soundness_."
+msgstr ""
+
+#: src/definitions/soundness.md:16
+msgid ""
+"Computational soundness is defined in the same was as information-theoretic "
+"soundness but is only required to hold against probabilistic polynomial-time "
+"adversaries."
+msgstr ""
+
+#: src/definitions/soundness.md:18
+msgid "Stronger Soundness variations"
+msgstr ""
+
+#: src/definitions/soundness.md:19
+msgid ""
+"Soundness comes in several levels of strength. Above is the most basic "
+"version according to which an honest verifier should only accept a proof if "
+"it corresponds to a valid statement. The following describes increasingly "
+"stronger versions of soundness."
+msgstr ""
+
+#: src/definitions/soundness.md:22
+msgid "Knowledge Soundness"
+msgstr ""
+
+#: src/definitions/soundness.md:23
+msgid ""
+"When constructing [arguments of "
+"knowledge](./snark.md#arguments-of-knowledge), a notion stronger than simple "
+"soundness is required: _knowledge soundness_. In this strenghtened scenario, "
+"an honest verifier should only accept a proof if it corresponds to a valid "
+"statement _and_ it was generated by a prover who _knows_ a valid "
+"[witness](./witness.md) for this statement."
+msgstr ""
+
+#: src/definitions/soundness.md:25
+msgid ""
+"Formally, this is defined in terms of an _extractor_: an argument system is "
+"said to be knowledge sound if there exists an efficient algorithm that, "
+"given the prover's algorithm and internal state, can extract a valid witness "
+"for the proven statement. Intuitively, this models the desired property that "
+"the prover \"knows\" a witness for this statement."
+msgstr ""
+
+#: src/definitions/soundness.md:27
+msgid "Simulation Knowledge Soundness (or Simulation-Extractability)"
+msgstr ""
+
+#: src/definitions/soundness.md:28
+msgid ""
+"Another useful and even stronger notion of soundness is "
+"_simulation-extractability_. Informally, it states that an honest verifier "
+"should only accept a proof if it corresponds to a valid statement and was "
+"generated by a prover who knows a valid witness, _even if_ the prover is "
+"allowed to observe honestly generated proofs for arbitrary statements."
+msgstr ""
+
+#: src/definitions/soundness.md:30
+msgid ""
+"Intuitively, if an argument system is simulation-extractable, then it is "
+"_non-malleable_: an adversary can't observe a proof for some statement "
+"generated by a third party and maul it into a proof for another statement "
+"for which the adversary does not know a valid witness."
+msgstr ""
+
+#: src/definitions/soundness.md:32
+msgid ""
+"This captures many real-world scenarios where honestly generated proofs are "
+"made public and may be seen by potential attackers. As such, it has become "
+"the \"gold standard\" in terms of security notions"
+msgstr ""
+
+#: src/definitions/structured_reference_string.md:2
+msgid ""
+"A collection of public parameters for a protocol which were created using "
+"information that must remain secret to ensure the protocol's security."
+msgstr ""
+
+#: src/definitions/structured_reference_string.md:5
+#: src/definitions/trusted_setup.md:5
+msgid ""
+"_See [Common Reference String](./common_reference_string.md)_ and the note "
+"at the bottom of the page."
+msgstr ""
+
+#: src/definitions/threshold_encryption.md:2
+msgid ""
+"A public-key encryption scheme in which the secret key is shared amongst $n$ "
+"parties: to decrypt a ciphertext, we require that a group of strictly more "
+"than $t$ participants collaborate; $t$ is called the threshold."
+msgstr ""
+
+#: src/definitions/trusted_setup.md:2
+msgid ""
+"An algorithm that determines a protocol's public parameters using "
+"information that must remain secret to ensure the protocol's security."
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:2
+msgid ""
+"The unique polynomial of degree $d$ that evaluates to $0$ at all points of a "
+"domain of size $d$."
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:5
+msgid ""
+"The vanishing polynomial over a set $\\mathbb{K}$, often denoted "
+"$z\\_\\\\mathbb{K}$, is the polynomial which has a single root at each "
+"element of $\\mathbb{K}$. It can be explicitly written as:"
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:7
+msgid "$$ z\\_\\\\mathbb{K}(X) = \\prod\\_{k \\in \\mathbb{K}} (X-k) $$"
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:12
+msgid ""
+"By definition, the vanishing polynomial over $\\mathbb{K}$ will have the "
+"following properties:"
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:13
+msgid "it is unique."
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:14
+msgid "it is of degree $|\\mathbb{K}|$."
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:15
+msgid ""
+"for all $k \\in \\mathbb{K}$, $z\\_\\\\mathbb{K}(k) = 0$. (Hence the name "
+"vanishing!)"
+msgstr ""
+
+#: src/definitions/vanishing_polynomial.md:17
+msgid ""
+"**Vanishing Polynomial for Roots of Unity.** When the set $\\mathbb{K}$ is a "
+"set of $n$-th [roots of unity](./roots_of_unity.md), the vanishing "
+"polynomial can be expressed as: $$ z\\_\\\\mathbb{K}(X) = X^n - 1 $$ To see "
+"why this is the case, let's consider the set $\\left{ 1, 2, 4 \\right}$ "
+"which we know are the $3$-rd roots of unity in $\\mathbb{F}_7$ (see the "
+"[Roots of Unity](./roots_of_unity.md#example-in-a-finite-field) article): $$ "
+"\\begin{align\\*} z_\\\\mathbb{K}(X) &\\equiv (X-1)(X-2)(X-4) &(\\text{mod} "
+", 7)\\\\ &\\equiv (X^2 - 3X + 2)(X-4) &(\\text{mod} , 7) \\\\&\\equiv X^3 - "
+"4X^2 - 3X^2 + 12X + 2X - 8 &(\\text{mod} , 7) \\\\ &\\equiv X^3 - 7X^2 + 14X "
+"-8 &(\\text{mod} , 7) \\\\&\\equiv X^3 -1  &(\\text{mod} , 7) "
+"\\end{align\\*} $$ Why does this matter? Expressing $z\\_\\\\mathbb{K}$ in "
+"this way makes it very efficient to evaluate it at one point!"
+msgstr ""
+
+#: src/definitions/witness.md:2
+msgid ""
+"_(Of a general purpose [SNARK](./snark.md))_. All the "
+"[circuit](./circuit.md) variables that the verifier does not see: the "
+"prover's private inputs and all the intermediate values computed in the "
+"circuit."
+msgstr ""
+
+#: src/definitions/witness.md:4
+msgid ""
+"In a general purpose [SNARK](./snark.md), we call the **witness** the "
+"collection of values that the verifier does not read; either because they "
+"are private to the prover, or because they are too long to satisfy the "
+"[succinctness](./snark.md#snarks) property."
+msgstr ""
+
+#: src/definitions/witness.md:6
+msgid "Consider the following example:"
+msgstr ""
+
+#: src/definitions/witness.md:7
+msgid ""
+"Peggy sends a string `string` to Victor and wants to convince him that she "
+"knows a secret value `seed` such that applying the `Keccak` hash 1000 times "
+"to it produces `string`. That is, `string = "
+"Keccak(Keccak(...(Keccak(seed)...)))`."
+msgstr ""
+
+#: src/definitions/witness.md:9
+msgid ""
+"Peggy and Victor therefore agree on a SNARK circuit that takes `seed` as a "
+"private input and `string` as a public input. The circuit applies Keccak "
+"once to `seed` to produce a 1st intermediate value. This value is then fed "
+"into Keccak again, producing another intermediate value. This process is "
+"repeated 1000 times until a final value is produced. Finally, this last "
+"value is compared to `string`."
+msgstr ""
+
+#: src/definitions/witness.md:11
+msgid ""
+"In this example, Peggy wants to keep the value `seed` secret, so it must "
+"certainly be part of the witness. Secondly, notice that the circuit produces "
+"1000 intermediate values. Victor (rightfully so) doesn't care about these "
+"values and shouldn't have to read through them! He just wants to see "
+"`string` and a short proof that Peggy is saying the truth. So the 1000 "
+"intermediate values are also part of the witness."
+msgstr ""
+
+#: src/definitions/zero_knowledge_proof.md:1
+msgid "Zero-knowledge Proof"
+msgstr ""
+
+#: src/definitions/zero_knowledge_proof.md:3
+msgid ""
+"A proof that reveals no more information than the validity of the statement "
+"it supports."
+msgstr ""
+
+#: src/definitions/zero_knowledge_proof.md:5
+msgid "_COMING SOON._"
+msgstr ""
+
