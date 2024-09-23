@@ -7,7 +7,7 @@
 
 The **Schwartz-Zippel lemma is a central component to many arguments of knowledge** because it allows us to efficiently check whether two polynomials are identical.
 
-Consider two straight lines (degree 1 polynomials, $aX+b$): these are either identical or intersect at most once. Similarly, two parabolas (degree 2 polynomials, $aX^2+bX+c$) are either identical or will intersect at most twice. Degree 3 polynomial will have at most 3 intersections, etc... The Schwartz-Zippel lemma can be used to show that this pattern is true for polynomials of any degree $d$: their evaluations will only be equal to each other for at most $d$ inputs.
+Consider two straight lines (degree 1 polynomials, $aX+b$): these are either identical or intersect at most once. Similarly, two parabolas (degree 2 polynomials, $aX^2+bX+c$) are either identical or will intersect at most twice. Degree 3 polynomials will have at most 3 intersections, etc... The Schwartz-Zippel lemma can be used to show that this pattern is true for polynomials of any degree $d$: their evaluations will only be equal to each other for at most $d$ inputs.
 
 With that in mind, imagine that we evaluate two polynomials of degree at most $d$ at a single point in some evaluation domain $S$ and find that they agree. We know that we are in one of two cases:
 
