@@ -11,7 +11,7 @@ The PLONK arithmetization was first proposed in the PLONK paper [[GWC19]](https:
 $$
 (q_L)a + (q_R)b + (q_O)c + (q_M)ab + (q_C) = 0
 $$
-The $q$ values are known as "**selectors**" and allow to specialize each gate into enforcing a specific operation. The table below provides some examples:
+The $q$ values are known as "**selectors**" and allow us to specialize each gate into enforcing a specific operation. The table below provides some examples:
 
 | Gate Type | Selector Values | Simplified Gate Equation |
 | --------- | --------------- | ------------------------ |

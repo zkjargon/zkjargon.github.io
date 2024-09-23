@@ -9,7 +9,7 @@ $$ y^2 = x^3 + ax + b $$
 
 In elliptic curve cryptography, we pick $x$ and $y$ to be elements of a *finite field*. We refer to this field as the **base field**.
 
-We then define a **group operation** which we call "point addition" and usually denote with the '$+$' symbol. Repeated applications of the group operations can be counted like below:
+We then define a **group operation** which we call "point addition" and usually denote with the '$+$' symbol. Repeated applications of the group operation can be counted like below:
 
 $$
 A + A + A = 3A
