@@ -50,8 +50,11 @@ We welcome contributions for translations into different languages. Follow these
 
 6. Once you're satisfied with your translation, create a pull request with your changes.
 
-### Translation Tips
+### Translation Guidelines
 
+For detailed translation guidelines, please refer to our [TRANSLATE.md](TRANSLATE.md) file. Some key points to remember:
+
+- Use a PO editor (like Poedit) to edit `.po` files. Do not edit them by hand.
 - Maintain consistency in terminology throughout the translation.
 - Do not translate code blocks unless necessary.
 - If you're unsure about a translation, leave it in English or add a translator's note.
