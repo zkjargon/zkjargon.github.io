@@ -26,6 +26,23 @@ Thank you for contributing to the translation of ZK Jargon Decoder. Please follo
 
 4. **Images**: If the project includes images with text, discuss with the maintainers about possibly creating translated versions.
 
+## Building All Translations
+
+To build all language versions of the book at once:
+
+1. Ensure you have completed translations for one or more languages.
+2. Run the `build_all.sh` script from the project root:
+
+```sh
+./build_all.sh
+```
+
+This script will automatically detect all available .po files and build a version of the book for each language. The output will be placed in book/xx/ directories, where xx is the language code.
+Notes:
+
+Make sure the script has executable permissions (chmod +x build_all.sh on Unix-like systems).
+On Windows, this script will automatically detect the environment and execute the appropriate PowerShell script.
+
 ## Review Process
 
 1. Self-review your translations before submitting.

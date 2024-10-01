@@ -50,6 +50,15 @@ We welcome contributions for translations into different languages. Follow these
 
 6. Once you're satisfied with your translation, create a pull request with your changes.
 
+7. To build all language versions at once, use the `build_all.sh` script:
+
+```sh
+./build_all.sh
+```
+
+This script will automatically build the book for all available language translations.
+Note: On Windows, this command will automatically execute the appropriate PowerShell script.
+
 ### Translation Guidelines
 
 For detailed translation guidelines, please refer to our [TRANSLATE.md](TRANSLATE.md) file. Some key points to remember:
