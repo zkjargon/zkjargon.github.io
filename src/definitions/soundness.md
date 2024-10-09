@@ -13,7 +13,7 @@ where $\tilde P$ is any malicious prover, $V$ is the honest Verifier, $\langle \
 > **Statistical vs Computational Soundness.**
 > The notion of soundness described above is known as *statistical soundness* or *information-theoretic soundness*. It considers all possible adversaries, including those with unlimited resources. In most real-world applications, we are only concerned with *bounded adversaries*: we usually limit ourselves to adversaries running probabilistic polynomial-time algorithms. This adversarial model is formalised by the notion of an argument (rather than a proof, see our discussion [here](./snark.md#proof-vs-argument)) and that of *computational soundness*.
 >
-> Computational soundness is defined in the same was as information-theoretic soundness but is only required to hold against probabilistic polynomial-time adversaries.
+> Computational soundness is defined in the same way as information-theoretic soundness but is only required to hold against probabilistic polynomial-time adversaries.
 
 ## Stronger Soundness variations
 Soundness comes in several levels of strength. Above is the most basic version according to which an honest verifier should only accept a proof if it corresponds to a valid statement.

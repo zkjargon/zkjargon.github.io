@@ -14,7 +14,7 @@ after = ["links"]
 [output.katex]
 
 [output.html]
-curly-quotes = true
+smart-punctuation = true
 no-section-label = true
 git-repository-url = "https://github.com/nmohnblatt/zk-jargon-decoder"
 
