@@ -17,6 +17,7 @@ after = ["links"]
 smart-punctuation = true
 no-section-label = true
 git-repository-url = "https://github.com/nmohnblatt/zk-jargon-decoder"
+edit-url-template = "https://github.com/nmohnblatt/zk-jargon-decoder/src/{path}"
 
 [output.html.print]
 page-break = false
