@@ -2,9 +2,9 @@
 > *Of a proof system*. A proof system is *complete* if, for every `TRUE` statement, the Prover can always produce an accepting proof. 
 ---
 
-*Completeness* is a property of a proof system best understood as: "an honest Prover should always be able to convince an honest Verifier of a valid statement".
+*Completeness* is a property of a proof system best understood as: **"an honest Prover should always be able to convince an honest Verifier of a valid statement"**.
 
-Given a [relation](../intro_to_zk/what_is_proving.md#relations) $\mathcal{R}$ and the associated [language](../intro_to_zk/what_is_proving.md#languages) $\mathcal{L}_\mathcal{R}$, the mathematical expression for completeness looks often like the equation below: 
+More formally, given a [relation](../intro_to_zk/what_is_proving.md#relations) $\mathcal{R}$ and the associated [language](../intro_to_zk/what_is_proving.md#languages) $\mathcal{L}_\mathcal{R}$, the mathematical expression for completeness looks often like the equation below: 
 $$
 \forall x \in \mathcal{L}_\mathcal{R}, \; \Pr\left[ \langle P, V \rangle(x) = 1 \right] = 1
 $$
