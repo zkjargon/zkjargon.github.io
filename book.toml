@@ -6,12 +6,10 @@ src = "src"
 title = "ZK Jargon Decoder"
 
 [preprocessor.katex]
-renderers = ["html"]
+after = ["links"]
 
 [preprocessor.gettext]
 after = ["links"]
-
-[output.katex]
 
 [output.html]
 smart-punctuation = true
