@@ -28,18 +28,13 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      - name: MDBOOK_VERSION
-        value: 0.4.40
-      - name: MDBOOK_KATEX_VERSION
-        value: 0.9.0
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
           rustup update
-          cargo install mdbook@${MDBOOK_VERSION} mdbook-katex@${MDBOOK_KATEX_VERSION}
+          cargo install mdbook@0.4.40 mdbook-katex@0.9.0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
