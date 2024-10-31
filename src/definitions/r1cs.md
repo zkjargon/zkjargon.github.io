@@ -15,4 +15,4 @@ The matrices $A$, $B$ and $C$ are fixed and define the circuit. To satisfy the R
 > $$ \begin{align*} w &= b_0 + 2b_1 + 4b_2 \quad &\text{(decomposition)}\\ 0 &= b_i \cdot b_i - b_i \quad &\text{($b_i$ is $0$ or $1$)} \end{align*}$$
 > Note that she is working with a different yet equivalent matrix equation: $A\vec{z} \circ B\vec{z} - C\vec{z} = 0$
 
-[^1] Here '$||$' denotes the concatenation operation.
+[^1]: Here '$||$' denotes the concatenation operation.
