@@ -45,7 +45,7 @@ Just for fun I'm including a little Venn diagram of what is and isn't a STARK ba
 
 > **Naming recommendation.** In this book we will use:
 > - **"STARK [BBHR18]"** to refer to the transparent SNARK of Ben-Sasson *et al.*, 
-> - **"STARK"** to mean "scalable, transparent argument of knowledge"; this could include Nova, Bulletproofs (both transparent SNARKs) and possibly some interactive arguments of knowledge that meet the "scalability" requirement,
+> - **"STARK"** to mean "scalable, transparent argument of knowledge"; this could include Nova, [Bulletproofs](https://ieeexplore.ieee.org/abstract/document/8418611) (both transparent SNARKs) and possibly some interactive arguments of knowledge that meet the "scalability" requirement,
 > - **"pure ROM SNARKs"**, **"hash-based SNARK"** or **"transparent hash-based SNARK"** to mean SNARKs that use hash functions and no other cryptographic primitive; this includes STARK [BBHR18], Ligero, Binius, PLONK+FRI (Redshift, Plonky2).
 
 [^1]: See the linked article for the variations on that definition.

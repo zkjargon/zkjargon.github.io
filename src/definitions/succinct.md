@@ -23,5 +23,5 @@ The image below summarizes these definitions and highlights how they get progres
 > **Examples.**
 > Here are some examples of systems that satisfy the definitions:
 > - Groth16, Plonk+KZG, Plonk+FRI, STARK [BBHR18] all **satisfy definitions 1, 2 and 3**.
-> - Bulletproofs, Plonk+IPA / Halo2 **satisfy definitions 2 and 3**, but do not satisfy definition 1. Their proofs are exponentially smaller, but their verifiers run in linear-time.
-> - Brakedown, Orion, Binius **satisfy definition 3**, but not definitions 1 and 2. Their proof size and verifier runtime scale with the square root of the witness.
+> - [Bulletproofs](https://ieeexplore.ieee.org/abstract/document/8418611), Plonk+IPA / [Halo2](https://github.com/zcash/halo2) **satisfy definitions 2 and 3**, but do not satisfy definition 1. Their proofs are exponentially smaller, but their verifiers run in linear-time.
+> - [Brakedown](https://eprint.iacr.org/2021/1043), [Orion](https://eprint.iacr.org/2022/1010), [Binius](https://github.com/IrreducibleOSS/binius) **satisfy definition 3**, but not definitions 1 and 2. Their proof size and verifier runtime scale with the square root of the witness.
