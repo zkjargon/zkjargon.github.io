@@ -2,18 +2,18 @@
 > *Of a proof system*. A proof system is *sound* if, for every `FALSE` statement, the Prover can (almost) never produce an accepting proof. 
 ---
 
-*Soundness* is a property of a proof system best understood as: **"a malicious Prover should not be able to convince the Verifier of an invalid statement"**.
+*Soundness* is a property of a proof system best understood as: **"a malicious Prover should not be able to convince an honest Verifier of an invalid statement"**.
 
-More formally, given a [relation](../intro_to_zk/what_is_proving.md#relations) $\mathcal{R}$ and the associated [language](../intro_to_zk/what_is_proving.md#languages) $\mathcal{L}_\mathcal{R}$, the mathematical expression for soundness looks often like the equation below: 
-$$
+> **The math version.**  
+> More formally, given a [relation](../intro_to_zk/what_is_proving.md#relations) $\mathcal{R}$ and the associated [language](../intro_to_zk/what_is_proving.md#languages) $\mathcal{L}_\mathcal{R}$, the mathematical expression for soundness looks often like the equation below: 
+>$$
 \forall x \notin \mathcal{L}_\mathcal{R}, \; \Pr\left[ \langle \widetilde{P}, V \rangle(x) = 1 \right] \leq \varepsilon
 $$
-where $\widetilde{P}$ is any malicious prover, $V$ is the honest Verifier, $\langle \widetilde{P}, V \rangle(x)$ denotes the bit output by $V$ at the end of the interaction with $\widetilde{P}$ for the instance $x$ and $\varepsilon$ is a small number. We call $\varepsilon$ the *soundness error*.
+>where $\widetilde{P}$ is any malicious prover, $V$ is the honest Verifier, $\langle \widetilde{P}, V \rangle(x)$ denotes the bit output by $V$ at the end of the interaction with $\widetilde{P}$ for the instance $x$ and $\varepsilon$ is a small number. We call $\varepsilon$ the *soundness error*.
 
-> **Statistical vs Computational Soundness.**
-> The notion of soundness described above is known as *statistical soundness* or *information-theoretic soundness*. It considers all possible adversaries, including those with unlimited resources. In most real-world applications, we are only concerned with *bounded adversaries*: we usually limit ourselves to adversaries running probabilistic polynomial-time algorithms. This adversarial model is formalised by the notion of an argument (rather than a proof, see our discussion [here](./snark.md#proof-vs-argument)) and that of *computational soundness*.
->
-> Computational soundness is defined in the same was as information-theoretic soundness but is only required to hold against probabilistic polynomial-time adversaries.
+**Statistical vs Computational Soundness.**
+The notion of soundness described above is known as *statistical soundness* or *information-theoretic soundness*. It considers all possible adversaries, including those with unlimited resources. In most real-world applications, we are only concerned with *bounded adversaries*: we usually limit ourselves to adversaries running probabilistic polynomial-time algorithms. This adversarial model is formalised by the notion of an argument (rather than a proof, see our discussion [here](./snark.md#proof-vs-argument)) and that of *computational soundness*.
+Computational soundness is defined in the same was as information-theoretic soundness but is only required to hold against probabilistic polynomial-time adversaries.
 
 ## Stronger Soundness variations
 Soundness comes in several levels of strength. Above is the most basic version according to which an honest verifier should only accept a proof if it corresponds to a valid statement.
