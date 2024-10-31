@@ -11,9 +11,9 @@
 
 "STARK" was first introduced by Ben-Sasson *et al.* [[BBHR18]](https://eprint.iacr.org/2018/046) as an acronym for scalable, transparent argument of knowledge.
 The properties are:
-- [Scalable](./scalable.md): the protocol is [succinct](./succinct.md)[^1] and has a quasi-linear prover.
-- [Transparent](./transparent_setup.md): the protocol has a transparent setup; that is, one that does not require secret information.
-- [Argument of Knowledge](./soundness.md#knowledge-soundness): the protocol is an argument and it upholds the knowledge soundness property. At a high level, this means that any computationally bounded prover that produces a valid proof must have *known* the witness.
+- [**Scalable**](./scalable.md): the protocol is [succinct](./succinct.md)[^1] and has a quasi-linear prover.
+- [**Transparent**](./transparent_setup.md): the protocol has a transparent setup; that is, one that does not require secret information.
+- [**Argument of Knowledge**](./soundness.md#knowledge-soundness): the protocol is an argument and it upholds the knowledge soundness property. At a high level, this means that any computationally bounded prover that produces a valid proof must have *known* the witness.
 
 Notice that "STARK" says nothing about whether the proof should be non-interactive.
 
