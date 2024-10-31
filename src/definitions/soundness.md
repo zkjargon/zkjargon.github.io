@@ -12,7 +12,7 @@ $$
 >where $\widetilde{P}$ is any malicious prover, $V$ is the honest Verifier, $\langle \widetilde{P}, V \rangle(x)$ denotes the bit output by $V$ at the end of the interaction with $\widetilde{P}$ for the instance $x$ and $\varepsilon$ is a small number. We call $\varepsilon$ the *soundness error*.
 
 **Statistical vs Computational Soundness.**
-The notion of soundness described above is known as *statistical soundness* or *information-theoretic soundness*. It considers all possible adversaries, including those with unlimited resources. In most real-world applications, we are only concerned with *bounded adversaries*: we usually limit ourselves to adversaries running probabilistic polynomial-time algorithms. This adversarial model is formalised by the notion of an argument (rather than a proof, see our discussion [here](./snark.md#proof-vs-argument)) and that of *computational soundness*.
+The notion of soundness described above is known as *statistical soundness* or *information-theoretic soundness*. It considers all possible adversaries, including those with unlimited resources. In most real-world applications, we are only concerned with *bounded adversaries*: we usually limit ourselves to adversaries running probabilistic polynomial-time algorithms. This adversarial model is formalised by the notion of an argument (rather than a "proof") and that of *computational soundness*.
 Computational soundness is defined in the same was as information-theoretic soundness but is only required to hold against probabilistic polynomial-time adversaries.
 
 ## Stronger Soundness variations
