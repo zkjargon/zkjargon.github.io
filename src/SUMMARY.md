@@ -32,6 +32,7 @@
 - [Random Oracle](./definitions/random_oracle.md)
 - [Relation](./definitions/relation.md)
 - [Roots of Unity](./definitions/roots_of_unity.md)
+- [Scalable](./definitions/scalable.md)
 - [Scalar Field](./definitions/scalar_field.md)
 - [Schwartz-Zippel Lemma](./definitions/schwartz_zippel.md)
 - [SNARK](./definitions/snark.md)
