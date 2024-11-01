@@ -17,7 +17,7 @@ An MPC protocol allows these parties to evaluate the function of interest on the
 >
 > The problem can then be extended to allow for more than 2 parties, and any arbitrary program rather than just a comparison of integers.
 
-## Generic vs Task-specific
+## Generic vs Task-specific Protocols
 MPC protocols can be divided into two groups: those that are task-specific, and those that are generic.
 A generic protocol will allow the set of parties to compute any program they like.
 However, making the protocol generic prevents it from being optimized for the specific task at hand.
