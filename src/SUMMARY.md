@@ -47,5 +47,6 @@
 - [Trusted Setup](./definitions/trusted_setup.md)
 - [Vanishing Polynomial](./definitions/vanishing_polynomial.md)
 - [Witness](./definitions/witness.md)
+- [Witness Encryption](./definitions/witness_encryption.md)
 - [Zero-Knowledge Proof](./definitions/zero_knowledge_proof.md)
 - [zkVM](./definitions/zkvm.md)
