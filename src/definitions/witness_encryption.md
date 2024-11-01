@@ -24,3 +24,13 @@ Here is a table summarizing the above discussion:
 | EC public key encryption       | EC discrete logarithm     | Point $P = sG$ | Scalar $s$                            |
 | Circuit-based encryption       | Circuit satisfiability    | public inputs  | private inputs and intermediate wires |
 | Generic **witness encryption** | any $\mathsf{NP}$-problem | instance $x$   | witness $w$                           |
+
+## Witness Encryption in Practice
+**Witness encryption schemes are not yet practical**.
+Cryptographers are hard at work to make these schemes usable.
+
+However, we do have variants that are already available:
+- **commitment-based witness encryption (CWE).** In CWE, the public key is an instance $x$ and a commitment $\mathsf{com}$. The corresponding private key is a value $w$ such that $\mathsf{com}$ was a commitment to $w$ and $w$ was a valid witness for $x$. 
+    > **CWE example.** Following our circuit example: the public key would be the public inputs *and* a commitment to the private inputs + intermediate steps.
+- **signature-based witness encryption (SWE).** In SWE, the public key is a signature key $\mathsf{pk}$ and a string `s`. The corresponding private key is a signature on `s` by the secret key $\mathsf{sk}$ that corresponds to $\mathsf{pk}$.
+    > **SWE example.** SWE has been used to build *timelock encryption*, otherwise known as "encrypting to the future" [[DHMW22]](https://eprint.iacr.org/2022/433) [[GMR23]](https://eprint.iacr.org/2023/189).
