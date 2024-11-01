@@ -1,6 +1,6 @@
 # Fully Homomorphic Encryption (FHE)
 
-> An encryption scheme is said to be *fully homomorphic* if it allows to compute additions and multiplications on ciphertexts.
+> An encryption scheme is said to be *fully homomorphic* if it allows to compute additions and multiplications on ciphertexts; decrypting the modified ciphertext reveals the result of applying those additions and multiplications to the original message.
 
 ---
 
@@ -12,10 +12,10 @@ The decryption will yield $F(\texttt{message})$.
 [![](../images/fhe.png)](../images/fhe.png)
 
 This process allows to outsource computation to an untrusted party without revealing the input data.
-Note however that FHE alone gives no insurance as to what function $F$ was run.
+Note however that FHE alone gives no guarantees as to what function $F$ was run.
 
 # Practicality
 
 FHE is regarded as the holy grail of encryption and for a long time was thought to be impossible.
 Today we are starting to see practical FHE schemes.
-Note however that they are orders of magnitude slower than symmetric encryption, and non-FHE asymmetric schemes.
+Note however that they are orders of magnitude slower than symmetric encryption, and non-FHE public key schemes.
