@@ -24,7 +24,7 @@ By extension, this protocol came to be known as "STARK".
 
 The STARK protocol of Ben-Sasson *et al.* [[BBHR18]](https://eprint.iacr.org/2018/046) was iterated upon and has changed throughout the years.
 Techniques such as using quotient polynomials, copy constraints and/or lookup tables have made their way into [stwo](https://github.com/starkware-libs/stwo/tree/dev), the latest iteration of StarkWare's "STARK" proof system.
-In this manner, today's "STARK" is very close (if no identical) to a PLONK+FRI protocol.
+In this manner, today's "STARK" is essentially a PLONKish protocol with a hash-based polynomial proximity test (e.g., FRI, STIR, WHIR).
 
 # Hash-based SNARKs
 Today, people use the term "STARK" to mean "any transparent [SNARK](./snark.md) that relies only on hash functions".
