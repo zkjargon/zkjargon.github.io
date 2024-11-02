@@ -13,7 +13,6 @@ It also implies that the messages it reads (the proof) are also exponentially sm
 This definition is the earliest one to appear and also the strictest to satisfy.
 It is used in textbooks such as the [*SNARGs Book*](http://snargsbook.org) of Chiesa and Yogev.
 2. **Tiny proof.** The proof has to be exponentially smaller than the witness, however we allow the verifier to run in time that is comparable to the full computation.
-Examples of systems that satisfy this definition in addition to the ones above are Bulletproofs, Plonk+IPA / Halo2.
 3. **Better-than-trivial proof.** The proof has to be asymptotically smaller than the witness.
 The verifier is still allowed to run in time that is comparable to the full computation. This definition is the most relaxed. It is promoted in more recent papers and recommended by Justin Thaler in his [17 misconceptions](https://a16zcrypto.com/posts/article/17-misconceptions-about-snarks/#section--3) post.
 
