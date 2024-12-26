@@ -7,9 +7,13 @@ title = "ZK Jargon Decoder"
 
 [preprocessor.katex]
 after = ["links"]
+# [preprocessor.katex]
+# renderers = ["html"]
 
 [preprocessor.gettext]
 after = ["links"]
+
+# [output.katex]
 
 [output.html]
 smart-punctuation = true

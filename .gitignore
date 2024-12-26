@@ -1,3 +1,4 @@
 book
 .idea
 po/messages.pot
+po/*.mo
