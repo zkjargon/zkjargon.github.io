@@ -48,7 +48,7 @@ When talking about $\mathsf{NP}$ relations (provable statements) we refer to the
 > The instance $16$ has multiple witnesses: including $[4, 4]$, $[2, 8]$ and $[2, 2, 4]$. 
 > 
 > We can now recast Statement 2 in terms of $\mathcal{R}_\text{factors}$:
-> - **Statement 2** (with jargon, part 1): there exist a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$.
+> - **Statement 2** (with jargon, part 1): there exists a witness $w$ such that $(25890323, w)$ is in $\mathcal{R}_\text{factors}$.
 > 
 > As we saw above, finding such a witness ourselves is a lot of work.
 > However, given the candidate witness $[5669, 4567]$, we can quickly check that the pair $(25890323, [5669, 4567])$ is in $\mathcal{R}_\text{factors}$.
