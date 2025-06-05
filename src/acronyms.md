@@ -42,6 +42,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **FS transform -** [Fiat--SHamir transform](./definitions/fiat_shamir.md).
 
 ## G
+- **GC -** garbled circuit.
 - **GKR protocol -** Goldwasser--Kalai--Rothblum.
 
 ## H
