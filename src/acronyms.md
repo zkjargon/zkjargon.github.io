@@ -95,13 +95,13 @@ Below is a list of common acronyms, ordered alphabetically.
 - **SSS -** Shamir secret sharing.
 - **STARK -** [scalable transparent argument of knowledge](./definitions/stark.md). 
 
-## V
-- **VDF -** verifiable delay function. 
-- **VSS -** verifiable secret sharing.
-
 ## T
 - **TEE -** trusted execution environment.
 - **TFHE -** torus fully homomorphic encryption (not to be confused with threshold FHE).
+
+## V
+- **VDF -** verifiable delay function. 
+- **VSS -** verifiable secret sharing.
 
 ## Z
 - **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md).
