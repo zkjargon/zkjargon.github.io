@@ -10,6 +10,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **AIR -** algebraic intermediate representation.
 
 ## B
+- **BARG -** batch argument.
 - **BCS transform-** Ben-Sasson--Chiesa--Spooner.
 - **BLS curves -** Barreto--Lynn--Scott.
 - **BLS signatures -** Boneh--Lynn--Sacham.
@@ -21,7 +22,8 @@ Below is a list of common acronyms, ordered alphabetically.
 
 ## D
 - **DA -** data availability.
-- **DAS scheme -** data availability sampling scheme. 
+- **DAS scheme -** data availability sampling scheme.
+- **DEEP -** domain extension for the elimination of pretenders. 
 - **DKG -** distributed key generation.
 - **DLOG -** discrete logarithm.
 
@@ -48,6 +50,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **IOP -** interactive oracle proof. 
 - **IOPP -** interactive oracle proof of proximity.
 - **IP -** interactive proof.
+- **IPA -** inner-product argument.
 - **IVC -** incrementally verifiable computation.
 
 ## K
@@ -60,9 +63,10 @@ Below is a list of common acronyms, ordered alphabetically.
 - **LWE -** learning with error.
 
 ## M
+- **M31 -** the Mersenne prime $2^{31} - 1$.
 - **MLE -** multilinear extension.
 - **MNT curves -** Miyaji--Nakabayashi--Takano.
-- **MPC -** multi-party computation.
+- **MPC -** [multi-party computation](./definitions/mpc.md).
 - **MSIS -** module short integer solution.
 
 ## N
@@ -98,7 +102,7 @@ Below is a list of common acronyms, ordered alphabetically.
 ## S
 - **SIS -** short integer solution.
 - **SNARG -** succinct non-interactive argument.
-- **SNARK -** succinct non-interactive argument of knowledge.
+- **SNARK -** [succinct non-interactive argument of knowledge](./definitions/snark.md).
 - **SRS -** [structured reference string](./definitions/structured_reference_string.md).
 - **SS -** secret sharing.
 - **SSS -** Shamir secret sharing.
