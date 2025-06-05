@@ -4,6 +4,8 @@
 # Introduction to ZK Jargon
 - [What does it mean to *prove*?](./intro_to_zk/what_is_proving.md)
 - [Probabilistic and Interactive proofs](./intro_to_zk/interactive_proofs.md)
+# Acronyms
+- [List of Common Acronyms](./acronyms.md)
 # Definitions
 - [Algebraic Holographic Proof (AHP)](./definitions/algebraic_holographic_proof.md)
 - [Arithmetization](./definitions/arithmetization.md)
