@@ -92,7 +92,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **PVSS -** publicly verifiable secret sharing.
 
 ## Q
-- **QAP -** quadratic arithmetic programme.
+- **QAP -** [quadratic arithmetic program](./definitions/quadratic_arithmetic_program.md).
 
 ## R
 - **R1CS -** [rank-1 constraint system](./definitions/r1cs.md).
@@ -133,3 +133,6 @@ Below is a list of common acronyms, ordered alphabetically.
 - **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md).
 - **zkVM -** [zero-knowledge virtual machine](./definitions/zkvm.md). 
 - **zkEVM -** zero-knowledge Ethereum virtual machine.
+
+## Numbers
+- **2-PC -** two-party computation.
