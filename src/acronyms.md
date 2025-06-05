@@ -89,7 +89,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **PCP -** probabilistically checkable proof. 
 - **PCS -** [polynomial commitment scheme](./definitions/polynomial_commitment.md). 
 - **PIOP -** polynomial interactive oracle proof. 
-- **PPOT -** perpetual powers of tau (trusted setup ceremony).
+- **PPOT -** [perpetual powers of tau](https://pse.dev/fr/projects/powers-of-tau) (trusted setup ceremony).
 - **PQC -** post-quantum cryptography.
 - **PRF -** pseudo-random function.
 - **PRG -** pseudo-random generator. 
