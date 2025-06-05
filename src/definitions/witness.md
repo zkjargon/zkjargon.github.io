@@ -1,6 +1,8 @@
 # Witness
 > *(Of a general purpose [SNARK](./snark.md))*. All the [circuit](./circuit.md) variables that the verifier does not see: the prover's private inputs and all the intermediate values computed in the circuit.
 
+---
+
 In a general purpose [SNARK](./snark.md), we call the **witness** the collection of values that the verifier does not read; either because they are private to the prover, or because they are too long to satisfy the [succinctness](./snark.md#snarks) property.
 
 Consider the following example:  
