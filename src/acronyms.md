@@ -32,6 +32,8 @@ Below is a list of common acronyms, ordered alphabetically.
 - **ECC -**
     - elliptic curve cryptography.
     - error-correcting codes.
+- **ECDSA -** elliptic curve digital signature algorithm.
+- **EdDSA -** Edwards-curve digital signature algorithm.
 
 ## F
 - **FFT -** [fast Fourier transform](./definitions/fast_fourier_transform.md).
@@ -100,6 +102,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **RAP -** randomized AIR with pre-processing (equivalent to [PLONKish arithmetization](./definitions/plonkish_arithmetization.md)).
 - **ROM -** [random oracle model](./definitions/random_oracle.md).
 - **RS code -** Reed-Solomon code. 
+- **RSA -** Rivest--Shamir--Adleman.
 - **RTP -** real-time proving.
 
 ## S
@@ -127,6 +130,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **WE -** [witness encryption](./definitions/witness_encryption.md).
 
 ## X
+- **X3DH -** extended triple Diffie Hellman (key agreement protocol).
 
 ## Y
 
