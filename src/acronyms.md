@@ -6,6 +6,7 @@ Especially when they are hard to look up!
 Below is a list of common acronyms, ordered alphabetically.
 
 ## A
+- **AGM -** algebraic group model.
 - **AHP -** [algebraic holographic proof](./definitions/algebraic_holographic_proof.md).
 - **AIR -** algebraic intermediate representation.
 
@@ -43,6 +44,7 @@ Below is a list of common acronyms, ordered alphabetically.
 
 ## G
 - **GC -** garbled circuit.
+- **GGM -** generic group model.
 - **GKR protocol -** Goldwasser--Kalai--Rothblum.
 
 ## H
