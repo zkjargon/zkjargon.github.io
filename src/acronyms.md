@@ -18,6 +18,7 @@ Below is a list of common acronyms, ordered alphabetically.
 
 ## C
 - **CCS -** customizable constraint system.
+- **coSNARK -** collaborative SNARK.
 - **CRS -** [common reference string](./definitions/common_reference_string.md).
 
 ## D
