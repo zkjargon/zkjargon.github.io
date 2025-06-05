@@ -52,6 +52,7 @@ Below is a list of common acronyms, ordered alphabetically.
 
 ## K
 - **KDF -** key-derivation function.
+- **KEM -** key encapsulation mechanism
 - **KZG commitment -** Kate--Zaverucha--Goldberg polynomial commitment scheme.
 
 ## L
@@ -70,21 +71,29 @@ Below is a list of common acronyms, ordered alphabetically.
 - **NIZK -** non-interactive zero-knowledge proof.
 - **NTT -** number-theoretic transform.
 
+## O
+- **oPRF -** oblivious pseudo-random function.
+
 ## P 
 - **PAIR -** pre-processed AIR. 
 - **PCD -** proof-carrying data.
 - **PCP -** probabilistically checkable proof. 
 - **PCS -** [polynomial commitment scheme](./definitions/polynomial_commitment.md). 
 - **PIOP -** polynomial interactive oracle proof. 
+- **PQC -** post-quantum cryptography.
 - **PRF -** pseudo-random function.
 - **PRG -** pseudo-random generator. 
 - **PVSS -** publicly verifiable secret sharing.
+
+## Q
+- **QAP -** quadratic arithmetic programme.
 
 ## R
 - **R1CS -** [rank-1 constraint system](./definitions/r1cs.md).
 - **RAP -** randomized AIR with pre-processing (equivalent to [PLONKish arithmetization](./definitions/plonkish_arithmetization.md)).
 - **ROM -** [random oracle model](./definitions/random_oracle.md).
 - **RS code -** Reed-Solomon code. 
+- **RTP -** real-time proving.
 
 ## S
 - **SIS -** short integer solution.
