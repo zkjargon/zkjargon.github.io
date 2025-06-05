@@ -1,6 +1,8 @@
 # Elliptic Curve
 > A set of coordinate pairs $(x,y)$ that satisfy the equation $y^2 = x^3 + ax + b $.
 
+---
+
 *⚠️ Prerequisites: [Finite fields](https://zcash.github.io/halo2/background/fields.html).*
 
 An elliptic curve is defined as the set of all coordinate pairs $(x, y)$ such that:

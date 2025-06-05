@@ -2,6 +2,8 @@
 
 > A proof that reveals no more information than the validity of the statement it supports.
 
+---
+
 A proof is said to be "zero-knowledge" if it does not reveal *any* information beyond the fact that a statement is `TRUE`.
 
 Zero-knowledge proofs provide **privacy** for the prover.
