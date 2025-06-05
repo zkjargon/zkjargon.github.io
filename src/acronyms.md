@@ -20,6 +20,8 @@ Below is a list of common acronyms, ordered alphabetically.
 - **CRS -** [common reference string](./definitions/common_reference_string.md).
 
 ## D
+- **DA -** data availability.
+- **DAS scheme -** data availability sampling scheme. 
 - **DKG -** distributed key generation.
 - **DLOG -** discrete logarithm.
 
