@@ -53,6 +53,8 @@ Below is a list of common acronyms, ordered alphabetically.
 - **IPA -** inner-product argument.
 - **IVC -** incrementally verifiable computation.
 
+## J
+
 ## K
 - **KDF -** key-derivation function.
 - **KEM -** key encapsulation mechanism
@@ -112,9 +114,20 @@ Below is a list of common acronyms, ordered alphabetically.
 - **TEE -** trusted execution environment.
 - **TFHE -** torus fully homomorphic encryption (not to be confused with threshold FHE).
 
+
+## U
+- **UC -** universal composability.
+
 ## V
 - **VDF -** verifiable delay function. 
 - **VSS -** verifiable secret sharing.
+
+## W
+- **WE -** [witness encryption](./definitions/witness_encryption.md).
+
+## X
+
+## Y
 
 ## Z
 - **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md).
