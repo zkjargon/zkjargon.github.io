@@ -121,6 +121,7 @@ Below is a list of common acronyms, ordered alphabetically.
 ## T
 - **TEE -** trusted execution environment.
 - **TFHE -** torus fully homomorphic encryption (not to be confused with threshold FHE).
+- **TLS -** transport layer protocol.
 
 
 ## U
@@ -139,9 +140,11 @@ Below is a list of common acronyms, ordered alphabetically.
 ## Y
 
 ## Z
-- **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md).
-- **zkVM -** [zero-knowledge virtual machine](./definitions/zkvm.md). 
+- **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md); sometimes (debatably) extended to refer to "any kind of cryptographic proof".
 - **zkEVM -** zero-knowledge Ethereum virtual machine.
+- **zkTLS -** "zero-knowledge TLS", refers to systems that attest to the contents of a TLS session. 
+- **zkVM -** [zero-knowledge virtual machine](./definitions/zkvm.md). 
+- **zkzk -** refers to systems that are zero-knowledge in contexts where "ZK" has been extended to mean "any kind of cryptographic proof".
 
-## Numbers
+## 0-9
 - **2-PC -** two-party computation.
