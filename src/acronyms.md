@@ -58,6 +58,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **IP -** interactive proof.
 - **IPA -** inner-product argument.
 - **IVC -** incrementally verifiable computation.
+- **IZK -** interactive zero-knowledge (proof).
 
 ## J
 
@@ -75,6 +76,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **MLE -** multilinear extension.
 - **MNT curves -** Miyaji--Nakabayashi--Takano.
 - **MPC -** [multi-party computation](./definitions/mpc.md).
+- **MPC-TLS -** "multi-party computation TLS", refers to systems that use MPC to attest to the contents of a TLS session.
 - **MSIS -** module short integer solution.
 
 ## N
@@ -141,8 +143,11 @@ Below is a list of common acronyms, ordered alphabetically.
 
 ## Z
 - **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md); sometimes (debatably) extended to refer to "any kind of cryptographic proof".
+- **zkAI -** ZK (in the broad "any kind of cryptographic proof" sense) artificial intelligence. 
 - **zkEVM -** zero-knowledge Ethereum virtual machine.
+- **zkID -** zero-knowledge identity.
 - **zkML -** ZK (in the broad "any kind of cryptographic proof" sense) machine learning. 
+- **ZKP -** ZK proof, both interpretation of the "ZK" acronym are possible.
 - **zkTLS -** "zero-knowledge TLS", refers to systems that attest to the contents of a TLS session. 
 - **zkVM -** [zero-knowledge virtual machine](./definitions/zkvm.md). 
 - **zkzk -** refers to systems that are zero-knowledge in contexts where "ZK" has been extended to mean "any kind of cryptographic proof".
