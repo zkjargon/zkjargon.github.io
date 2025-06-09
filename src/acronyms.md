@@ -142,6 +142,7 @@ Below is a list of common acronyms, ordered alphabetically.
 ## Z
 - **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md); sometimes (debatably) extended to refer to "any kind of cryptographic proof".
 - **zkEVM -** zero-knowledge Ethereum virtual machine.
+- **zkML -** ZK (in the broad "any kind of cryptographic proof" sense) machine learning. 
 - **zkTLS -** "zero-knowledge TLS", refers to systems that attest to the contents of a TLS session. 
 - **zkVM -** [zero-knowledge virtual machine](./definitions/zkvm.md). 
 - **zkzk -** refers to systems that are zero-knowledge in contexts where "ZK" has been extended to mean "any kind of cryptographic proof".
