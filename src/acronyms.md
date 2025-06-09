@@ -6,6 +6,7 @@ Especially when they are hard to look up!
 Below is a list of common acronyms, ordered alphabetically.
 
 ## A
+- **AES -** advanced encryption standard.
 - **AGM -** algebraic group model.
 - **AHP -** [algebraic holographic proof](./definitions/algebraic_holographic_proof.md).
 - **AIR -** algebraic intermediate representation.
@@ -28,6 +29,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **DEEP -** domain extension for the elimination of pretenders. 
 - **DKG -** distributed key generation.
 - **DLOG -** discrete logarithm.
+- **DSA -** digital signature algorithm.
 
 ## E
 - **ECC -**
@@ -46,6 +48,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **GC -** garbled circuit.
 - **GGM -** generic group model.
 - **GKR protocol -** Goldwasser--Kalai--Rothblum.
+- **GR1CS -** generalized rank-1 constraint system.
 
 ## H
 - **HE -** homomorphic encryption.
@@ -93,6 +96,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **PCD -** proof-carrying data.
 - **PCP -** probabilistically checkable proof. 
 - **PCS -** [polynomial commitment scheme](./definitions/polynomial_commitment.md). 
+- **PESAT relation-** polynomial equation satisfaction relation . 
 - **PIOP -** polynomial interactive oracle proof. 
 - **PPOT -** [perpetual powers of tau](https://pse.dev/fr/projects/powers-of-tau) (trusted setup ceremony).
 - **PQC -** post-quantum cryptography.
@@ -102,19 +106,23 @@ Below is a list of common acronyms, ordered alphabetically.
 
 ## Q
 - **QAP -** [quadratic arithmetic program](./definitions/quadratic_arithmetic_program.md).
+- **QROM -** quantum random oracle model.
 
 ## R
 - **R1CS -** [rank-1 constraint system](./definitions/r1cs.md).
 - **RAP -** randomized AIR with pre-processing (equivalent to [PLONKish arithmetization](./definitions/plonkish_arithmetization.md)).
+- **RBR (knowledge) soundness -** round-by-round (knowledge) soundness.
 - **ROM -** [random oracle model](./definitions/random_oracle.md).
 - **RS code -** Reed-Solomon code. 
 - **RSA -** Rivest--Shamir--Adleman.
 - **RTP -** real-time proving.
 
 ## S
+- **SHA -** secure hash algorithm.
 - **SIS -** short integer solution.
 - **SNARG -** succinct non-interactive argument.
 - **SNARK -** [succinct non-interactive argument of knowledge](./definitions/snark.md).
+- **SR (knowledge) soundness -** state restoration (knowledge) soundness.
 - **SRS -** [structured reference string](./definitions/structured_reference_string.md).
 - **SS -** secret sharing.
 - **SSS -** Shamir secret sharing.
@@ -123,7 +131,7 @@ Below is a list of common acronyms, ordered alphabetically.
 ## T
 - **TEE -** trusted execution environment.
 - **TFHE -** torus fully homomorphic encryption (not to be confused with threshold FHE).
-- **TLS -** transport layer protocol.
+- **TLS -** transport layer security.
 
 
 ## U
