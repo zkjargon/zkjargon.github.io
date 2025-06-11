@@ -30,6 +30,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **DKG -** distributed key generation.
 - **DLOG -** discrete logarithm.
 - **DSA -** digital signature algorithm.
+- **DSL -** domain-specific language.
 
 ## E
 - **ECC -**
@@ -60,6 +61,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **IOPP -** interactive oracle proof of proximity.
 - **IP -** interactive proof.
 - **IPA -** inner-product argument.
+- **ISA -** instruction set architecture.
 - **IVC -** incrementally verifiable computation.
 - **IZK -** interactive zero-knowledge (proof).
 
