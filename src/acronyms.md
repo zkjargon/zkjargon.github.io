@@ -66,6 +66,7 @@ Below is a list of common acronyms, ordered alphabetically.
 - **IZK -** interactive zero-knowledge (proof).
 
 ## J
+- **JWT -** [JSON Web Token](https://jwt.io/introduction).
 
 ## K
 - **KDF -** key-derivation function.
@@ -128,7 +129,9 @@ Below is a list of common acronyms, ordered alphabetically.
 - **SRS -** [structured reference string](./definitions/structured_reference_string.md).
 - **SS -** secret sharing.
 - **SSS -** Shamir secret sharing.
-- **STARK -** [scalable transparent argument of knowledge](./definitions/stark.md). 
+- **STARK -** 
+    - [scalable transparent argument of knowledge](./definitions/stark.md). 
+    - *(colloquial)* any proof system that is based on hash functions and error-correcting codes.
 
 ## T
 - **TEE -** trusted execution environment.
@@ -152,7 +155,9 @@ Below is a list of common acronyms, ordered alphabetically.
 ## Y
 
 ## Z
-- **ZK -** [zero-knowledge](./definitions/zero_knowledge_proof.md); sometimes (debatably) extended to refer to "any kind of cryptographic proof".
+- **ZK -** 
+    - [zero-knowledge](./definitions/zero_knowledge_proof.md).
+    - *(colloquial)* any cryptographic proof.
 - **zkAI -** ZK (in the broad "any kind of cryptographic proof" sense) artificial intelligence. 
 - **zkEVM -** zero-knowledge Ethereum virtual machine.
 - **zkID -** zero-knowledge identity.
