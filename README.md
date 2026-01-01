@@ -72,4 +72,4 @@ For detailed translation guidelines, please refer to our [TRANSLATE.md](TRANSLAT
 
 This work is shared under a Creative Commons Attribution-ShareAlike 4.0 International license. In brief, this allows others to use this work as long as they give attribution to this project, and share their own work under a similar license.
 
-ZK Jargon Decoder © 2022-2025 by ZK Jargon Decoder contributors is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
+*ZK Jargon Decoder* by ZK Jargon Decoder contributors is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
